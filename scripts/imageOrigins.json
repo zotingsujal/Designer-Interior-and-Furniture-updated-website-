@@ -1,0 +1,3457 @@
+[
+  {
+    "url": "/images/chesterfield_drive.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/components/furniture/FurnitureImage.tsx",
+        "line": 11,
+        "snippet": "sofas: '/images/chesterfield_drive.jpg',"
+      },
+      {
+        "file": "src/components/furniture/FurnitureImageTransition.tsx",
+        "line": 23,
+        "snippet": "const validImages = images && images.length > 0 ? Array.from(new Set(images.filt"
+      },
+      {
+        "file": "src/components/furniture/FurnitureProductGallery.tsx",
+        "line": 21,
+        "snippet": "const cleanImages = images && images.length > 0 ? Array.from(new Set(images.filt"
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/dining_bespoke_teak_1790862543973.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/components/furniture/FurnitureImage.tsx",
+        "line": 12,
+        "snippet": "'dining-tables': '/images/bespoke/dining_bespoke_teak_1790862543973.jpg',"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 272,
+        "snippet": "\"image\": \"/images/bespoke/dining_bespoke_teak_1790862543973.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2773,
+        "snippet": "\"/images/bespoke/dining_bespoke_teak_1790862543973.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_22_1atNjG.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/components/furniture/FurnitureImage.tsx",
+        "line": 13,
+        "snippet": "'beds-bedroom': '/images/drive/drive_img_22_1atNjG.jpg',"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 156,
+        "snippet": "\"image\": \"/images/drive/drive_img_22_1atNjG.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1493,
+        "snippet": "\"/images/drive/drive_img_22_1atNjG.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_10_1GuU0K.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/components/furniture/FurnitureImage.tsx",
+        "line": 14,
+        "snippet": "'living-storage': '/images/drive/drive_img_10_1GuU0K.jpg',"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 76,
+        "snippet": "\"heroImage\": \"/images/drive/drive_img_10_1GuU0K.jpg\","
+      },
+      {
+        "file": "src/data/portfolio.ts",
+        "line": 36,
+        "snippet": "image: '/images/drive/drive_img_10_1GuU0K.jpg',"
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_1_1CBInl.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/components/furniture/FurnitureImage.tsx",
+        "line": 15,
+        "snippet": "default: '/images/drive/drive_img_1_1CBInl.jpg',"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 132,
+        "snippet": "\"image\": \"/images/drive/drive_img_1_1CBInl.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1169,
+        "snippet": "\"/images/drive/drive_img_1_1CBInl.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/components/furniture/SofaBedVideoHero.tsx",
+        "line": 19,
+        "snippet": "poster=\"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2127,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2128,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 378,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4059,
+        "snippet": "\"https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4113,
+        "snippet": "\"https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 386,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4166,
+        "snippet": "\"https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4220,
+        "snippet": "\"https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1484101403633-562f891dc89a",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 394,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4273,
+        "snippet": "\"https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4327,
+        "snippet": "\"https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 402,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4380,
+        "snippet": "\"https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4434,
+        "snippet": "\"https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1512212621149-107ffe572d2f",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 410,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1512212621149-107ffe572d2f?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4488,
+        "snippet": "\"https://images.unsplash.com/photo-1512212621149-107ffe572d2f?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4541,
+        "snippet": "\"https://images.unsplash.com/photo-1512212621149-107ffe572d2f?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1567016432779-094069958ea5",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 418,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4594,
+        "snippet": "\"https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4648,
+        "snippet": "\"https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 426,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4702,
+        "snippet": "\"https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4756,
+        "snippet": "\"https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 434,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4809,
+        "snippet": "\"https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4863,
+        "snippet": "\"https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1540574163026-643ea20ade25",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 442,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4916,
+        "snippet": "\"https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4970,
+        "snippet": "\"https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 450,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5023,
+        "snippet": "\"https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5076,
+        "snippet": "\"https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1598550476439-6847785fcea6",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 458,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5129,
+        "snippet": "\"https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5183,
+        "snippet": "\"https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 466,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5236,
+        "snippet": "\"https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5289,
+        "snippet": "\"https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1632244112951-95b29c92eee1",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 474,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1632244112951-95b29c92eee1?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5342,
+        "snippet": "\"https://images.unsplash.com/photo-1632244112951-95b29c92eee1?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5396,
+        "snippet": "\"https://images.unsplash.com/photo-1632244112951-95b29c92eee1?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1549488344-cbb6c34cf08b",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 482,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?auto=format&"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5449,
+        "snippet": "\"https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?auto=format&fit=crop&"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5503,
+        "snippet": "\"https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 490,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?auto=format&"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5556,
+        "snippet": "\"https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?auto=format&fit=crop&"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5610,
+        "snippet": "\"https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1567496898669-ee935f5f647a",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 498,
+        "snippet": "\"image\": \"https://images.unsplash.com/photo-1567496898669-ee935f5f647a?auto=form"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5663,
+        "snippet": "\"https://images.unsplash.com/photo-1567496898669-ee935f5f647a?auto=format&fit=cr"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5716,
+        "snippet": "\"https://images.unsplash.com/photo-1567496898669-ee935f5f647a?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 517,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 518,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 520,
+        "snippet": "\"https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1592078615290-033ee584e267",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 571,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1592078615290-033ee584e267?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 572,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1592078615290-033ee584e267?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 574,
+        "snippet": "\"https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 625,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 626,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 628,
+        "snippet": "\"https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 679,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 680,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 682,
+        "snippet": "\"https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1618220179428-22790b461013",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 733,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1618220179428-22790b461013?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 734,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1618220179428-22790b461013?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 736,
+        "snippet": "\"https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 787,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 788,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 790,
+        "snippet": "\"https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1616137466211-f939a420be84",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 841,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1616137466211-f939a420be84?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 842,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1616137466211-f939a420be84?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 844,
+        "snippet": "\"https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 895,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 896,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 898,
+        "snippet": "\"https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1524758631624-e2822e304c36",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 949,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1524758631624-e2822e304c36?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 950,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1524758631624-e2822e304c36?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 952,
+        "snippet": "\"https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1003,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1519710164239-da123dc03ef4?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1004,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1519710164239-da123dc03ef4?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1006,
+        "snippet": "\"https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1501183638710-841dd1904471",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1057,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1501183638710-841dd1904471?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1058,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1501183638710-841dd1904471?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1060,
+        "snippet": "\"https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1111,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1112,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1114,
+        "snippet": "\"https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1513694203232-719a280e022f",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1165,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1513694203232-719a280e022f?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1166,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1513694203232-719a280e022f?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1168,
+        "snippet": "\"https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1505409859467-3a796fd5798e",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1219,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1505409859467-3a796fd5798e?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1220,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1505409859467-3a796fd5798e?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1222,
+        "snippet": "\"https://images.unsplash.com/photo-1505409859467-3a796fd5798e?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1273,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1274,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1276,
+        "snippet": "\"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1573865526739-10659fec78a5",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1327,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1573865526739-10659fec78a5?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1328,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1573865526739-10659fec78a5?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1330,
+        "snippet": "\"https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1617806118233-18e1de247200",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1381,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1617806118233-18e1de247200?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1382,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1617806118233-18e1de247200?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1384,
+        "snippet": "\"https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1577140917170-285929fb55b7",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1435,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1577140917170-285929fb55b7?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1436,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1577140917170-285929fb55b7?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1438,
+        "snippet": "\"https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1489,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1490,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1492,
+        "snippet": "\"https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1543,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1544,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1546,
+        "snippet": "\"https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1597,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1598,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1600,
+        "snippet": "\"https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1616046229478-9901c5536a45",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1650,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1616046229478-9901c5536a45?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1651,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1616046229478-9901c5536a45?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1653,
+        "snippet": "\"https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1703,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1533090161767-e6ffed986c88?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1704,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1533090161767-e6ffed986c88?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1706,
+        "snippet": "\"https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1530629013299-6cb10d168419",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1756,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1530629013299-6cb10d168419?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1757,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1530629013299-6cb10d168419?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1759,
+        "snippet": "\"https://images.unsplash.com/photo-1530629013299-6cb10d168419?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1544457070-4cd773b4d71e",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1809,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1544457070-4cd773b4d71e?auto="
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1810,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1544457070-4cd773b4d71e?aut"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1812,
+        "snippet": "\"https://images.unsplash.com/photo-1544457070-4cd773b4d71e?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1565538810643-b5bdb714032a",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1862,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1565538810643-b5bdb714032a?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1863,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1565538810643-b5bdb714032a?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1865,
+        "snippet": "\"https://images.unsplash.com/photo-1565538810643-b5bdb714032a?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1574362848149-11496d93a7c7",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1915,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1574362848149-11496d93a7c7?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1916,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1574362848149-11496d93a7c7?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1918,
+        "snippet": "\"https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1968,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1578683010236-d716f9a3f461?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1969,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1578683010236-d716f9a3f461?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1971,
+        "snippet": "\"https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1565183997392-2f6f122e5912",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2021,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1565183997392-2f6f122e5912?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2022,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1565183997392-2f6f122e5912?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2024,
+        "snippet": "\"https://images.unsplash.com/photo-1565183997392-2f6f122e5912?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2074,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2075,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2077,
+        "snippet": "\"https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2181,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2182,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2184,
+        "snippet": "\"https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1505693314120-0d443867891c",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2234,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1505693314120-0d443867891c?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2235,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1505693314120-0d443867891c?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2237,
+        "snippet": "\"https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2288,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto="
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2289,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1560185007-cde436f6a4d0?aut"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2291,
+        "snippet": "\"https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2341,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1598928506311-c55ded91a20c?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2342,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1598928506311-c55ded91a20c?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2344,
+        "snippet": "\"https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2394,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1540555700478-4be289fbecef?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2395,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1540555700478-4be289fbecef?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2397,
+        "snippet": "\"https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2447,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1507652313519-d4e9174996dd?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2448,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1507652313519-d4e9174996dd?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2450,
+        "snippet": "\"https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2501,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1566665797739-1674de7a421a?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2502,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1566665797739-1674de7a421a?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2504,
+        "snippet": "\"https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1582582621959-48d27397dc69",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2554,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1582582621959-48d27397dc69?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2555,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1582582621959-48d27397dc69?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2557,
+        "snippet": "\"https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2607,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1538688525198-9b88f6f53126?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2608,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1538688525198-9b88f6f53126?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2610,
+        "snippet": "\"https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2661,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1505691938895-1758d7feb511?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2662,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1505691938895-1758d7feb511?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2664,
+        "snippet": "\"https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1505692952047-1a78307da8f2",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2715,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1505692952047-1a78307da8f2?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2716,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1505692952047-1a78307da8f2?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2718,
+        "snippet": "\"https://images.unsplash.com/photo-1505692952047-1a78307da8f2?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1588854337236-6889d631faa8",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2769,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1588854337236-6889d631faa8?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2770,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1588854337236-6889d631faa8?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2772,
+        "snippet": "\"https://images.unsplash.com/photo-1588854337236-6889d631faa8?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1588854337221-4cf9fa96059c",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2823,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2824,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2826,
+        "snippet": "\"https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1588854337115-1c67d9247e4d",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2877,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1588854337115-1c67d9247e4d?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2878,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1588854337115-1c67d9247e4d?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2880,
+        "snippet": "\"https://images.unsplash.com/photo-1588854337115-1c67d9247e4d?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2931,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2932,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2934,
+        "snippet": "\"https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2984,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600585154526-990dced4db0d?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2985,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600585154526-990dced4db0d?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2987,
+        "snippet": "\"https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3038,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3039,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3041,
+        "snippet": "\"https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3091,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3092,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3094,
+        "snippet": "\"https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600573472592-401b489a3cdc",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3199,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600573472592-401b489a3cdc?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3200,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600573472592-401b489a3cdc?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3202,
+        "snippet": "\"https://images.unsplash.com/photo-1600573472592-401b489a3cdc?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3253,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3254,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3256,
+        "snippet": "\"https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3307,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3308,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3310,
+        "snippet": "\"https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3360,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600585152220-90363fe7e115?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3361,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600585152220-90363fe7e115?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3363,
+        "snippet": "\"https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600607687644-c7171b42498f",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3413,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600607687644-c7171b42498f?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3414,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600607687644-c7171b42498f?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3416,
+        "snippet": "\"https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3466,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1613490493576-7fde63acd811?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3467,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1613490493576-7fde63acd811?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3469,
+        "snippet": "\"https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1613977257363-707ba9348227",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3519,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1613977257363-707ba9348227?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3520,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1613977257363-707ba9348227?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3522,
+        "snippet": "\"https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3573,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3574,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3576,
+        "snippet": "\"https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1613545325278-f24b0cae1224",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3626,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1613545325278-f24b0cae1224?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3627,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1613545325278-f24b0cae1224?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3629,
+        "snippet": "\"https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3679,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3680,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3682,
+        "snippet": "\"https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3733,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3734,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3736,
+        "snippet": "\"https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600210491369-e753d80a41f3",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3787,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600210491369-e753d80a41f3?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3788,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600210491369-e753d80a41f3?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3790,
+        "snippet": "\"https://images.unsplash.com/photo-1600210491369-e753d80a41f3?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3840,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3841,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3843,
+        "snippet": "\"https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600566753151-384129cf4e3e",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3894,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600566753151-384129cf4e3e?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3895,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600566753151-384129cf4e3e?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3897,
+        "snippet": "\"https://images.unsplash.com/photo-1600566753151-384129cf4e3e?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3948,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3949,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3951,
+        "snippet": "\"https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4002,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4003,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4005,
+        "snippet": "\"https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1540932239986-30128078f3c5",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4055,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1540932239986-30128078f3c5?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4056,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1540932239986-30128078f3c5?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4058,
+        "snippet": "\"https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4109,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1513519245088-0e12902e5a38?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4110,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1513519245088-0e12902e5a38?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4112,
+        "snippet": "\"https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4162,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4163,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4165,
+        "snippet": "\"https://images.unsplash.com/photo-1512915922686-57c11dde9b6b?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4216,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4217,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4219,
+        "snippet": "\"https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1534349762230-e0cadf78f5da",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4269,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4270,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4272,
+        "snippet": "\"https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1534349735944-2b3a6f7a268f",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4323,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1534349735944-2b3a6f7a268f?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4324,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1534349735944-2b3a6f7a268f?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4326,
+        "snippet": "\"https://images.unsplash.com/photo-1534349735944-2b3a6f7a268f?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4376,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto="
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4377,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1556911220-e15b29be8c8f?aut"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4379,
+        "snippet": "\"https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4430,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto="
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4431,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?aut"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4433,
+        "snippet": "\"https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1556909114-44e3e70034e2",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4484,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1556909114-44e3e70034e2?auto="
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4485,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1556909114-44e3e70034e2?aut"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4487,
+        "snippet": "\"https://images.unsplash.com/photo-1556909114-44e3e70034e2?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1556909172-54557c7e4fb7",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4537,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1556909172-54557c7e4fb7?auto="
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4538,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1556909172-54557c7e4fb7?aut"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4540,
+        "snippet": "\"https://images.unsplash.com/photo-1556909172-54557c7e4fb7?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4590,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto="
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4591,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1556909212-d5b604d0c90d?aut"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4593,
+        "snippet": "\"https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4644,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto="
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4645,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?aut"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4647,
+        "snippet": "\"https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4698,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1556228720-195a672e8a03?auto="
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4699,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1556228720-195a672e8a03?aut"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4701,
+        "snippet": "\"https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4752,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4753,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4755,
+        "snippet": "\"https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4805,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1616486701797-0f33f61038ec?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4806,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1616486701797-0f33f61038ec?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4808,
+        "snippet": "\"https://images.unsplash.com/photo-1616486701797-0f33f61038ec?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1616486788371-62d930495c44",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4859,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1616486788371-62d930495c44?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4860,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1616486788371-62d930495c44?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4862,
+        "snippet": "\"https://images.unsplash.com/photo-1616486788371-62d930495c44?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1617103996702-96ff29b1c467",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4912,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1617103996702-96ff29b1c467?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4913,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1617103996702-96ff29b1c467?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4915,
+        "snippet": "\"https://images.unsplash.com/photo-1617103996702-96ff29b1c467?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1617104551722-3b2d51366400",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4966,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1617104551722-3b2d51366400?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4967,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1617104551722-3b2d51366400?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4969,
+        "snippet": "\"https://images.unsplash.com/photo-1617104551722-3b2d51366400?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1617104678098-de229db51175",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5019,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1617104678098-de229db51175?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5020,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1617104678098-de229db51175?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5022,
+        "snippet": "\"https://images.unsplash.com/photo-1617104678098-de229db51175?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5072,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1584622650111-993a426fbf0a?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5073,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1584622650111-993a426fbf0a?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5075,
+        "snippet": "\"https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1584622781564-1d987f7333c1",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5125,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1584622781564-1d987f7333c1?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5126,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1584622781564-1d987f7333c1?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5128,
+        "snippet": "\"https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1517705008128-361805f42e86",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5179,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1517705008128-361805f42e86?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5180,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1517705008128-361805f42e86?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5182,
+        "snippet": "\"https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1519974719765-e6559eac2575",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5232,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1519974719765-e6559eac2575?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5233,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1519974719765-e6559eac2575?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5235,
+        "snippet": "\"https://images.unsplash.com/photo-1519974719765-e6559eac2575?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5285,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5286,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5288,
+        "snippet": "\"https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1544816155-12df9643f363",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5338,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1544816155-12df9643f363?auto="
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5339,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1544816155-12df9643f363?aut"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5341,
+        "snippet": "\"https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1551298370-9d3d53740c72",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5392,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1551298370-9d3d53740c72?auto="
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5393,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1551298370-9d3d53740c72?aut"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5395,
+        "snippet": "\"https://images.unsplash.com/photo-1551298370-9d3d53740c72?auto=format&fit=crop&"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1631679706909-1844bbd07221",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5445,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1631679706909-1844bbd07221?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5446,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1631679706909-1844bbd07221?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5448,
+        "snippet": "\"https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1615529182904-14819c35db37",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5499,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1615529182904-14819c35db37?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5500,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1615529182904-14819c35db37?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5502,
+        "snippet": "\"https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1615529328331-f8917597711f",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5552,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1615529328331-f8917597711f?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5553,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1615529328331-f8917597711f?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5555,
+        "snippet": "\"https://images.unsplash.com/photo-1615529328331-f8917597711f?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1634712282287-14ed57b9cc89",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5606,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5607,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5609,
+        "snippet": "\"https://images.unsplash.com/photo-1634712282287-14ed57b9cc89?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5659,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1512917774080-9991f1c4c750?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5660,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1512917774080-9991f1c4c750?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5662,
+        "snippet": "\"https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1618219740975-d40978bb7378",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5712,
+        "snippet": "\"primaryImage\": \"https://images.unsplash.com/photo-1618219740975-d40978bb7378?au"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5713,
+        "snippet": "\"secondaryImage\": \"https://images.unsplash.com/photo-1618219740975-d40978bb7378?"
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 5715,
+        "snippet": "\"https://images.unsplash.com/photo-1618219740975-d40978bb7378?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_14_1nturL.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 84,
+        "snippet": "\"image\": \"/images/drive/drive_img_14_1nturL.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 521,
+        "snippet": "\"/images/drive/drive_img_14_1nturL.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 575,
+        "snippet": "\"/images/drive/drive_img_14_1nturL.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_15_1ABIZH.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 92,
+        "snippet": "\"image\": \"/images/drive/drive_img_15_1ABIZH.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 629,
+        "snippet": "\"/images/drive/drive_img_15_1ABIZH.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 683,
+        "snippet": "\"/images/drive/drive_img_15_1ABIZH.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_16_1zcRXm.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 100,
+        "snippet": "\"image\": \"/images/drive/drive_img_16_1zcRXm.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 737,
+        "snippet": "\"/images/drive/drive_img_16_1zcRXm.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 791,
+        "snippet": "\"/images/drive/drive_img_16_1zcRXm.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_17_1Tx_xO.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 108,
+        "snippet": "\"image\": \"/images/drive/drive_img_17_1Tx_xO.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 845,
+        "snippet": "\"/images/drive/drive_img_17_1Tx_xO.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 899,
+        "snippet": "\"/images/drive/drive_img_17_1Tx_xO.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_18_1YNYsJ.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 116,
+        "snippet": "\"image\": \"/images/drive/drive_img_18_1YNYsJ.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 953,
+        "snippet": "\"/images/drive/drive_img_18_1YNYsJ.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1007,
+        "snippet": "\"/images/drive/drive_img_18_1YNYsJ.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_19_1iOMO7.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 124,
+        "snippet": "\"image\": \"/images/drive/drive_img_19_1iOMO7.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1061,
+        "snippet": "\"/images/drive/drive_img_19_1iOMO7.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1115,
+        "snippet": "\"/images/drive/drive_img_19_1iOMO7.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_20_14uLiI.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 140,
+        "snippet": "\"image\": \"/images/drive/drive_img_20_14uLiI.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1277,
+        "snippet": "\"/images/drive/drive_img_20_14uLiI.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1331,
+        "snippet": "\"/images/drive/drive_img_20_14uLiI.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_21_13u-6f.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 148,
+        "snippet": "\"image\": \"/images/drive/drive_img_21_13u-6f.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1385,
+        "snippet": "\"/images/drive/drive_img_21_13u-6f.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1439,
+        "snippet": "\"/images/drive/drive_img_21_13u-6f.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_11_1BO_We.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 166,
+        "snippet": "\"heroImage\": \"/images/drive/drive_img_11_1BO_We.jpg\","
+      },
+      {
+        "file": "src/data/portfolio.ts",
+        "line": 68,
+        "snippet": "image: '/images/drive/drive_img_11_1BO_We.jpg',"
+      },
+      {
+        "file": "scripts/activeImages.json",
+        "line": 507,
+        "snippet": "\"url\": \"/images/drive/drive_img_11_1BO_We.jpg\","
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_23_1vq-kc.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 174,
+        "snippet": "\"image\": \"/images/drive/drive_img_23_1vq-kc.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1601,
+        "snippet": "\"/images/drive/drive_img_23_1vq-kc.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1654,
+        "snippet": "\"/images/drive/drive_img_23_1vq-kc.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_2_1oeDlS.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 182,
+        "snippet": "\"image\": \"/images/drive/drive_img_2_1oeDlS.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1707,
+        "snippet": "\"/images/drive/drive_img_2_1oeDlS.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1760,
+        "snippet": "\"/images/drive/drive_img_2_1oeDlS.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_3_1KtJIM.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 190,
+        "snippet": "\"image\": \"/images/drive/drive_img_3_1KtJIM.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1813,
+        "snippet": "\"/images/drive/drive_img_3_1KtJIM.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1866,
+        "snippet": "\"/images/drive/drive_img_3_1KtJIM.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_4_1FEihx.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 198,
+        "snippet": "\"image\": \"/images/drive/drive_img_4_1FEihx.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1919,
+        "snippet": "\"/images/drive/drive_img_4_1FEihx.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 1972,
+        "snippet": "\"/images/drive/drive_img_4_1FEihx.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_5_1mH28h.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 206,
+        "snippet": "\"image\": \"/images/drive/drive_img_5_1mH28h.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2025,
+        "snippet": "\"/images/drive/drive_img_5_1mH28h.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2078,
+        "snippet": "\"/images/drive/drive_img_5_1mH28h.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_6_1U5guR.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 214,
+        "snippet": "\"image\": \"/images/drive/drive_img_6_1U5guR.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2131,
+        "snippet": "\"/images/drive/drive_img_6_1U5guR.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2185,
+        "snippet": "\"/images/drive/drive_img_6_1U5guR.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_7_1tUTht.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 222,
+        "snippet": "\"image\": \"/images/drive/drive_img_7_1tUTht.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2238,
+        "snippet": "\"/images/drive/drive_img_7_1tUTht.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2292,
+        "snippet": "\"/images/drive/drive_img_7_1tUTht.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_8_17IV2c.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 230,
+        "snippet": "\"image\": \"/images/drive/drive_img_8_17IV2c.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2345,
+        "snippet": "\"/images/drive/drive_img_8_17IV2c.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2398,
+        "snippet": "\"/images/drive/drive_img_8_17IV2c.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_9_1XlOjJ.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 238,
+        "snippet": "\"image\": \"/images/drive/drive_img_9_1XlOjJ.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2451,
+        "snippet": "\"/images/drive/drive_img_9_1XlOjJ.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2505,
+        "snippet": "\"/images/drive/drive_img_9_1XlOjJ.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/chesterfield_sectional_sofa_1791319346646.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 246,
+        "snippet": "\"image\": \"/images/bespoke/chesterfield_sectional_sofa_1791319346646.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2558,
+        "snippet": "\"/images/bespoke/chesterfield_sectional_sofa_1791319346646.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2611,
+        "snippet": "\"/images/bespoke/chesterfield_sectional_sofa_1791319346646.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_12_1kf_HX.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 256,
+        "snippet": "\"heroImage\": \"/images/drive/drive_img_12_1kf_HX.jpg\","
+      },
+      {
+        "file": "scripts/activeImages.json",
+        "line": 551,
+        "snippet": "\"url\": \"/images/drive/drive_img_12_1kf_HX.jpg\","
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/custom_sofa_bespoke_1790862510012.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 264,
+        "snippet": "\"image\": \"/images/bespoke/custom_sofa_bespoke_1790862510012.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2665,
+        "snippet": "\"/images/bespoke/custom_sofa_bespoke_1790862510012.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2719,
+        "snippet": "\"/images/bespoke/custom_sofa_bespoke_1790862510012.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/dsigner_factory_sofa_1791361355243.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 280,
+        "snippet": "\"image\": \"/images/bespoke/dsigner_factory_sofa_1791361355243.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2881,
+        "snippet": "\"/images/bespoke/dsigner_factory_sofa_1791361355243.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2935,
+        "snippet": "\"/images/bespoke/dsigner_factory_sofa_1791361355243.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/hero_interior_design_luxury_1790863832875.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 288,
+        "snippet": "\"image\": \"/images/bespoke/hero_interior_design_luxury_1790863832875.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 2988,
+        "snippet": "\"/images/bespoke/hero_interior_design_luxury_1790863832875.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3042,
+        "snippet": "\"/images/bespoke/hero_interior_design_luxury_1790863832875.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/hero_luxury_interior_1790862499042.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 296,
+        "snippet": "\"image\": \"/images/bespoke/hero_luxury_interior_1790862499042.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3095,
+        "snippet": "\"/images/bespoke/hero_luxury_interior_1790862499042.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3149,
+        "snippet": "\"/images/bespoke/hero_luxury_interior_1790862499042.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/luxury_bedroom_wardrobe_1790862531824.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 304,
+        "snippet": "\"image\": \"/images/bespoke/luxury_bedroom_wardrobe_1790862531824.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3203,
+        "snippet": "\"/images/bespoke/luxury_bedroom_wardrobe_1790862531824.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3257,
+        "snippet": "\"/images/bespoke/luxury_bedroom_wardrobe_1790862531824.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/luxury_sofa_bed_1791460634066.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 312,
+        "snippet": "\"image\": \"/images/bespoke/luxury_sofa_bed_1791460634066.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3311,
+        "snippet": "\"/images/bespoke/luxury_sofa_bed_1791460634066.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3364,
+        "snippet": "\"/images/bespoke/luxury_sofa_bed_1791460634066.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/service_bespoke_craft_1790863869102.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 320,
+        "snippet": "\"image\": \"/images/bespoke/service_bespoke_craft_1790863869102.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3417,
+        "snippet": "\"/images/bespoke/service_bespoke_craft_1790863869102.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3470,
+        "snippet": "\"/images/bespoke/service_bespoke_craft_1790863869102.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/service_custom_furniture_1790863846385.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 328,
+        "snippet": "\"image\": \"/images/bespoke/service_custom_furniture_1790863846385.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3523,
+        "snippet": "\"/images/bespoke/service_custom_furniture_1790863846385.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3577,
+        "snippet": "\"/images/bespoke/service_custom_furniture_1790863846385.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/service_fully_furnished_1790863882053.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 336,
+        "snippet": "\"image\": \"/images/bespoke/service_fully_furnished_1790863882053.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3630,
+        "snippet": "\"/images/bespoke/service_fully_furnished_1790863882053.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3683,
+        "snippet": "\"/images/bespoke/service_fully_furnished_1790863882053.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/service_premium_interiors_1790863857288.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 344,
+        "snippet": "\"image\": \"/images/bespoke/service_premium_interiors_1790863857288.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3737,
+        "snippet": "\"/images/bespoke/service_premium_interiors_1790863857288.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3791,
+        "snippet": "\"/images/bespoke/service_premium_interiors_1790863857288.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/drive/drive_img_13_1xSqof.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 354,
+        "snippet": "\"heroImage\": \"/images/drive/drive_img_13_1xSqof.jpg\","
+      },
+      {
+        "file": "src/data/services.ts",
+        "line": 41,
+        "snippet": "image: '/images/drive/drive_img_13_1xSqof.jpg',"
+      },
+      {
+        "file": "scripts/activeImages.json",
+        "line": 595,
+        "snippet": "\"url\": \"/images/drive/drive_img_13_1xSqof.jpg\","
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/sofa_cum_bed_craft_1790862556744.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 362,
+        "snippet": "\"image\": \"/images/bespoke/sofa_cum_bed_craft_1790862556744.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3844,
+        "snippet": "\"/images/bespoke/sofa_cum_bed_craft_1790862556744.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3898,
+        "snippet": "\"/images/bespoke/sofa_cum_bed_craft_1790862556744.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "/images/bespoke/tv_unit_acoustic_wood_1790862520491.jpg",
+    "type": "local",
+    "matches": [
+      {
+        "file": "src/data/furniture.ts",
+        "line": 370,
+        "snippet": "\"image\": \"/images/bespoke/tv_unit_acoustic_wood_1790862520491.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 3952,
+        "snippet": "\"/images/bespoke/tv_unit_acoustic_wood_1790862520491.jpg\""
+      },
+      {
+        "file": "src/data/furniture.ts",
+        "line": 4006,
+        "snippet": "\"/images/bespoke/tv_unit_acoustic_wood_1790862520491.jpg\""
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1615873968403-89e068629265",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 607,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1615873968403-89e068629265\","
+      },
+      {
+        "file": "scripts/buildCatalogue.mjs",
+        "line": 64,
+        "snippet": "'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=cr"
+      },
+      {
+        "file": "scripts/buildCatalogue.mjs",
+        "line": 90,
+        "snippet": "'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1593784991095-a205069470b6",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 611,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1593784991095-a205069470b6\","
+      },
+      {
+        "file": "scripts/buildCatalogue.mjs",
+        "line": 82,
+        "snippet": "'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=cr"
+      },
+      {
+        "file": "scripts/buildCatalogue.mjs",
+        "line": 115,
+        "snippet": "'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 615,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1600585154340-be6161a56a0c\","
+      },
+      {
+        "file": "scripts/buildCatalogue.mjs",
+        "line": 83,
+        "snippet": "'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=cr"
+      },
+      {
+        "file": "scripts/buildCatalogue.mjs",
+        "line": 99,
+        "snippet": "'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600121848594-d8644e57abab",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 619,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1600121848594-d8644e57abab\","
+      },
+      {
+        "file": "scripts/buildCatalogue.mjs",
+        "line": 85,
+        "snippet": "'https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=cr"
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 882,
+        "snippet": "'https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 623,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3\","
+      },
+      {
+        "file": "scripts/buildCatalogue.mjs",
+        "line": 86,
+        "snippet": "'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=cr"
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 883,
+        "snippet": "'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1595428774223-ef52624120d2",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 627,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1595428774223-ef52624120d2\","
+      },
+      {
+        "file": "scripts/buildCatalogue.mjs",
+        "line": 95,
+        "snippet": "'https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=cr"
+      },
+      {
+        "file": "scripts/buildCatalogue.mjs",
+        "line": 106,
+        "snippet": "'https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 631,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8\","
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 421,
+        "snippet": "image: 'https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format"
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 961,
+        "snippet": "'https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 635,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1586105251261-72a756497a11\","
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 486,
+        "snippet": "image: 'https://images.unsplash.com/photo-1586105251261-72a756497a11?auto=format"
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 968,
+        "snippet": "'https://images.unsplash.com/photo-1586105251261-72a756497a11?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 639,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1590490360182-c33d57733427\","
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 761,
+        "snippet": "'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=cr"
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 809,
+        "snippet": "'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 643,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1616594039964-ae9021a400a0\","
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 785,
+        "snippet": "'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=cr"
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 833,
+        "snippet": "'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1617325247661-675ab4b64ae2",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 647,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1617325247661-675ab4b64ae2\","
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 797,
+        "snippet": "'https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1594040226829-7f251ab46d80",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 651,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1594040226829-7f251ab46d80\","
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 894,
+        "snippet": "'https://images.unsplash.com/photo-1594040226829-7f251ab46d80?auto=format&fit=cr"
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 907,
+        "snippet": "'https://images.unsplash.com/photo-1594040226829-7f251ab46d80?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1541123437800-1bb1317badc2",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 655,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1541123437800-1bb1317badc2\","
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 967,
+        "snippet": "'https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=cr"
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 979,
+        "snippet": "'https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=cr"
+      }
+    ]
+  },
+  {
+    "url": "https://images.unsplash.com/photo-1604014237800-1c9102c219da",
+    "type": "unsplash",
+    "matches": [
+      {
+        "file": "scripts/activeImages.json",
+        "line": 659,
+        "snippet": "\"url\": \"https://images.unsplash.com/photo-1604014237800-1c9102c219da\","
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 969,
+        "snippet": "'https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=cr"
+      },
+      {
+        "file": "scripts/generateAuditedFurnitureData.mjs",
+        "line": 981,
+        "snippet": "'https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=cr"
+      }
+    ]
+  }
+]
