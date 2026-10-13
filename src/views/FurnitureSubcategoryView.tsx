@@ -12,7 +12,8 @@ import { FurnitureBreadcrumbs } from '../components/furniture/FurnitureBreadcrum
 import { FurnitureFilters, SortOption, FilterState } from '../components/furniture/FurnitureFilters';
 import { SofaBedVideoHero } from '../components/furniture/SofaBedVideoHero';
 import { OppositeDirectionCarousels } from '../components/furniture/OppositeDirectionCarousels';
-import { MessageSquare, Sparkles } from 'lucide-react';
+import { MessageSquare, Sparkles, ChevronDown, HelpCircle } from 'lucide-react';
+import { getSubcategoryFaqs } from '../data/subcategoryFaqs';
 
 interface FurnitureSubcategoryViewProps {
   category: FurnitureCategory;
@@ -50,6 +51,11 @@ export const FurnitureSubcategoryView: React.FC<FurnitureSubcategoryViewProps> =
   }, []);
 
   const editorial = editorialGuides[subcategory.slug] || editorialGuides[category.slug];
+
+  const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
+  const subcategoryFaqs = useMemo(() => {
+    return getSubcategoryFaqs(subcategory.slug, subcategory.name, category.slug);
+  }, [subcategory.slug, subcategory.name, category.slug]);
 
   const filteredProducts = useMemo(() => {
     let list = [...rawProducts];
@@ -220,6 +226,66 @@ export const FurnitureSubcategoryView: React.FC<FurnitureSubcategoryViewProps> =
             <MessageSquare className="w-3.5 h-3.5 text-[#25D366]" />
             <span>Consult Design Team</span>
           </a>
+        </div>
+
+        {/* Dedicated Subcategory Product Page FAQs */}
+        <div className="my-14 p-6 sm:p-10 bg-[#FAF9F5] border border-[#E0D7CC] rounded-xs">
+          <div className="border-b border-[#EAE3D9] pb-4 mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div>
+              <div className="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-[0.2em] font-semibold text-[#87786B] mb-1">
+                <HelpCircle className="w-3.5 h-3.5 text-[#C5A880]" />
+                <span>Frequently Asked Questions</span>
+              </div>
+              <h3 className="font-serif text-2xl sm:text-3xl text-[#18181B] font-normal">
+                {subcategory.name} Customization &amp; Specifications FAQ
+              </h3>
+            </div>
+            <a
+              href={`https://wa.me/919821432122?text=Hello%20Designer%20Furniture%2C%20I%20have%20a%20question%20about%20customizing%20${encodeURIComponent(subcategory.name)}.`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-3.5 py-2 bg-[#25D366] hover:bg-[#20BD5A] text-white text-xs uppercase tracking-wider font-semibold rounded-xs transition-colors shrink-0 shadow-2xs"
+            >
+              <MessageSquare className="w-3.5 h-3.5 fill-current" />
+              <span>Ask About {subcategory.name}</span>
+            </a>
+          </div>
+
+          <div className="space-y-3">
+            {subcategoryFaqs.map((faq, idx) => {
+              const isOpen = openFaqIndex === idx;
+              return (
+                <div
+                  key={idx}
+                  className={`border rounded-xs transition-colors overflow-hidden ${
+                    isOpen
+                      ? 'bg-[#F4EFEA] border-[#D9D1C5] shadow-2xs'
+                      : 'bg-white/80 hover:bg-[#F9F6F0] border-[#E6DFD5]'
+                  }`}
+                >
+                  <button
+                    type="button"
+                    onClick={() => setOpenFaqIndex(isOpen ? null : idx)}
+                    className="w-full py-4 px-5 sm:px-6 flex items-center justify-between gap-4 text-left cursor-pointer"
+                  >
+                    <span className="font-serif text-base sm:text-lg text-[#18181B] font-medium">
+                      {faq.question}
+                    </span>
+                    <ChevronDown
+                      className={`w-4 h-4 text-[#87786B] shrink-0 transition-transform duration-200 ${
+                        isOpen ? 'rotate-180 text-[#18181B]' : ''
+                      }`}
+                    />
+                  </button>
+                  {isOpen && (
+                    <div className="px-5 sm:px-6 pb-4 pt-1 text-xs sm:text-sm text-[#4A453F] leading-relaxed border-t border-[#EAE3D9]/50">
+                      {faq.answer}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
         </div>
 
         {/* Exactly Two Opposite-Direction Auto-Scrolling Carousels ONLY on individual subcategory pages below listings */}

@@ -4,6 +4,7 @@ import { Phone, MessageSquare, MapPin, Clock, ExternalLink, Calendar } from 'luc
 import { businessInfo } from '../data/business';
 import { Button } from '../components/Button';
 import { Logo } from '../components/Logo';
+import { ShowroomMap } from '../components/ShowroomMap';
 
 interface ContactProps {
   onOpenConsultation?: () => void;
@@ -128,58 +129,56 @@ export const Contact: React.FC<ContactProps> = ({ onOpenConsultation }) => {
             </div>
           </div>
 
-          {/* Showroom Experience & Consultation Schedule Card (Replacing Google Maps section) */}
-          <div className="lg:col-span-6 bg-[#FAF9F5] border border-[#E0D7CC] p-8 sm:p-12 flex flex-col justify-between">
-            <div className="space-y-6">
-              <div className="border-b border-[#EAE3D9] pb-5">
-                <span className="text-xs uppercase tracking-[0.2em] font-semibold text-[#87786B] block mb-1">
-                  In-Person Showroom Experience
-                </span>
-                <h3 className="font-serif text-2xl sm:text-3xl text-[#18181B] font-normal">
-                  What You Can Explore at Our Studio
-                </h3>
-              </div>
+          {/* Exact Google Maps Location according to the given address */}
+          <div className="lg:col-span-6 flex flex-col justify-between">
+            <ShowroomMap />
+          </div>
+        </div>
 
-              <div className="space-y-4 text-xs sm:text-sm text-[#4A453F] leading-relaxed">
-                <div className="p-4 bg-[#F4EFEA] border border-[#E6DFD5]">
-                  <strong className="text-[#18181B] block font-semibold mb-1">
-                    1. Wood &amp; Polish Swatches
-                  </strong>
-                  Examine solid teak wood grains, premium natural veneers, PU finishes, and matte/gloss lacquer samples under true architectural lighting.
-                </div>
+        {/* Showroom Experience Highlights */}
+        <div className="mt-12 p-6 sm:p-8 bg-[#F4EFEA] border border-[#E0D7CC] rounded-xs">
+          <div className="border-b border-[#EAE3D9] pb-4 mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div>
+              <span className="text-[10px] uppercase tracking-[0.2em] font-semibold text-[#87786B] block mb-0.5">
+                In-Person Showroom Experience
+              </span>
+              <h3 className="font-serif text-xl sm:text-2xl text-[#18181B] font-normal">
+                What You Can Explore at Our Santacruz Studio
+              </h3>
+            </div>
+            {onOpenConsultation && (
+              <Button
+                variant="primary"
+                size="sm"
+                onClick={onOpenConsultation}
+                className="shrink-0"
+              >
+                <Calendar className="w-4 h-4 mr-1.5" />
+                Schedule Appointment
+              </Button>
+            )}
+          </div>
 
-                <div className="p-4 bg-[#F4EFEA] border border-[#E6DFD5]">
-                  <strong className="text-[#18181B] block font-semibold mb-1">
-                    2. Fabric &amp; Upholstery Collections
-                  </strong>
-                  Touch and compare high-density foam cushions, textured bouclé, linen weaves, and stain-resistant velvet swatches for custom sofas.
-                </div>
-
-                <div className="p-4 bg-[#F4EFEA] border border-[#E6DFD5]">
-                  <strong className="text-[#18181B] block font-semibold mb-1">
-                    3. Live Proportions &amp; Joinery Details
-                  </strong>
-                  Test comfort levels, inspect soft-close drawer runners, concealed hydraulic lift mechanisms, and acoustic slat alignments in person.
-                </div>
-              </div>
-
-              <div className="pt-2 text-xs text-[#6E665E]">
-                <strong className="text-[#18181B]">Showroom Landmark:</strong> Located on 1st Floor, Swami Vivekanand Road, right next to BEST Bus Depot, Santacruz (West), Mumbai.
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs sm:text-sm text-[#4A453F] leading-relaxed">
+            <div className="p-4 bg-[#FAF9F5] border border-[#E6DFD5] rounded-xs">
+              <strong className="text-[#18181B] block font-semibold mb-1">
+                1. Wood &amp; Polish Swatches
+              </strong>
+              Examine solid teak wood grains, premium natural veneers, PU finishes, and matte/gloss lacquer samples under true architectural lighting.
             </div>
 
-            <div className="pt-8 border-t border-[#EAE3D9] mt-8">
-              {onOpenConsultation && (
-                <Button
-                  variant="primary"
-                  size="md"
-                  onClick={onOpenConsultation}
-                  className="w-full text-center"
-                >
-                  <Calendar className="w-4 h-4 mr-2" />
-                  Schedule Showroom Appointment
-                </Button>
-              )}
+            <div className="p-4 bg-[#FAF9F5] border border-[#E6DFD5] rounded-xs">
+              <strong className="text-[#18181B] block font-semibold mb-1">
+                2. Fabric &amp; Upholstery Collections
+              </strong>
+              Touch and compare high-density foam cushions, textured bouclé, linen weaves, and stain-resistant velvet swatches for custom sofas.
+            </div>
+
+            <div className="p-4 bg-[#FAF9F5] border border-[#E6DFD5] rounded-xs">
+              <strong className="text-[#18181B] block font-semibold mb-1">
+                3. Live Proportions &amp; Joinery Details
+              </strong>
+              Test comfort levels, inspect soft-close drawer runners, concealed hydraulic lift mechanisms, and acoustic slat alignments in person.
             </div>
           </div>
         </div>

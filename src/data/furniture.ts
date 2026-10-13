@@ -243,7 +243,7 @@ export const furnitureCategories: FurnitureCategory[] = [
         "name": "Custom Dining Tables",
         "categorySlug": "dining-tables",
         "description": "Tailored dimensions, stone selection, edge profiles, and matching chair configurations made to order.",
-        "image": "/images/drive/drive_img_23_1vq-kc.jpg"
+        "image": "/images/drive/drive_img_21_13u-6f.jpg"
       }
     ]
   },

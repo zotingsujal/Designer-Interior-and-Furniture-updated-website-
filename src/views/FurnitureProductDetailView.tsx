@@ -316,7 +316,7 @@ export const FurnitureProductDetailView: React.FC<FurnitureProductDetailViewProp
                   className="w-full py-4 px-4 text-xs font-semibold uppercase tracking-wider bg-[#18181B] hover:bg-[#38332E] text-white rounded-xs flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-md"
                 >
                   <MessageSquare className="w-4 h-4 text-[#C5A880]" />
-                  <span>Send Enquiry &bull; Custom Dimensions</span>
+                  <span>ENQUIRY &bull; Custom Dimensions</span>
                 </button>
               )}
 

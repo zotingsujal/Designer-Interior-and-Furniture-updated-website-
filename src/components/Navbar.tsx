@@ -118,6 +118,14 @@ export const Navbar: React.FC<NavbarProps> = ({
 
               <button
                 type="button"
+                onClick={() => handleNavClick('#faq')}
+                className="text-xs uppercase tracking-[0.14em] font-medium text-[#4A453F] hover:text-[#18181B] transition-colors cursor-pointer"
+              >
+                FAQ
+              </button>
+
+              <button
+                type="button"
                 onClick={() => handleNavClick('#contact')}
                 className="text-xs uppercase tracking-[0.14em] font-medium text-[#4A453F] hover:text-[#18181B] transition-colors cursor-pointer"
               >
@@ -237,6 +245,14 @@ export const Navbar: React.FC<NavbarProps> = ({
                     className="text-left text-sm uppercase tracking-widest font-medium text-[#2B2724] hover:text-[#9A6F3E] py-2 transition-colors cursor-pointer"
                   >
                     Reviews
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => handleNavClick('#faq')}
+                    className="text-left text-sm uppercase tracking-widest font-medium text-[#2B2724] hover:text-[#9A6F3E] py-2 transition-colors cursor-pointer"
+                  >
+                    FAQ
                   </button>
 
                   <button

@@ -32,16 +32,17 @@ export const LeadGenBanner: React.FC<LeadGenBannerProps> = ({ onOpenConsultation
           Have a custom sofa idea, reference sketch, room floor plan or complete interior requirement? Our master artisans in Santacruz West can design and build pieces tailored to your exact measurements and aesthetic.
         </p>
 
-        {/* Stacked CTA: Send an Enquiry button, and directly below it WhatsApp CTA */}
-        <div className="flex flex-col items-center justify-center gap-4 max-w-md mx-auto w-full">
-          {/* 1. Send an Enquiry Button (Must open Enquiry form, NEVER Cart) */}
+        {/* CTA: ENQUIRY button beside WhatsApp CTA button in the middle lower website */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-xl mx-auto w-full">
+          {/* 1. Enquiry Button (Opens Enquiry form) */}
           <button
             type="button"
             onClick={handleEnquiry}
-            className="w-full flex items-center justify-center gap-2.5 px-8 py-4 bg-[#FAF9F5] hover:bg-[#EAE3D9] text-[#18181B] text-base font-semibold uppercase tracking-wider rounded-xs transition-all shadow-md cursor-pointer hover:shadow-lg active:scale-[0.98]"
+            className="w-full sm:flex-1 flex items-center justify-center gap-2.5 px-8 py-4 bg-[#FAF9F5] hover:bg-[#EAE3D9] text-[#18181B] text-base font-bold uppercase tracking-wider rounded-xs transition-all shadow-md cursor-pointer hover:shadow-lg active:scale-[0.98]"
+            title="Submit Custom Furniture & Interior Enquiry"
           >
             <Send className="w-5 h-5 text-[#18181B]" />
-            <span>Send an Enquiry</span>
+            <span>ENQUIRY</span>
           </button>
 
           {/* 2. WhatsApp Call to Action Button */}
@@ -49,7 +50,8 @@ export const LeadGenBanner: React.FC<LeadGenBannerProps> = ({ onOpenConsultation
             href={businessInfo.whatsappHref}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full flex items-center justify-center gap-2.5 px-8 py-4 bg-[#25D366] hover:bg-[#20BD5A] text-[#FFFFFF] text-base font-semibold uppercase tracking-wider rounded-xs transition-all shadow-md cursor-pointer hover:shadow-lg active:scale-[0.98]"
+            className="w-full sm:flex-1 flex items-center justify-center gap-2.5 px-8 py-4 bg-[#25D366] hover:bg-[#20BD5A] text-[#FFFFFF] text-base font-bold uppercase tracking-wider rounded-xs transition-all shadow-md cursor-pointer hover:shadow-lg active:scale-[0.98]"
+            title="Chat with Workshop Specialists on WhatsApp"
           >
             <MessageSquare className="w-5 h-5 fill-current" />
             <span>WhatsApp Us</span>

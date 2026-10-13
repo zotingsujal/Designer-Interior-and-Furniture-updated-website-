@@ -11,6 +11,7 @@ import { WhyChooseUs } from './sections/WhyChooseUs';
 import { Testimonials } from './sections/Testimonials';
 import { LeadGenBanner } from './sections/LeadGenBanner';
 import { ProjectEnquiry } from './sections/ProjectEnquiry';
+import { FAQ } from './sections/FAQ';
 import { Contact } from './sections/Contact';
 import { Footer } from './components/Footer';
 import { MobileStickyBar } from './components/MobileStickyBar';
@@ -258,6 +259,12 @@ function AppContent() {
 
             {/* Detailed Project Planning Enquiry Form */}
             <ProjectEnquiry />
+
+            {/* Comprehensive Frequently Asked Questions */}
+            <FAQ
+              onOpenConsultation={() => handleOpenConsultation('General Enquiry')}
+              onNavigateToEnquiry={() => handleNavigateHomeSection('enquiry')}
+            />
 
             {/* Studio Location & Contact Section */}
             <Contact onOpenConsultation={() => handleOpenConsultation('Showroom Visit')} />

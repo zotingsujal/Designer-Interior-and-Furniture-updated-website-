@@ -177,13 +177,5 @@ export const portfolioData: PortfolioItem[] = [
     alt: 'Custom slatted timber feature console unit with open display shelving',
     features: ['Acoustic Vertical Slats', 'Floating Wall Attachment', 'Concealed Push-to-Open Storage'],
   },
-  {
-    id: 'p-cust-5',
-    category: 'Custom Furniture',
-    categoryLabel: 'Bespoke Master Bedroom Bed Suite & Upholstered Feature Wall',
-    image: '/images/drive/drive_img_23_1vq-kc.jpg',
-    alt: 'Custom master bedroom suite featuring upholstered platform bed, acoustic fluted feature headboard wall, and integrated bedside nightstands in Mumbai residence',
-    description: 'An architectural master bedroom suite featuring a custom-built upholstered platform bed, floor-to-ceiling textured acoustic headboard wall panelling, tailored integrated bedside nightstands, and soft ambient cove lighting engineered for a restorative luxury retreat.',
-    features: ['Custom Upholstered Platform Bed Frame', 'Acoustic Fluted Feature Wall Panelling', 'Integrated Bedside Floating Nightstands', 'Bespoke Master Suite Architectural Fit'],
-  },
 ];
+

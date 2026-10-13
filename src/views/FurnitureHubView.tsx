@@ -144,7 +144,7 @@ export const FurnitureHubView: React.FC<FurnitureHubViewProps> = ({
                   onClick={onOpenConsultation}
                   className="px-5 py-2.5 bg-transparent hover:bg-white/10 text-[#FAF9F5] border border-[#71717A] text-xs uppercase tracking-wider font-semibold rounded-xs transition-colors cursor-pointer"
                 >
-                  Book Showroom Visit
+                  ENQUIRY &bull; Book Consultation
                 </button>
               </div>
             </div>

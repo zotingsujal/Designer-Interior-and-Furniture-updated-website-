@@ -83,6 +83,11 @@ export const Footer: React.FC<FooterProps> = ({
                 </a>
               </li>
               <li>
+                <a href="#faq" className="hover:text-[#FAF9F5] transition-colors">
+                  Frequently Asked Questions (FAQ)
+                </a>
+              </li>
+              <li>
                 <a href="#contact" className="hover:text-[#FAF9F5] transition-colors">
                   Visit Showroom &amp; Contact
                 </a>
