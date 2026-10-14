@@ -1,15 +1,13 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import { Sparkles, MessageSquare, ShieldCheck, Hammer, Layers, Ruler } from 'lucide-react';
 import {
   furnitureCategories,
   FurnitureCategory,
   furnitureProducts,
   FurnitureProduct,
-  getCuratedCarousels,
 } from '../data/furniture';
 import { FurnitureCategoryCard } from '../components/furniture/FurnitureCategoryCard';
 import { FurnitureBreadcrumbs } from '../components/furniture/FurnitureBreadcrumbs';
-import { OppositeDirectionCarousels } from '../components/furniture/OppositeDirectionCarousels';
 
 interface FurnitureHubViewProps {
   onSelectCategory: (category: FurnitureCategory) => void;
@@ -26,9 +24,6 @@ export const FurnitureHubView: React.FC<FurnitureHubViewProps> = ({
   onReturnHome,
   onOpenConsultation,
 }) => {
-  const { carousel1: productsRow1, carousel2: productsRow2 } = useMemo(() => {
-    return getCuratedCarousels();
-  }, []);
   return (
     <div className="bg-[#FAF9F5] min-h-screen pt-24 pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -58,7 +53,7 @@ export const FurnitureHubView: React.FC<FurnitureHubViewProps> = ({
                 href="#categories-grid"
                 className="px-6 py-3 bg-[#18181B] hover:bg-[#38332E] text-[#FAF9F5] text-xs uppercase tracking-wider font-semibold rounded-xs shadow-xs transition-colors"
               >
-                Browse 4 Major Collections
+                Browse 6 Major Collections
               </a>
               <button
                 type="button"
@@ -88,32 +83,25 @@ export const FurnitureHubView: React.FC<FurnitureHubViewProps> = ({
               Curated Catalogue
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl text-[#18181B] font-normal mb-3">
-              Shop By Category
+              Explore Our Furniture
             </h2>
             <p className="text-xs sm:text-sm text-[#5C554E]">
-              Select a category to explore specialized styles, sizes, and handcrafted configurations tailored for Mumbai residences.
+              Select from our 6 major collections to explore specialized handcrafted styles, custom dimensions, and bespoke finishes built in our Mumbai factory.
             </p>
           </div>
 
-          {/* Categories Grid (4 Major Categories) */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 sm:gap-7">
-            {furnitureCategories.map((category) => (
+          {/* Categories Grid (6 Major Categories) */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            {furnitureCategories.map((category, idx) => (
               <FurnitureCategoryCard
                 key={category.id}
                 category={category}
+                index={idx}
                 onSelect={onSelectCategory}
               />
             ))}
           </div>
         </section>
-
-        {/* Dynamic Opposite-Direction Dual Carousels */}
-        <OppositeDirectionCarousels
-          productsRow1={productsRow1}
-          productsRow2={productsRow2}
-          onSelectProduct={onSelectProduct}
-          onBuyNowProduct={onBuyNowProduct}
-        />
 
         {/* Factory Direct Craftsmanship Banner */}
         <section className="bg-[#18181B] text-[#FAF9F5] p-8 sm:p-12 rounded-xs my-16">

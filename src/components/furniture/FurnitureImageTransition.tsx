@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FurnitureImage } from './FurnitureImage';
 
 interface FurnitureImageTransitionProps {
@@ -16,33 +16,14 @@ export const FurnitureImageTransition: React.FC<FurnitureImageTransitionProps> =
   isHovered = false,
   className = '',
 }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const [currentIndex] = useState(0);
 
   // Filter out empty or duplicate images to ensure clean views of the same product
   const validImages = images && images.length > 0 ? Array.from(new Set(images.filter(Boolean))) : [];
 
-  useEffect(() => {
-    if (typeof window !== 'undefined' && window.matchMedia) {
-      setPrefersReducedMotion(
-        window.matchMedia('(prefers-reduced-motion: reduce)').matches
-      );
-    }
-  }, []);
-
-  // Automatic slow, elegant rotation for multi-view products (every 4.5 seconds)
-  useEffect(() => {
-    if (prefersReducedMotion || validImages.length <= 1) return;
-
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % validImages.length);
-    }, 4500);
-
-    return () => clearInterval(interval);
-  }, [validImages.length, prefersReducedMotion]);
-
-  // When hovered on desktop, cycle to secondary angle if at 0
-  const activeIndex = isHovered && validImages.length > 1 && currentIndex === 0 ? 1 : currentIndex;
+  // No automatic transitions on a timer across subcategories
+  // When hovered on desktop, show secondary angle if available
+  const activeIndex = isHovered && validImages.length > 1 ? 1 : currentIndex;
 
   if (validImages.length === 0) {
     return (

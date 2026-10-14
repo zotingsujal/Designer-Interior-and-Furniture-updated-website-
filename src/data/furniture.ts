@@ -68,434 +68,222 @@ export interface EditorialArticle {
 
 export const furnitureCategories: FurnitureCategory[] = [
   {
-    "id": "cat-sofas",
-    "slug": "sofas",
-    "name": "Sofas",
-    "tagline": "Comfort, Crafted Around Your Space",
-    "description": "From expansive corner L-shapes and versatile sofa-cum-beds to hand-tufted Italian leather suites, each sofa is custom engineered in our Mumbai factory with high-resilience comfort foams, kiln-dried timber frames, and bespoke upholstery.",
-    "heroImage": "/images/chesterfield_drive.jpg",
-    "subcategories": [
+    id: 'cat-sofas',
+    slug: 'sofas',
+    name: 'Sofas',
+    tagline: 'Comfort, Crafted Around Your Space',
+    description: 'From expansive corner L-shapes and versatile sofa-cum-beds to hand-tufted Italian leather suites, each sofa is custom engineered in our Mumbai factory with high-resilience comfort foams, kiln-dried timber frames, and bespoke upholstery.',
+    heroImage: 'https://lh3.googleusercontent.com/d/1u0EQjACYj_7imNel2FYYGusqWzoSECKe',
+    subcategories: [
       {
-        "id": "sub-l-shaped",
-        "slug": "l-shaped-sofas",
-        "name": "L-Shaped Sofas",
-        "categorySlug": "sofas",
-        "description": "Bespoke corner and chaise sectionals tailored to architectural room proportions, custom seating depth, and imported fabrics.",
-        "image": "/images/bespoke/luxury_sofa_bed_1791460634066.jpg"
+        id: 'sub-sofa-sets',
+        slug: 'sofa-sets',
+        name: 'Sofa Sets',
+        categorySlug: 'sofas',
+        description: 'Handcrafted complete living room sofa suites and formal passenger couches tailored with high-density foams and luxury upholstery.',
+        image: '/images/subcategories/sofas_sofa-sets.png'
       },
       {
-        "id": "sub-sofa-bed",
-        "slug": "sofa-cum-beds",
-        "name": "Sofa Cum Beds",
-        "categorySlug": "sofas",
-        "description": "Engineered dual-purpose sofas with smooth hydraulic glide pullouts, high-density comfort mattresses, and concealed bedding storage.",
-        "image": "/images/bespoke/sofa_cum_bed_craft_1790862556744.jpg"
+        id: 'sub-l-shape-sofas',
+        slug: 'l-shape-sofas',
+        name: 'L-Shape Sofas',
+        categorySlug: 'sofas',
+        description: 'Bespoke corner and chaise sectionals tailored to architectural room proportions, custom seating depth, and imported fabrics.',
+        image: '/images/subcategories/sofas_l-shape-sofas.png'
       },
       {
-        "id": "sub-2-seater",
-        "slug": "2-seater-sofas",
-        "name": "2-Seater Sofas",
-        "categorySlug": "sofas",
-        "description": "Intimate two-seater settees and loveseats designed for Mumbai apartments, study dens, and bedroom lounge corners.",
-        "image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-3-seater",
-        "slug": "3-seater-sofas",
-        "name": "3-Seater Sofas",
-        "categorySlug": "sofas",
-        "description": "Classic three-passenger formal living room couches crafted with feather-down toppers and solid teak plinths.",
-        "image": "/images/bespoke/dsigner_factory_sofa_1791361355243.jpg"
-      },
-      {
-        "id": "sub-sectional",
-        "slug": "sectional-sofas",
-        "name": "Sectional Sofas",
-        "categorySlug": "sofas",
-        "description": "Expansive multi-piece living room seating layouts configurable with left- or right-facing chaises and corner wedges.",
-        "image": "/images/bespoke/chesterfield_sectional_sofa_1791319346646.jpg"
-      },
-      {
-        "id": "sub-recliner",
-        "slug": "recliner-sofas",
-        "name": "Recliner Sofas",
-        "categorySlug": "sofas",
-        "description": "Ergonomic manual and motorized recliners with integrated leg supports, lumbar contours, and quiet German mechanisms.",
-        "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-modular",
-        "slug": "modular-sofas",
-        "name": "Modular Sofas",
-        "categorySlug": "sofas",
-        "description": "Movable low-slung ottoman blocks and armless seating modules that can be reconfigured for entertaining or family lounging.",
-        "image": "/images/drive/drive_img_1_1CBInl.jpg"
-      },
-      {
-        "id": "sub-fabric",
-        "slug": "fabric-sofas",
-        "name": "Fabric Sofas",
-        "categorySlug": "sofas",
-        "description": "Upholstered in stain-resistant Belgian linen, textured bouclé, chenille, and high-martindale performance weaves.",
-        "image": "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-leather",
-        "slug": "leather-sofas",
-        "name": "Leather Sofas",
-        "categorySlug": "sofas",
-        "description": "Hand-rubbed aniline and semi-aniline full-grain leathers aged to develop rich natural patinas over decades.",
-        "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-custom",
-        "slug": "custom-sofas",
-        "name": "Custom Sofas",
-        "categorySlug": "sofas",
-        "description": "Collaborate with our in-house furniture architects to build exact custom lengths, depths, cushion firmness, and finishes.",
-        "image": "/images/bespoke/custom_sofa_bespoke_1790862510012.jpg"
+        id: 'sub-sofa-cum-beds',
+        slug: 'sofa-cum-beds',
+        name: 'Sofa Cum Beds',
+        categorySlug: 'sofas',
+        description: 'Engineered dual-purpose sofas with smooth hydraulic glide pullouts, high-density comfort mattresses, and concealed bedding storage.',
+        image: '/images/subcategories/sofas_sofa-cum-beds.png'
       }
     ]
   },
   {
-    "id": "cat-dining",
-    "slug": "dining-tables",
-    "name": "Dining Tables",
-    "tagline": "Centred Around Togetherness",
-    "description": "Handcrafted formal dining tables, casual breakfast ensembles, and conversational round dining pieces built with hand-finished hardwood aprons, solid Burma teak, and sealed Italian marble.",
-    "heroImage": "/images/bespoke/dining_bespoke_teak_1790862543973.jpg",
-    "subcategories": [
+    id: 'cat-chairs-seating',
+    slug: 'chairs-seating',
+    name: 'Chairs & Seating',
+    tagline: 'Ergonomic Poise & Statement Accent Pieces',
+    description: 'Handcrafted dining chairs, occasional coffee lounge chairs, artisan rocking chairs, and plush pouffes built with solid hardwood frames and bespoke upholstery.',
+    heroImage: 'https://lh3.googleusercontent.com/d/1atgmcQNi-pb9PB47ArSGzVftz-GhdnaK',
+    subcategories: [
       {
-        "id": "sub-4-seater",
-        "slug": "4-seater-dining-tables",
-        "name": "4-Seater Dining Tables",
-        "categorySlug": "dining-tables",
-        "description": "Space-conscious square and compact rectangular dining tables proportioned for modern Mumbai apartment dining nooks.",
-        "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80"
+        id: 'sub-dining-chairs',
+        slug: 'dining-chairs',
+        name: 'Dining Chairs',
+        categorySlug: 'chairs-seating',
+        description: 'Ergonomically contoured dining chairs handcrafted with solid teak legs and stain-resistant designer upholstery.',
+        image: '/images/subcategories/chairs_dining-chairs.png'
       },
       {
-        "id": "sub-6-seater",
-        "slug": "6-seater-dining-tables",
-        "name": "6-Seater Dining Tables",
-        "categorySlug": "dining-tables",
-        "description": "The definitive family dining centerpiece accommodating everyday meals and effortless weekend dinner hosting.",
-        "image": "/images/drive/drive_img_21_13u-6f.jpg"
+        id: 'sub-coffee-chairs',
+        slug: 'coffee-chairs',
+        name: 'Coffee Chairs',
+        categorySlug: 'chairs-seating',
+        description: 'Occasional lounge chairs, reading tub seats, and accent club chairs tailored for living rooms and bedroom corners.',
+        image: '/images/subcategories/chairs_coffee-chairs.png'
       },
       {
-        "id": "sub-8-seater",
-        "slug": "8-seater-dining-tables",
-        "name": "8-Seater Dining Tables",
-        "categorySlug": "dining-tables",
-        "description": "Expansive formal dining tables built with reinforced hardwood aprons and architectural pedestal legs.",
-        "image": "/images/drive/drive_img_2_1oeDlS.jpg"
+        id: 'sub-rocking-chairs',
+        slug: 'rocking-chairs',
+        name: 'Rocking Chairs',
+        categorySlug: 'chairs-seating',
+        description: 'Relaxing architectural rocking chairs with balanced weight distribution, kiln-dried timber skids, and supportive lumbar contours.',
+        image: '/images/subcategories/chairs_rocking-chairs.png'
       },
       {
-        "id": "sub-10-seater",
-        "slug": "10-seater-dining-tables",
-        "name": "10-Seater Dining Tables",
-        "categorySlug": "dining-tables",
-        "description": "Grand banquet tables designed for luxury residences and penthouses, finished with continuous grain bookmatched veneers.",
-        "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-round",
-        "slug": "round-dining-tables",
-        "name": "Round Dining Tables",
-        "categorySlug": "dining-tables",
-        "description": "Circular dining designs with central sculptural flute columns that foster effortless conversation and fluid room flow.",
-        "image": "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-extendable",
-        "slug": "extendable-dining-tables",
-        "name": "Extendable Dining Tables",
-        "categorySlug": "dining-tables",
-        "description": "Clever butterfly leaf and synchronized glide extension mechanisms that effortlessly expand when hosting weekend guests.",
-        "image": "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-marble",
-        "slug": "marble-dining-tables",
-        "name": "Marble Dining Tables",
-        "categorySlug": "dining-tables",
-        "description": "Sealed natural Calacatta, Italian Statuario, and Black Marquina marble tops with beveled bullnose edges.",
-        "image": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-wooden",
-        "slug": "wooden-dining-tables",
-        "name": "Wooden Dining Tables",
-        "categorySlug": "dining-tables",
-        "description": "Seasoned solid Burma teak, white American oak, and American walnut with satin PU clear coat protection.",
-        "image": "https://images.unsplash.com/photo-1544457070-4cd773b4d71e?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-modern",
-        "slug": "modern-dining-tables",
-        "name": "Modern Dining Tables",
-        "categorySlug": "dining-tables",
-        "description": "Clean Scandinavian and minimalist profiles featuring powder-coated metal subframes and floating tabletop visuals.",
-        "image": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-custom-dining",
-        "slug": "custom-dining-tables",
-        "name": "Custom Dining Tables",
-        "categorySlug": "dining-tables",
-        "description": "Tailored dimensions, stone selection, edge profiles, and matching chair configurations made to order.",
-        "image": "/images/drive/drive_img_21_13u-6f.jpg"
+        id: 'sub-puffies',
+        slug: 'puffies',
+        name: 'Puffies',
+        categorySlug: 'chairs-seating',
+        description: 'Versatile upholstered pouffes, storage footstools, and soft cylindrical accent ottomans for informal living spaces.',
+        image: '/images/subcategories/chairs_puffies.png'
       }
     ]
   },
   {
-    "id": "cat-beds",
-    "slug": "beds-bedroom",
-    "name": "Beds & Bedroom",
-    "tagline": "Sanctuary for Rest & Renewal",
-    "description": "Architectural king and queen master beds, hydraulic easy-lift storage frames, upholstered fluted headboards, and solid teak bed frames crafted for Mumbai luxury master suites.",
-    "heroImage": "/images/drive/drive_img_22_1atNjG.jpg",
-    "subcategories": [
+    id: 'cat-tables',
+    slug: 'tables',
+    name: 'Tables',
+    tagline: 'Centred Around Togetherness & Living Elegance',
+    description: 'Handcrafted formal dining tables, sculptural centre tables, and functional coffee tables built with solid Burma teak and sealed Italian marble.',
+    heroImage: 'https://lh3.googleusercontent.com/d/1pFoK15EdGxbtCFOZNNL453wPDy5JYuSX',
+    subcategories: [
       {
-        "id": "sub-king-beds",
-        "slug": "king-size-beds",
-        "name": "King Size Beds",
-        "categorySlug": "beds-bedroom",
-        "description": "Spacious 72x78 master suite beds engineered with reinforced center beams, noise-free joinery, and tailored headboards.",
-        "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80"
+        id: 'sub-dining-tables',
+        slug: 'dining-tables',
+        name: 'Dining Tables',
+        categorySlug: 'tables',
+        description: 'Handcrafted banquet and family dining centerpieces in solid seasoned teak, American walnut, and Italian marble.',
+        image: '/images/subcategories/tables_dining-tables.png'
       },
       {
-        "id": "sub-queen-beds",
-        "slug": "queen-size-beds",
-        "name": "Queen Size Beds",
-        "categorySlug": "beds-bedroom",
-        "description": "Proportionate 60x78 beds offering luxury comfort while preserving walking clearance in secondary bedrooms.",
-        "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80"
+        id: 'sub-centre-tables',
+        slug: 'centre-tables',
+        name: 'Centre Tables',
+        categorySlug: 'tables',
+        description: 'Statement living room centre tables featuring fluted pedestals, dual-level cantilever surfaces, and natural stone tops.',
+        image: '/images/subcategories/tables_centre-tables.png'
       },
       {
-        "id": "sub-double-beds",
-        "slug": "double-beds",
-        "name": "Double Beds",
-        "categorySlug": "beds-bedroom",
-        "description": "Compact 48x75 and 54x75 beds designed for guest rooms, teenage bedrooms, and multifunctional home studios.",
-        "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-storage-beds",
-        "slug": "storage-beds",
-        "name": "Storage Beds",
-        "categorySlug": "beds-bedroom",
-        "description": "Integrated under-bed cabinetry, deep drawers, and lift-up compartments to maximize bedroom organization.",
-        "image": "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-hydraulic-beds",
-        "slug": "hydraulic-storage-beds",
-        "name": "Hydraulic Storage Beds",
-        "categorySlug": "beds-bedroom",
-        "description": "Effortless gas-lift pistons that elevate the entire mattress platform with fingertip ease to reveal cavernous storage.",
-        "image": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-upholstered-beds",
-        "slug": "upholstered-beds",
-        "name": "Upholstered Beds",
-        "categorySlug": "beds-bedroom",
-        "description": "Fully padded bed frames and headboards wrapped in plush velvet, woven chenille, or natural linen.",
-        "image": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-platform-beds",
-        "slug": "platform-beds",
-        "name": "Platform Beds",
-        "categorySlug": "beds-bedroom",
-        "description": "Low-slung minimalist bed frames requiring no box spring, offering architectural stillness and clean horizontal lines.",
-        "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-wooden-beds",
-        "slug": "wooden-beds",
-        "name": "Wooden Beds",
-        "categorySlug": "beds-bedroom",
-        "description": "Heirloom craftsmanship showcasing solid timber grain, traditional mortise-and-tenon joints, and natural finishes.",
-        "image": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-modern-beds",
-        "slug": "modern-beds",
-        "name": "Modern Beds",
-        "categorySlug": "beds-bedroom",
-        "description": "Contemporary master bed designs combining mixed materials: metal accents, fluted panels, and integrated lighting.",
-        "image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-custom-beds",
-        "slug": "custom-beds",
-        "name": "Custom Beds",
-        "categorySlug": "beds-bedroom",
-        "description": "Made-to-measure headboard heights, integrated nightstands, custom mattress depth recesses, and bespoke finishes.",
-        "image": "https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-bedside-tables",
-        "slug": "bedside-tables",
-        "name": "Bedside Tables",
-        "categorySlug": "beds-bedroom",
-        "description": "Nightstands, floating bedside ledges, and accent drawers crafted to align perfectly with bed mattress heights.",
-        "image": "/images/drive/drive_img_4_1FEihx.jpg"
+        id: 'sub-coffee-tables',
+        slug: 'coffee-tables',
+        name: 'Coffee Tables',
+        categorySlug: 'tables',
+        description: 'Low-profile accent coffee tables and nesting table sets proportioned for relaxed living room entertaining.',
+        image: '/images/subcategories/tables_coffee-tables.png'
       }
     ]
   },
   {
-    "id": "cat-living-storage",
-    "slug": "living-storage",
-    "name": "Living & Storage",
-    "tagline": "Effortless Order, Architectural Elegance",
-    "description": "Bespoke media entertainment TV units, custom walk-in closets, modular sliding wardrobes, and refined fluted sideboards designed to maximize floor space and interior aesthetics.",
-    "heroImage": "/images/drive/drive_img_10_1GuU0K.jpg",
-    "subcategories": [
+    id: 'cat-living-room-storage',
+    slug: 'living-room-storage',
+    name: 'Living Room & Storage',
+    tagline: 'Architectural Joinery & Seamless Organisation',
+    description: 'Bespoke low-profile TV base units, statement media wall units, illuminated luxury crockery display cabinets, handcrafted dry bar units, and fluted sideboards.',
+    heroImage: 'https://lh3.googleusercontent.com/d/1vW1GM7Hj2GTihGzrF45E4PUsBv8N7j9T',
+    subcategories: [
       {
-        "id": "sub-tv-wall",
-        "slug": "wall-mounted-tv-units",
-        "name": "Wall-Mounted TV Units",
-        "categorySlug": "living-storage",
-        "description": "Floating entertainment consoles with concealed cable routing chaseways and ambient backlighting.",
-        "image": "/images/bespoke/tv_unit_acoustic_wood_1790862520491.jpg"
+        id: 'sub-tv-base-unit',
+        slug: 'tv-base-unit',
+        name: 'TV Base Unit',
+        categorySlug: 'living-room-storage',
+        description: 'Floor-standing low-profile media credenzas with concealed cable chaseways, smooth push-to-open soft drawers, and solid plinths.',
+        image: '/images/subcategories/storage_tv-base-unit.png'
       },
       {
-        "id": "sub-tv-floor",
-        "slug": "floor-standing-tv-units",
-        "name": "Floor-Standing TV Units",
-        "categorySlug": "living-storage",
-        "description": "Low-profile architectural media credenzas with solid plinths or sculptural metal legs.",
-        "image": "/images/drive/drive_img_7_1tUTht.jpg"
+        id: 'sub-wall-unit',
+        slug: 'wall-unit',
+        name: 'Wall Unit',
+        categorySlug: 'living-room-storage',
+        description: 'Floating acoustic wooden wall panels, integrated media backdrops, and illuminated cantilever shelves.',
+        image: '/images/subcategories/storage_wall-unit.png'
       },
       {
-        "id": "sub-tv-storage",
-        "slug": "tv-units-with-storage",
-        "name": "TV Units With Storage",
-        "categorySlug": "living-storage",
-        "description": "Deep gaming console drawers, component niches, display shelves, and concealed wire raceways.",
-        "image": "/images/drive/drive_img_6_1U5guR.jpg"
+        id: 'sub-crockery-units',
+        slug: 'crockery-units',
+        name: 'Crockery Units',
+        categorySlug: 'living-room-storage',
+        description: 'Refined glassware vitrines, linen cupboards, and fluted crockery display consoles with warm LED integration.',
+        image: '/images/subcategories/storage_crockery-units.png'
       },
       {
-        "id": "sub-tv-minimal",
-        "slug": "minimal-tv-units",
-        "name": "Minimal TV Units",
-        "categorySlug": "living-storage",
-        "description": "Ultra-slim monolithic profiles with push-to-open hardware, zero visible handles, and clean geometry.",
-        "image": "/images/drive/drive_img_9_1XlOjJ.jpg"
+        id: 'sub-bar-units',
+        slug: 'bar-units',
+        name: 'Bar Units',
+        categorySlug: 'living-room-storage',
+        description: 'Bespoke home bar cabinets, stemware racks, lockable spirits storage, and pull-out marble mixing ledges.',
+        image: '/images/subcategories/storage_bar-units.png'
       },
       {
-        "id": "sub-tv-modern",
-        "slug": "modern-tv-units",
-        "name": "Modern TV Units",
-        "categorySlug": "living-storage",
-        "description": "Asymmetric compositions blending open curio cubbies with stone surfaces and dark metal accents.",
-        "image": "/images/drive/drive_img_3_1KtJIM.jpg"
+        id: 'sub-sideboards-and-accent-cabinets',
+        slug: 'sideboards-and-accent-cabinets',
+        name: 'Sideboards and Accent Cabinets',
+        categorySlug: 'living-room-storage',
+        description: 'Architectural fluted sideboards, dining credenzas, and accent storage cabinets with push-to-open hardware and marble accents.',
+        image: '/images/subcategories/storage_sideboards-and-accent-cabinets.png'
+      }
+    ]
+  },
+  {
+    id: 'cat-bedroom-sets',
+    slug: 'bedroom-sets',
+    name: 'Bedroom Sets',
+    tagline: 'Sanctuary for Rest, Renewal & Master Living',
+    description: 'Architectural master beds with noise-free joinery and hydraulic storage, bespoke floor-to-ceiling sliding and hinged wardrobes, matching side tables, and vanity dressing tables.',
+    heroImage: 'https://lh3.googleusercontent.com/d/1E0-J399mSNfvs7R6wTYgK_v7UL4Qzllp',
+    subcategories: [
+      {
+        id: 'sub-beds',
+        slug: 'beds',
+        name: 'Beds',
+        categorySlug: 'bedroom-sets',
+        description: 'Master king and queen beds engineered with noise-free joinery, upholstered acoustic headboards, and effortless hydraulic storage.',
+        image: '/images/subcategories/bedroom_beds.png'
       },
       {
-        "id": "sub-tv-designer",
-        "slug": "designer-tv-units",
-        "name": "Designer TV Units",
-        "categorySlug": "living-storage",
-        "description": "Sculptural luxury media centers finished with imported marble tops, ribbed tambour, and bronze hardware.",
-        "image": "/images/drive/drive_img_15_1ABIZH.jpg"
+        id: 'sub-wardrobes',
+        slug: 'wardrobes',
+        name: 'Wardrobes',
+        categorySlug: 'bedroom-sets',
+        description: 'Floor-to-ceiling sliding, hinged, and walk-in closet systems with aluminum glass shutters and customized interior drawers.',
+        image: '/images/subcategories/bedroom_wardrobes.png'
       },
       {
-        "id": "sub-tv-custom",
-        "slug": "custom-tv-units",
-        "name": "Custom TV Units",
-        "categorySlug": "living-storage",
-        "description": "Engineered precisely to your room elevation drawings, accommodating large screen displays and acoustic sound systems.",
-        "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=1200&q=80"
+        id: 'sub-side-tables',
+        slug: 'side-tables',
+        name: 'Side Tables',
+        categorySlug: 'bedroom-sets',
+        description: 'Floating nightstands and drawer bedside companions crafted to align seamlessly with bed platform heights.',
+        image: '/images/subcategories/bedroom_side-tables.png'
       },
       {
-        "id": "sub-wardrobe-sliding",
-        "slug": "sliding-door-wardrobes",
-        "name": "Sliding Door Wardrobes",
-        "categorySlug": "living-storage",
-        "description": "Smooth top-hung floor-to-ceiling sliding systems with soft-dampers and anti-dust brush seals.",
-        "image": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80"
-      },
+        id: 'sub-dressing-tables',
+        slug: 'dressing-tables',
+        name: 'Dressing Tables',
+        categorySlug: 'bedroom-sets',
+        description: 'Tailored vanity dressing consoles with integrated halo mirrors, jewelry organizers, and plush stools.',
+        image: '/images/subcategories/bedroom_dressing-tables.png'
+      }
+    ]
+  },
+  {
+    id: 'cat-kitchens',
+    slug: 'kitchens',
+    name: 'Kitchens',
+    tagline: 'Ergonomic Efficiency & Culinary Craftsmanship',
+    description: 'German hardware-driven modular kitchen layouts, moisture-resistant marine ply cabinetry, acrylic and PU finishes, and complete bespoke culinary spaces manufactured in our Mumbai factory.',
+    heroImage: 'https://lh3.googleusercontent.com/d/1yZRSCNb9qGhN4ruKgf8kEw8hd2iuJrcE',
+    subcategories: [
       {
-        "id": "sub-wardrobe-hinged",
-        "slug": "hinged-door-wardrobes",
-        "name": "Hinged Door Wardrobes",
-        "categorySlug": "living-storage",
-        "description": "Classic swing door wardrobes featuring 110-degree soft-closing concealed hinges and elegant full-height handles.",
-        "image": "/images/drive/drive_img_20_14uLiI.jpg"
-      },
-      {
-        "id": "sub-wardrobe-walkin",
-        "slug": "walk-in-wardrobes",
-        "name": "Walk-In Wardrobes",
-        "categorySlug": "living-storage",
-        "description": "Bespoke open-bay dressing suites with LED-lit hanging rails, island jewelry display chests, and shoe vitrines.",
-        "image": "/images/drive/drive_img_19_1iOMO7.jpg"
-      },
-      {
-        "id": "sub-wardrobe-glass",
-        "slug": "glass-door-wardrobes",
-        "name": "Glass Door Wardrobes",
-        "categorySlug": "living-storage",
-        "description": "Contemporary tinted bronze, smoked gray, and fluted reeded glass doors encased in ultra-slim aluminum profiles.",
-        "image": "https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-wardrobe-modular",
-        "slug": "modular-wardrobes",
-        "name": "Modular Wardrobes",
-        "categorySlug": "living-storage",
-        "description": "Expandable storage modules that can adapt over time with repositionable shelves, tie racks, and laundry hampers.",
-        "image": "/images/drive/drive_img_18_1YNYsJ.jpg"
-      },
-      {
-        "id": "sub-wardrobe-bedroom",
-        "slug": "bedroom-wardrobes",
-        "name": "Bedroom Wardrobes",
-        "categorySlug": "living-storage",
-        "description": "Tailored bedroom storage built around loft compartments, vanity desks, and architectural room columns.",
-        "image": "/images/drive/drive_img_8_17IV2c.jpg"
-      },
-      {
-        "id": "sub-wardrobe-custom",
-        "slug": "custom-wardrobes",
-        "name": "Custom Wardrobes",
-        "categorySlug": "living-storage",
-        "description": "Full bespoke carpentry manufactured directly at our Mumbai factory to your interior designer specifications.",
-        "image": "/images/bespoke/luxury_bedroom_wardrobe_1790862531824.jpg"
-      },
-      {
-        "id": "sub-sideboards",
-        "slug": "sideboards-consoles",
-        "name": "Sideboards & Consoles",
-        "categorySlug": "living-storage",
-        "description": "Sculptural credenzas, dining room sideboards, and hallway entryway consoles with fluted door panels.",
-        "image": "/images/drive/drive_img_16_1zcRXm.jpg"
-      },
-      {
-        "id": "sub-storage-cabinets",
-        "slug": "storage-cabinets",
-        "name": "Storage Cabinets",
-        "categorySlug": "living-storage",
-        "description": "Multi-tiered dry bar cabinets, linen cupboards, and crockery units with adjustable solid shelves.",
-        "image": "/images/drive/drive_img_11_1BO_We.jpg"
-      },
-      {
-        "id": "sub-display-units",
-        "slug": "display-units",
-        "name": "Display Units",
-        "categorySlug": "living-storage",
-        "description": "Curio vitrines, open architectural book dividers, and illuminated curio showcases for curated artifacts.",
-        "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "id": "sub-custom-storage",
-        "slug": "custom-storage",
-        "name": "Custom Storage",
-        "categorySlug": "living-storage",
-        "description": "Built-in alcove cabinetry, under-stair storage, shoe closets, and tailor-made architectural millwork.",
-        "image": "https://images.unsplash.com/photo-1586105251261-72a756497a11?auto=format&fit=crop&w=1200&q=80"
+        id: 'sub-modular-custom-kitchens',
+        slug: 'modular-custom-kitchens',
+        name: 'Modular / Custom Kitchens',
+        categorySlug: 'kitchens',
+        description: 'Bespoke modular kitchen layouts and custom culinary carpentry featuring boiling-water-proof (BWP) marine ply, quartz countertops, and German soft-close fittings.',
+        image: '/images/subcategories/kitchens_modular-custom-kitchens.png'
       }
     ]
   }
@@ -507,7 +295,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "l-shaped-sofas-signature-01",
     "name": "Arezzo Master Crafted L-Shaped Sectional",
     "categorySlug": "sofas",
-    "subcategorySlug": "l-shaped-sofas",
+    "subcategorySlug": "l-shape-sofas",
     "shortDescription": "Expansive corner sectional with deep lounge seating, duck feather blend cushions, and solid teak base.",
     "description": "Expansive corner sectional with deep lounge seating, duck feather blend cushions, and solid teak base. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 125000,
@@ -522,7 +310,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "dimensions": "112\" W x 68\" D x 33\" H",
     "materials": [
       "Kiln-Dried Teak",
-      "Belgian Bouclé",
+      "Belgian Boucl\u00e9",
       "High-Resilience Foam"
     ],
     "finish": "Hand-Rubbed Satin PU Seal",
@@ -551,7 +339,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -560,7 +348,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "l-shaped-sofas-prestige-02",
     "name": "Savona Architectural Chaise Sofa",
     "categorySlug": "sofas",
-    "subcategorySlug": "l-shaped-sofas",
+    "subcategorySlug": "l-shape-sofas",
     "shortDescription": "Streamlined contemporary L-couch featuring a floating low plinth, customizable left or right orientation.",
     "description": "Streamlined contemporary L-couch featuring a floating low plinth, customizable left or right orientation. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 110000,
@@ -589,7 +377,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -657,7 +445,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -695,7 +483,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -719,7 +507,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "2-seater-sofas-signature-01",
     "name": "Bergamo Tailored Loveseat Settee",
     "categorySlug": "sofas",
-    "subcategorySlug": "2-seater-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Petite two-passenger sofa with fluted back detailing and tapered brass-capped wooden legs.",
     "description": "Petite two-passenger sofa with fluted back detailing and tapered brass-capped wooden legs. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 62000,
@@ -763,7 +551,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -772,7 +560,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "2-seater-sofas-prestige-02",
     "name": "Capri Minimalist Studio Loveseat",
     "categorySlug": "sofas",
-    "subcategorySlug": "2-seater-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Crisp Scandinavian lines with slim track arms engineered to maximize seating in compact spaces.",
     "description": "Crisp Scandinavian lines with slim track arms engineered to maximize seating in compact spaces. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 58000,
@@ -801,7 +589,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -825,7 +613,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "3-seater-sofas-signature-01",
     "name": "Milano Executive Three-Seater Couch",
     "categorySlug": "sofas",
-    "subcategorySlug": "3-seater-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Commanding living room sofa with deep seat cushions and hand-tufted tailored backrest.",
     "description": "Commanding living room sofa with deep seat cushions and hand-tufted tailored backrest. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 85000,
@@ -869,7 +657,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -878,7 +666,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "3-seater-sofas-prestige-02",
     "name": "Ravello Formal Heritage Sofa",
     "categorySlug": "sofas",
-    "subcategorySlug": "3-seater-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Graceful shelter arm silhouette with reversible seat cushions and hand-applied piping.",
     "description": "Graceful shelter arm silhouette with reversible seat cushions and hand-applied piping. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 79000,
@@ -907,7 +695,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -931,7 +719,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "sectional-sofas-signature-01",
     "name": "Tuscan Grand U-Shaped Modular Sectional",
     "categorySlug": "sofas",
-    "subcategorySlug": "sectional-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Spectacular multi-segment seating arrangement created for generous luxury living halls.",
     "description": "Spectacular multi-segment seating arrangement created for generous luxury living halls. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 165000,
@@ -946,7 +734,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "dimensions": "138\" W x 92\" D x 32\" H",
     "materials": [
       "Solid Hardwood Internal Frame",
-      "Textured Bouclé",
+      "Textured Boucl\u00e9",
       "High-Density Foam"
     ],
     "finish": "Hand-Rubbed Satin PU Seal",
@@ -975,7 +763,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -984,7 +772,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "sectional-sofas-prestige-02",
     "name": "Bellagio Curve Architectural Sectional",
     "categorySlug": "sofas",
-    "subcategorySlug": "sectional-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Gently curved crescent sofa ensemble with built-in wooden side accent table ledge.",
     "description": "Gently curved crescent sofa ensemble with built-in wooden side accent table ledge. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 155000,
@@ -1013,7 +801,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -1037,7 +825,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "recliner-sofas-signature-01",
     "name": "Torino Motorized Power Recliner Suite",
     "categorySlug": "sofas",
-    "subcategorySlug": "recliner-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Whisper-quiet dual motor system with independent back and footrest tilt controls and hidden USB ports.",
     "description": "Whisper-quiet dual motor system with independent back and footrest tilt controls and hidden USB ports. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 115000,
@@ -1081,7 +869,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -1090,7 +878,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "recliner-sofas-prestige-02",
     "name": "Salerno Manual Push-Back Reclining Sofa",
     "categorySlug": "sofas",
-    "subcategorySlug": "recliner-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Discreet ergonomic mechanism that reclines smoothly with body weight without unsightly visible levers.",
     "description": "Discreet ergonomic mechanism that reclines smoothly with body weight without unsightly visible levers. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 82000,
@@ -1119,7 +907,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -1143,7 +931,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "modular-sofas-signature-01",
     "name": "Palermo Cloud Infinite Modular System",
     "categorySlug": "sofas",
-    "subcategorySlug": "modular-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Freestanding connectable seating pods that can shift from a large sofa into separate lounge chairs.",
     "description": "Freestanding connectable seating pods that can shift from a large sofa into separate lounge chairs. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 135000,
@@ -1187,7 +975,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -1196,7 +984,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "modular-sofas-prestige-02",
     "name": "Como Low-Profile Pit Lounge Sofa",
     "categorySlug": "sofas",
-    "subcategorySlug": "modular-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Ultra-low Japanese-Scandinavian inspired modular floor couch with movable backrest wedges.",
     "description": "Ultra-low Japanese-Scandinavian inspired modular floor couch with movable backrest wedges. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 98000,
@@ -1212,7 +1000,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "materials": [
       "Reinforced Foam Core",
       "Non-Slip Bottom Base",
-      "Textured Bouclé"
+      "Textured Boucl\u00e9"
     ],
     "finish": "Natural Matte Hardwax / PU",
     "colors": [
@@ -1225,7 +1013,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -1249,7 +1037,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "fabric-sofas-signature-01",
     "name": "Siena Belgian Linen Formal Couch",
     "categorySlug": "sofas",
-    "subcategorySlug": "fabric-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Tailored casual elegance wrapped in 100% pre-washed Belgian flax linen with loose slipcover styling.",
     "description": "Tailored casual elegance wrapped in 100% pre-washed Belgian flax linen with loose slipcover styling. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 78000,
@@ -1293,18 +1081,18 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
   {
     "id": "fabric-sofas-02",
     "slug": "fabric-sofas-prestige-02",
-    "name": "Livorno Bouclé Curved Statement Sofa",
+    "name": "Livorno Boucl\u00e9 Curved Statement Sofa",
     "categorySlug": "sofas",
-    "subcategorySlug": "fabric-sofas",
-    "shortDescription": "Sculptural organic silhouette dressed in heavy-texture ivory bouclé for an editorial living room presence.",
-    "description": "Sculptural organic silhouette dressed in heavy-texture ivory bouclé for an editorial living room presence. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
+    "subcategorySlug": "sofa-sets",
+    "shortDescription": "Sculptural organic silhouette dressed in heavy-texture ivory boucl\u00e9 for an editorial living room presence.",
+    "description": "Sculptural organic silhouette dressed in heavy-texture ivory boucl\u00e9 for an editorial living room presence. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 89000,
     "originalPrice": 99680,
     "discountPercent": 10,
@@ -1317,7 +1105,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "dimensions": "90\" W x 38\" D x 31\" H",
     "materials": [
       "Sculptural Plywood",
-      "Plush Ivory Bouclé",
+      "Plush Ivory Boucl\u00e9",
       "Ergonomic Support Core"
     ],
     "finish": "Natural Matte Hardwax / PU",
@@ -1331,7 +1119,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -1355,7 +1143,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "leather-sofas-signature-01",
     "name": "Venezia Chesterfield Hand-Tufted Sofa",
     "categorySlug": "sofas",
-    "subcategorySlug": "leather-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Classic British Chesterfield with deep diamond hand-tufting, rolled arms, and antiqued brass studs.",
     "description": "Classic British Chesterfield with deep diamond hand-tufting, rolled arms, and antiqued brass studs. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 145000,
@@ -1399,7 +1187,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -1408,7 +1196,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "leather-sofas-prestige-02",
     "name": "Lucca Contemporary Tan Leather Couch",
     "categorySlug": "sofas",
-    "subcategorySlug": "leather-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Clean modern sofa in saddle tan aniline leather with exposed topstitch French seams and slim metal legs.",
     "description": "Clean modern sofa in saddle tan aniline leather with exposed topstitch French seams and slim metal legs. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 130000,
@@ -1437,7 +1225,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -1461,7 +1249,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "custom-sofas-signature-01",
     "name": "Bespoke Architectural Atelier Sofa",
     "categorySlug": "sofas",
-    "subcategorySlug": "custom-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Completely customized down to the millimeter to fit alcoves, bay windows, or specific room geometries.",
     "description": "Completely customized down to the millimeter to fit alcoves, bay windows, or specific room geometries. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 110000,
@@ -1505,7 +1293,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -1514,7 +1302,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "slug": "custom-sofas-prestige-02",
     "name": "Signature Penthouse Lounge Suite",
     "categorySlug": "sofas",
-    "subcategorySlug": "custom-sofas",
+    "subcategorySlug": "sofa-sets",
     "shortDescription": "Grand bespoke living room centerpiece commissioned with integrated marble side tables and power console.",
     "description": "Grand bespoke living room centerpiece commissioned with integrated marble side tables and power console. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 175000,
@@ -1543,7 +1331,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -1566,8 +1354,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "4-seater-dining-tables-01",
     "slug": "4-seater-dining-tables-signature-01",
     "name": "Padua Compact 4-Seater Teak Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "4-seater-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Refined four-passenger dining table with chamfered edge profile and sturdy splayed teak legs.",
     "description": "Refined four-passenger dining table with chamfered edge profile and sturdy splayed teak legs. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 48000,
@@ -1610,7 +1398,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -1618,8 +1406,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "4-seater-dining-tables-02",
     "slug": "4-seater-dining-tables-prestige-02",
     "name": "Treviso Square Bistro Dining Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "4-seater-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Sleek square top table with central pedestal base providing unobstructed legroom on all four sides.",
     "description": "Sleek square top table with central pedestal base providing unobstructed legroom on all four sides. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 42000,
@@ -1647,7 +1435,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -1670,8 +1458,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "6-seater-dining-tables-01",
     "slug": "6-seater-dining-tables-signature-01",
     "name": "Mantua Solid Wood 6-Seater Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "6-seater-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Substantial six-person rectangular dining centerpiece with hand-scraped natural wood grain.",
     "description": "Substantial six-person rectangular dining centerpiece with hand-scraped natural wood grain. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 68000,
@@ -1714,7 +1502,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -1722,8 +1510,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "6-seater-dining-tables-02",
     "slug": "6-seater-dining-tables-prestige-02",
     "name": "Vicenza Floating Profile Dining Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "6-seater-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Contemporary beveled edge tabletop with recessed sub-frame creating a floating visual sensation.",
     "description": "Contemporary beveled edge tabletop with recessed sub-frame creating a floating visual sensation. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 72000,
@@ -1751,7 +1539,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -1774,8 +1562,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "8-seater-dining-tables-01",
     "slug": "8-seater-dining-tables-signature-01",
     "name": "Ferrara Grand 8-Seater Banquet Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "8-seater-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Majestic eight-seat dining table featuring twin sculptural pedestal bases and rich bookmatched grain.",
     "description": "Majestic eight-seat dining table featuring twin sculptural pedestal bases and rich bookmatched grain. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 95000,
@@ -1818,7 +1606,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -1826,8 +1614,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "8-seater-dining-tables-02",
     "slug": "8-seater-dining-tables-prestige-02",
     "name": "Rimini Architectural Trestle Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "8-seater-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Stately trestle dining table with mortise and tenon joinery inspired by European manor craftsmanship.",
     "description": "Stately trestle dining table with mortise and tenon joinery inspired by European manor craftsmanship. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 88000,
@@ -1855,7 +1643,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -1878,8 +1666,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "10-seater-dining-tables-01",
     "slug": "10-seater-dining-tables-signature-01",
     "name": "Reggio Penthouse 10-Seater Grand Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "10-seater-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Monumental dining statement piece crafted for large luxury entertaining rooms and family feasts.",
     "description": "Monumental dining statement piece crafted for large luxury entertaining rooms and family feasts. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 145000,
@@ -1922,7 +1710,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -1930,8 +1718,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "10-seater-dining-tables-02",
     "slug": "10-seater-dining-tables-prestige-02",
     "name": "Caserta Double-Pedestal Estate Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "10-seater-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Timeless ten-person dining table with fluted circular column pedestals and polished brass trim.",
     "description": "Timeless ten-person dining table with fluted circular column pedestals and polished brass trim. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 135000,
@@ -1959,7 +1747,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -1982,8 +1770,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "round-dining-tables-01",
     "slug": "round-dining-tables-signature-01",
     "name": "Sorrento Fluted Column Round Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "round-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Circular 54-inch dining table with architectural fluted tambour wood pedestal base.",
     "description": "Circular 54-inch dining table with architectural fluted tambour wood pedestal base. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 65000,
@@ -2026,7 +1814,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -2034,8 +1822,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "round-dining-tables-02",
     "slug": "round-dining-tables-prestige-02",
     "name": "Positano Sculptural Conical Dining Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "round-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Dramatic conical base with round top fostering fluid dining flow in open-concept residences.",
     "description": "Dramatic conical base with round top fostering fluid dining flow in open-concept residences. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 59000,
@@ -2063,7 +1851,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -2086,8 +1874,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "extendable-dining-tables-01",
     "slug": "extendable-dining-tables-signature-01",
     "name": "Genova Synchronized Extension Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "extendable-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Concealed butterfly leaf folds out from 6 seats to 8 seats in seconds with smooth German ball-bearing glides.",
     "description": "Concealed butterfly leaf folds out from 6 seats to 8 seats in seconds with smooth German ball-bearing glides. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 78000,
@@ -2131,7 +1919,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -2139,8 +1927,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "extendable-dining-tables-02",
     "slug": "extendable-dining-tables-prestige-02",
     "name": "Bari Pull-Out Telescopic Dining Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "extendable-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Telescopic slide system with self-storing leaves, ideal for entertaining in Mumbai apartments.",
     "description": "Telescopic slide system with self-storing leaves, ideal for entertaining in Mumbai apartments. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 74000,
@@ -2168,7 +1956,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -2191,8 +1979,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "marble-dining-tables-01",
     "slug": "marble-dining-tables-signature-01",
     "name": "Statuario Marble Monolith Dining Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "marble-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Genuine 20mm Italian Statuario marble slab with beveled edge on sculptural fluted wooden pedestals.",
     "description": "Genuine 20mm Italian Statuario marble slab with beveled edge on sculptural fluted wooden pedestals. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 120000,
@@ -2236,7 +2024,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -2244,8 +2032,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "marble-dining-tables-02",
     "slug": "marble-dining-tables-prestige-02",
     "name": "Marquina Black Marble Round Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "marble-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Striking black Marquina marble with crisp white veining paired with a brushed bronze base.",
     "description": "Striking black Marquina marble with crisp white veining paired with a brushed bronze base. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 98000,
@@ -2273,7 +2061,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -2296,8 +2084,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "wooden-dining-tables-01",
     "slug": "wooden-dining-tables-signature-01",
     "name": "Heritage Solid Burma Teak Dining Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "wooden-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Handcrafted from seasoned 100% genuine Burma teak planks with natural organic wood character.",
     "description": "Handcrafted from seasoned 100% genuine Burma teak planks with natural organic wood character. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 85000,
@@ -2340,7 +2128,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -2348,8 +2136,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "wooden-dining-tables-02",
     "slug": "wooden-dining-tables-prestige-02",
     "name": "Nordic Oak Plank Dining Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "wooden-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Pale white American oak dining table with live edge inspired soft chamfering and exposed through-tenons.",
     "description": "Pale white American oak dining table with live edge inspired soft chamfering and exposed through-tenons. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 79000,
@@ -2377,7 +2165,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -2400,8 +2188,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "modern-dining-tables-01",
     "slug": "modern-dining-tables-signature-01",
     "name": "Aero Minimalist Floating Top Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "modern-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Ultra-slim 18mm chamfered top supported by architectural charcoal powder-coated steel blade legs.",
     "description": "Ultra-slim 18mm chamfered top supported by architectural charcoal powder-coated steel blade legs. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 64000,
@@ -2445,7 +2233,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -2453,8 +2241,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "modern-dining-tables-02",
     "slug": "modern-dining-tables-prestige-02",
     "name": "Linear Geometric Silhouette Table",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "modern-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Architectural angled cross-beam base designed for contemporary Mumbai penthouses.",
     "description": "Architectural angled cross-beam base designed for contemporary Mumbai penthouses. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 68000,
@@ -2482,7 +2270,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -2505,8 +2293,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "custom-dining-tables-01",
     "slug": "custom-dining-tables-signature-01",
     "name": "Custom Bespoke Stone & Timber Ensemble",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "custom-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Custom fabricated to exact customer specifications with imported stone slab and factory carpentry.",
     "description": "Custom fabricated to exact customer specifications with imported stone slab and factory carpentry. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 130000,
@@ -2549,7 +2337,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -2557,8 +2345,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "custom-dining-tables-02",
     "slug": "custom-dining-tables-prestige-02",
     "name": "Architectural Feast Table Commission",
-    "categorySlug": "dining-tables",
-    "subcategorySlug": "custom-dining-tables",
+    "categorySlug": "tables",
+    "subcategorySlug": "dining-tables",
     "shortDescription": "Exclusive commission built with personalized family dimensions, built-in cutlery drawer, and lazy susan.",
     "description": "Exclusive commission built with personalized family dimensions, built-in cutlery drawer, and lazy susan. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 155000,
@@ -2587,7 +2375,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -2610,8 +2398,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "king-size-beds-01",
     "slug": "king-size-beds-signature-01",
     "name": "Veneto Grand King Architectural Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "king-size-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Commanding master suite bed with extended wingback headboard and integrated floating bedside ledges.",
     "description": "Commanding master suite bed with extended wingback headboard and integrated floating bedside ledges. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 92000,
@@ -2655,7 +2443,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -2663,8 +2451,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "king-size-beds-02",
     "slug": "king-size-beds-prestige-02",
     "name": "Cortina Low-Profile King Platform Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "king-size-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Japanese-inspired minimalist master bed with wrap-around wide wooden ledge frame.",
     "description": "Japanese-inspired minimalist master bed with wrap-around wide wooden ledge frame. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 84000,
@@ -2693,7 +2481,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -2716,8 +2504,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "queen-size-beds-01",
     "slug": "queen-size-beds-signature-01",
     "name": "Amalfi Contemporary Queen Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "queen-size-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Elegantly proportioned queen bed with slim padded headboard and rounded solid wood corner posts.",
     "description": "Elegantly proportioned queen bed with slim padded headboard and rounded solid wood corner posts. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 72000,
@@ -2761,7 +2549,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -2769,8 +2557,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "queen-size-beds-02",
     "slug": "queen-size-beds-prestige-02",
     "name": "Ravello Floating Queen Bedframe",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "queen-size-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Recessed base creates an enchanting floating appearance with gentle under-bed ambient glow channel.",
     "description": "Recessed base creates an enchanting floating appearance with gentle under-bed ambient glow channel. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 68000,
@@ -2799,7 +2587,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -2822,8 +2610,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "double-beds-01",
     "slug": "double-beds-signature-01",
     "name": "Ancona Compact Guest Double Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "double-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Smart space-saving double bed with streamlined vertical fluted headboard.",
     "description": "Smart space-saving double bed with streamlined vertical fluted headboard. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 56000,
@@ -2838,7 +2626,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "dimensions": "58\" W x 80\" L x 42\" H",
     "materials": [
       "Solid Ash Wood",
-      "Bouclé Fabric",
+      "Boucl\u00e9 Fabric",
       "Heavy-Duty Slats"
     ],
     "finish": "Hand-Rubbed Satin PU Seal",
@@ -2867,7 +2655,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -2875,8 +2663,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "double-beds-02",
     "slug": "double-beds-prestige-02",
     "name": "Parma Minimalist Studio Double Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "double-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Clean unadorned double bed frame with solid timber headboard and high under-bed clearance.",
     "description": "Clean unadorned double bed frame with solid timber headboard and high under-bed clearance. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 52000,
@@ -2904,7 +2692,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -2927,8 +2715,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "storage-beds-01",
     "slug": "storage-beds-signature-01",
     "name": "Treviso Quad-Drawer Storage Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "storage-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Four deep silent soft-close drawers integrated seamlessly into the base sides for dust-free storage.",
     "description": "Four deep silent soft-close drawers integrated seamlessly into the base sides for dust-free storage. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 86000,
@@ -2972,7 +2760,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -2980,8 +2768,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "storage-beds-02",
     "slug": "storage-beds-prestige-02",
     "name": "Padua Dual-Zone Divided Storage Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "storage-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Combination of front pullout drawers and rear top-lift storage bins for seasonal luggage.",
     "description": "Combination of front pullout drawers and rear top-lift storage bins for seasonal luggage. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 82000,
@@ -3009,7 +2797,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -3032,8 +2820,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "hydraulic-storage-beds-01",
     "slug": "hydraulic-storage-beds-signature-01",
     "name": "Milano Easy-Lift Hydraulic Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "hydraulic-storage-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "German gas-lift pistons raise the heaviest memory foam mattresses smoothly to reveal 800+ liters of storage.",
     "description": "German gas-lift pistons raise the heaviest memory foam mattresses smoothly to reveal 800+ liters of storage. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 96000,
@@ -3077,7 +2865,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -3085,8 +2873,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "hydraulic-storage-beds-02",
     "slug": "hydraulic-storage-beds-prestige-02",
     "name": "Monza Steel-Frame Hydraulic Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "hydraulic-storage-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Heavy-gauge tubular steel lifting frame with wooden slats, designed for decades of daily smooth lifts.",
     "description": "Heavy-gauge tubular steel lifting frame with wooden slats, designed for decades of daily smooth lifts. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 91000,
@@ -3115,7 +2903,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -3138,8 +2926,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "upholstered-beds-01",
     "slug": "upholstered-beds-signature-01",
     "name": "Florence Fluted Channel Upholstered Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "upholstered-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Vertical channel-tufted grand headboard extending to floor with wrapped plush siderails.",
     "description": "Vertical channel-tufted grand headboard extending to floor with wrapped plush siderails. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 88000,
@@ -3183,7 +2971,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -3191,8 +2979,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "upholstered-beds-02",
     "slug": "upholstered-beds-prestige-02",
     "name": "Siena Curved Pillowback Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "upholstered-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Organic curved headboard with two oversized inset down pillows for supreme late-night reading comfort.",
     "description": "Organic curved headboard with two oversized inset down pillows for supreme late-night reading comfort. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 94000,
@@ -3207,7 +2995,7 @@ export const furnitureProducts: FurnitureProduct[] = [
     "dimensions": "78\" W x 88\" L x 46\" H",
     "materials": [
       "Feather-Topped Headrest Cushions",
-      "Woven Bouclé",
+      "Woven Boucl\u00e9",
       "Teak Feet"
     ],
     "finish": "Natural Matte Hardwax / PU",
@@ -3221,7 +3009,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -3244,8 +3032,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "platform-beds-01",
     "slug": "platform-beds-signature-01",
     "name": "Kyoto-Milano Low Platform Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "platform-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Low-profile architectural platform bed with wide perimeter wooden frame and recessed base.",
     "description": "Low-profile architectural platform bed with wide perimeter wooden frame and recessed base. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 76000,
@@ -3288,7 +3076,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -3296,8 +3084,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "platform-beds-02",
     "slug": "platform-beds-prestige-02",
     "name": "Zenith Floating Slat Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "platform-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Minimalist floating aesthetic with integrated headboard reading lights and phone charging alcove.",
     "description": "Minimalist floating aesthetic with integrated headboard reading lights and phone charging alcove. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 79000,
@@ -3325,7 +3113,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -3348,8 +3136,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "wooden-beds-01",
     "slug": "wooden-beds-signature-01",
     "name": "Royal Burma Teak Heirloom Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "wooden-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Solid 100% Burma teak timber with hand-planed headboard panels that highlight rich natural oil grain.",
     "description": "Solid 100% Burma teak timber with hand-planed headboard panels that highlight rich natural oil grain. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 98000,
@@ -3392,7 +3180,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -3400,8 +3188,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "wooden-beds-02",
     "slug": "wooden-beds-prestige-02",
     "name": "Verona Spindle Headboard Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "wooden-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Classic Scandinavian spindle turned wood headboard with gently tapered circular bed posts.",
     "description": "Classic Scandinavian spindle turned wood headboard with gently tapered circular bed posts. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 75000,
@@ -3429,7 +3217,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -3452,8 +3240,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "modern-beds-01",
     "slug": "modern-beds-signature-01",
     "name": "Lumina Architectural Headboard Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "modern-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Full-wall headboard panel system with fluted acoustic wood slats and brushed gold metal accents.",
     "description": "Full-wall headboard panel system with fluted acoustic wood slats and brushed gold metal accents. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 115000,
@@ -3497,7 +3285,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -3505,8 +3293,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "modern-beds-02",
     "slug": "modern-beds-prestige-02",
     "name": "Sphere Minimalist Bedroom Suite Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "modern-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Soft pill-shaped rounded corner frame designed to prevent shin bumps in compact master bedrooms.",
     "description": "Soft pill-shaped rounded corner frame designed to prevent shin bumps in compact master bedrooms. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 82000,
@@ -3534,7 +3322,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -3557,8 +3345,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "custom-beds-01",
     "slug": "custom-beds-signature-01",
     "name": "Atelier Bespoke Master Suite Bed Commission",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "custom-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Custom drafted to match room electrical points, wall panelling, and exact client mattress thickness.",
     "description": "Custom drafted to match room electrical points, wall panelling, and exact client mattress thickness. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 135000,
@@ -3601,7 +3389,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -3609,8 +3397,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "custom-beds-02",
     "slug": "custom-beds-prestige-02",
     "name": "Palatial Extended Wingback Custom Bed",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "custom-beds",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "beds",
     "shortDescription": "Expansive custom headboard wall covering with custom reading spotlights and built-in bedside storage.",
     "description": "Expansive custom headboard wall covering with custom reading spotlights and built-in bedside storage. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 160000,
@@ -3639,7 +3427,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -3662,8 +3450,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "bedside-tables-01",
     "slug": "bedside-tables-signature-01",
     "name": "Modena Fluted Dual-Drawer Nightstand",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "bedside-tables",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "side-tables",
     "shortDescription": "Sophisticated bedside table featuring fluted drawer fronts and soft-closing concealed Blum runners.",
     "description": "Sophisticated bedside table featuring fluted drawer fronts and soft-closing concealed Blum runners. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 24000,
@@ -3707,7 +3495,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -3715,8 +3503,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "bedside-tables-02",
     "slug": "bedside-tables-prestige-02",
     "name": "Siena Floating Bedside Console",
-    "categorySlug": "beds-bedroom",
-    "subcategorySlug": "bedside-tables",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "side-tables",
     "shortDescription": "Wall-hung bedside console with wireless phone charging surface and warm downlight illumination.",
     "description": "Wall-hung bedside console with wireless phone charging surface and warm downlight illumination. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 21000,
@@ -3744,7 +3532,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -3767,8 +3555,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "wall-mounted-tv-units-01",
     "slug": "wall-mounted-tv-units-signature-01",
     "name": "Aero Floating Wall-Mounted TV Console",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "wall-mounted-tv-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "wall-unit",
     "shortDescription": "Suspended entertainment console with flip-down acoustic cloth doors and hidden soundbar niche.",
     "description": "Suspended entertainment console with flip-down acoustic cloth doors and hidden soundbar niche. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 48000,
@@ -3812,7 +3600,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -3820,8 +3608,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "wall-mounted-tv-units-02",
     "slug": "wall-mounted-tv-units-prestige-02",
     "name": "Lumina Backlit Wall Entertainment Panel",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "wall-mounted-tv-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "wall-unit",
     "shortDescription": "Full feature wall with fluted wood acoustic panels and floating credenza with warm LED perimeter halo.",
     "description": "Full feature wall with fluted wood acoustic panels and floating credenza with warm LED perimeter halo. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 78000,
@@ -3850,7 +3638,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -3873,8 +3661,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "floor-standing-tv-units-01",
     "slug": "floor-standing-tv-units-signature-01",
     "name": "Verona Fluted Low-Profile TV Credenza",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "floor-standing-tv-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "tv-base-unit",
     "shortDescription": "Ground-standing TV console with continuous fluted tambours and bronze wire mesh ventilation vents.",
     "description": "Ground-standing TV console with continuous fluted tambours and bronze wire mesh ventilation vents. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 56000,
@@ -3918,7 +3706,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -3926,8 +3714,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "floor-standing-tv-units-02",
     "slug": "floor-standing-tv-units-prestige-02",
     "name": "Modena Mid-Century Media Sideboard",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "floor-standing-tv-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "tv-base-unit",
     "shortDescription": "Substantial living room TV bench on tapered round timber legs with sliding slatted wooden doors.",
     "description": "Substantial living room TV bench on tapered round timber legs with sliding slatted wooden doors. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 52000,
@@ -3955,7 +3743,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -3978,8 +3766,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "tv-units-with-storage-01",
     "slug": "tv-units-with-storage-signature-01",
     "name": "Milano High-Capacity Media Center",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "tv-units-with-storage",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "tv-base-unit",
     "shortDescription": "Integrated entertainment wall system with enclosed storage towers, book display nooks, and soundbar recess.",
     "description": "Integrated entertainment wall system with enclosed storage towers, book display nooks, and soundbar recess. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 85000,
@@ -4023,7 +3811,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -4031,8 +3819,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "tv-units-with-storage-02",
     "slug": "tv-units-with-storage-prestige-02",
     "name": "Caserta Modular Media Wall Unit",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "tv-units-with-storage",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "tv-base-unit",
     "shortDescription": "Custom configurable base drawers with overhead floating box display vitrines.",
     "description": "Custom configurable base drawers with overhead floating box display vitrines. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 72000,
@@ -4060,7 +3848,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -4083,8 +3871,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "minimal-tv-units-01",
     "slug": "minimal-tv-units-signature-01",
     "name": "Linear Monolith Minimal TV Console",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "minimal-tv-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "tv-base-unit",
     "shortDescription": "Handle-free minimalist floating media shelf with mitred 45-degree waterfall edge joinery.",
     "description": "Handle-free minimalist floating media shelf with mitred 45-degree waterfall edge joinery. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 38000,
@@ -4128,7 +3916,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -4136,8 +3924,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "minimal-tv-units-02",
     "slug": "minimal-tv-units-prestige-02",
     "name": "Zenith Shadowline TV Bench",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "minimal-tv-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "tv-base-unit",
     "shortDescription": "Crisp shadowline border detail with concealed downward-facing cable management channels.",
     "description": "Crisp shadowline border detail with concealed downward-facing cable management channels. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 42000,
@@ -4165,7 +3953,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -4188,8 +3976,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "modern-tv-units-01",
     "slug": "modern-tv-units-signature-01",
     "name": "Prisma Asymmetric Architectural Media Unit",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "modern-tv-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "tv-base-unit",
     "shortDescription": "Off-center balanced composition featuring open marble accent shelf and contrasting dark wood cabinets.",
     "description": "Off-center balanced composition featuring open marble accent shelf and contrasting dark wood cabinets. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 62000,
@@ -4233,7 +4021,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -4241,8 +4029,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "modern-tv-units-02",
     "slug": "modern-tv-units-prestige-02",
     "name": "Contour Rounded Edge Modern TV Stand",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "modern-tv-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "tv-base-unit",
     "shortDescription": "Soft curved outer corners with slatted wood detailing, perfect for homes with toddlers.",
     "description": "Soft curved outer corners with slatted wood detailing, perfect for homes with toddlers. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 58000,
@@ -4270,7 +4058,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -4293,8 +4081,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "designer-tv-units-01",
     "slug": "designer-tv-units-signature-01",
     "name": "Bellagio Luxury Marble-Top Media Console",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "designer-tv-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "tv-base-unit",
     "shortDescription": "Exquisite honed Calacatta gold marble top resting on a fluted dark walnut curved credenza.",
     "description": "Exquisite honed Calacatta gold marble top resting on a fluted dark walnut curved credenza. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 95000,
@@ -4338,7 +4126,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -4346,8 +4134,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "designer-tv-units-02",
     "slug": "designer-tv-units-prestige-02",
     "name": "Venezia Art-Deco Entertainment Vitrine",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "designer-tv-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "tv-base-unit",
     "shortDescription": "Opulent media station with fluted ribbed glass cabinet doors and internal warm shelf backlighting.",
     "description": "Opulent media station with fluted ribbed glass cabinet doors and internal warm shelf backlighting. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 88000,
@@ -4376,7 +4164,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -4399,8 +4187,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "custom-tv-units-01",
     "slug": "custom-tv-units-signature-01",
     "name": "Architectural Elevation Custom TV Wall",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "custom-tv-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "tv-base-unit",
     "shortDescription": "Full room height architectural wall panel with hidden AV equipment raceways and built-in display alcoves.",
     "description": "Full room height architectural wall panel with hidden AV equipment raceways and built-in display alcoves. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 120000,
@@ -4443,7 +4231,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -4451,8 +4239,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "custom-tv-units-02",
     "slug": "custom-tv-units-prestige-02",
     "name": "Acoustic Slat Theater Entertainment Center",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "custom-tv-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "tv-base-unit",
     "shortDescription": "Precision acoustically treated wall panelling with integrated motorized drop-down projector screen cavity.",
     "description": "Precision acoustically treated wall panelling with integrated motorized drop-down projector screen cavity. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 140000,
@@ -4480,7 +4268,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -4503,8 +4291,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "sliding-door-wardrobes-01",
     "slug": "sliding-door-wardrobes-signature-01",
     "name": "Milano Top-Hung Dual Sliding Wardrobe",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "sliding-door-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Heavy-duty German top-hung sliding doors with bottom trackless design for easy sweeping.",
     "description": "Heavy-duty German top-hung sliding doors with bottom trackless design for easy sweeping. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 110000,
@@ -4548,7 +4336,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -4556,8 +4344,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "sliding-door-wardrobes-02",
     "slug": "sliding-door-wardrobes-prestige-02",
     "name": "Nordic Floor-to-Ceiling Sliding Closet",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "sliding-door-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Triple sliding doors with frosted mirror insert strips and customized internal organizer drawers.",
     "description": "Triple sliding doors with frosted mirror insert strips and customized internal organizer drawers. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 135000,
@@ -4586,7 +4374,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -4609,8 +4397,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "hinged-door-wardrobes-01",
     "slug": "hinged-door-wardrobes-signature-01",
     "name": "Verona Classic 4-Door Hinged Wardrobe",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "hinged-door-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Floor-to-ceiling four-leaf swing wardrobe with full-height continuous edge-profile wooden pull handles.",
     "description": "Floor-to-ceiling four-leaf swing wardrobe with full-height continuous edge-profile wooden pull handles. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 95000,
@@ -4654,7 +4442,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -4662,8 +4450,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "hinged-door-wardrobes-02",
     "slug": "hinged-door-wardrobes-prestige-02",
     "name": "Tuscan Beveled Shaker 3-Door Wardrobe",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "hinged-door-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Subtle contemporary shaker door profile with interior valet pullout rod and jewelry organizer tray.",
     "description": "Subtle contemporary shaker door profile with interior valet pullout rod and jewelry organizer tray. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 78000,
@@ -4691,7 +4479,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -4714,8 +4502,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "walk-in-wardrobes-01",
     "slug": "walk-in-wardrobes-signature-01",
     "name": "Beverly Master Suite Walk-In Dressing Room",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "walk-in-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Opulent dressing suite with island accessories credenza, glass-topped drawers, and perimeter warm LED glow.",
     "description": "Opulent dressing suite with island accessories credenza, glass-topped drawers, and perimeter warm LED glow. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 220000,
@@ -4759,7 +4547,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -4767,8 +4555,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "walk-in-wardrobes-02",
     "slug": "walk-in-wardrobes-prestige-02",
     "name": "Linear Open-Bay Dressing Wardrobe",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "walk-in-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Sleek Italian open-frame system with powder-coated aluminum uprights and adjustable solid oak shelves.",
     "description": "Sleek Italian open-frame system with powder-coated aluminum uprights and adjustable solid oak shelves. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 165000,
@@ -4796,7 +4584,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -4819,8 +4607,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "glass-door-wardrobes-01",
     "slug": "glass-door-wardrobes-signature-01",
     "name": "Luxe Smoked Glass & Aluminum Wardrobe",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "glass-door-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Ultra-slim anodized bronze frames with tempered smoked glass doors and automated proximity sensor lights.",
     "description": "Ultra-slim anodized bronze frames with tempered smoked glass doors and automated proximity sensor lights. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 145000,
@@ -4864,7 +4652,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -4872,8 +4660,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "glass-door-wardrobes-02",
     "slug": "glass-door-wardrobes-prestige-02",
     "name": "Reeded Fluted Glass Boutique Wardrobe",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "glass-door-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Obscure fluted glass panels that softly diffuse clothing silhouettes while maintaining boutique luxury.",
     "description": "Obscure fluted glass panels that softly diffuse clothing silhouettes while maintaining boutique luxury. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 135000,
@@ -4901,7 +4689,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -4924,8 +4712,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "modular-wardrobes-01",
     "slug": "modular-wardrobes-signature-01",
     "name": "Adaptiv 6-Bay Modular Storage System",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "modular-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Interchangeable wardrobe modules that can be dismantled and reassembled if shifting homes in Mumbai.",
     "description": "Interchangeable wardrobe modules that can be dismantled and reassembled if shifting homes in Mumbai. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 115000,
@@ -4968,7 +4756,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -4976,8 +4764,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "modular-wardrobes-02",
     "slug": "modular-wardrobes-prestige-02",
     "name": "Flexi-Space Corner Modular Wardrobe",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "modular-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "L-shaped corner module optimizing awkward bedroom dead space with 180-degree folding corner doors.",
     "description": "L-shaped corner module optimizing awkward bedroom dead space with 180-degree folding corner doors. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 105000,
@@ -5005,7 +4793,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -5028,8 +4816,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "bedroom-wardrobes-01",
     "slug": "bedroom-wardrobes-signature-01",
     "name": "Sanctuary Master Bedroom Wardrobe with Vanity",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "bedroom-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Full bedroom wall solution integrating floor-to-ceiling closets with an inset lighted dressing table niche.",
     "description": "Full bedroom wall solution integrating floor-to-ceiling closets with an inset lighted dressing table niche. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 125000,
@@ -5073,7 +4861,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -5081,8 +4869,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "bedroom-wardrobes-02",
     "slug": "bedroom-wardrobes-prestige-02",
     "name": "Loft-Optimized Dual Wardrobe Suite",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "bedroom-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Two-tier storage with top overhead winter quilt lofts and everyday eye-level hanging wardrobes.",
     "description": "Two-tier storage with top overhead winter quilt lofts and everyday eye-level hanging wardrobes. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 98000,
@@ -5110,7 +4898,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -5133,8 +4921,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "custom-wardrobes-01",
     "slug": "custom-wardrobes-signature-01",
     "name": "Atelier Bespoke Handcrafted Wardrobe Suite",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "custom-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Built to precision CAD drawings with client chosen wood species, customized partitions, and lock boxes.",
     "description": "Built to precision CAD drawings with client chosen wood species, customized partitions, and lock boxes. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 175000,
@@ -5177,7 +4965,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -5185,8 +4973,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "custom-wardrobes-02",
     "slug": "custom-wardrobes-prestige-02",
     "name": "Heritage Teak Double-Height Custom Wardrobe",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "custom-wardrobes",
+    "categorySlug": "bedroom-sets",
+    "subcategorySlug": "wardrobes",
     "shortDescription": "Bespoke grand storage built with seasoned solid Burma teak louvers and concealed digital safe compartment.",
     "description": "Bespoke grand storage built with seasoned solid Burma teak louvers and concealed digital safe compartment. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 195000,
@@ -5214,7 +5002,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -5237,8 +5025,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "sideboards-consoles-01",
     "slug": "sideboards-consoles-signature-01",
     "name": "Aura Fluted Dining Room Credenza",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "sideboards-consoles",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "sideboards-and-accent-cabinets",
     "shortDescription": "Architectural credenza with sweeping curved end profiles, vertical wood fluting, and hidden cutlery drawers.",
     "description": "Architectural credenza with sweeping curved end profiles, vertical wood fluting, and hidden cutlery drawers. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 58000,
@@ -5289,11 +5077,11 @@ export const furnitureProducts: FurnitureProduct[] = [
   {
     "id": "sideboards-consoles-02",
     "slug": "sideboards-consoles-prestige-02",
-    "name": "Elysian Entryway Console Table",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "sideboards-consoles",
-    "shortDescription": "Slender architectural foyer console featuring a beveled marble top and sculptural arched timber base.",
-    "description": "Slender architectural foyer console featuring a beveled marble top and sculptural arched timber base. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
+    "name": "Elysian Fluted Accent Cabinet",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "sideboards-and-accent-cabinets",
+    "shortDescription": "Slender architectural accent cabinet featuring a beveled marble top and sculptural arched timber base.",
+    "description": "Slender architectural accent cabinet featuring a beveled marble top and sculptural arched timber base. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 38000,
     "originalPrice": 42560,
     "discountPercent": 10,
@@ -5319,7 +5107,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -5342,8 +5130,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "storage-cabinets-01",
     "slug": "storage-cabinets-signature-01",
     "name": "Bordeaux Bar & Crockery Cabinet",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "storage-cabinets",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "crockery-units",
     "shortDescription": "Stately multi-tiered storage cabinet with integrated wine rack, stemware hanging rails, and pull-out prep tray.",
     "description": "Stately multi-tiered storage cabinet with integrated wine rack, stemware hanging rails, and pull-out prep tray. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 68000,
@@ -5387,7 +5175,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -5395,8 +5183,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "storage-cabinets-02",
     "slug": "storage-cabinets-prestige-02",
     "name": "Nordic Multi-Tier Linen Cupboard",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "storage-cabinets",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "crockery-units",
     "shortDescription": "Clean tall storage cupboard with adjustable shelves, ideal for dining linen or bedroom utility storage.",
     "description": "Clean tall storage cupboard with adjustable shelves, ideal for dining linen or bedroom utility storage. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 48000,
@@ -5424,7 +5212,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -5447,8 +5235,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "display-units-01",
     "slug": "display-units-signature-01",
     "name": "Galerie Illuminated Curio Vitrine",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "display-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "crockery-units",
     "shortDescription": "Boutique glass display showcase with ultra-slim black metal frame and warm recessed spotlighting on each tier.",
     "description": "Boutique glass display showcase with ultra-slim black metal frame and warm recessed spotlighting on each tier. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 62000,
@@ -5492,7 +5280,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -5500,8 +5288,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "display-units-02",
     "slug": "display-units-prestige-02",
     "name": "Architectural Room-Divider Bookcase",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "display-units",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "crockery-units",
     "shortDescription": "Open double-sided geometric shelf system that subtly divides living and dining areas without blocking light.",
     "description": "Open double-sided geometric shelf system that subtly divides living and dining areas without blocking light. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 54000,
@@ -5529,7 +5317,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -5552,8 +5340,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "custom-storage-01",
     "slug": "custom-storage-signature-01",
     "name": "Bespoke Alcove Library & Storage Wall",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "custom-storage",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "bar-units",
     "shortDescription": "Custom fitted cabinetry drafted to fill structural wall alcoves with base credenzas and open ceiling-height shelves.",
     "description": "Custom fitted cabinetry drafted to fill structural wall alcoves with base credenzas and open ceiling-height shelves. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
     "price": 110000,
@@ -5596,7 +5384,7 @@ export const furnitureProducts: FurnitureProduct[] = [
       },
       {
         "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, bouclés, and leather samples at our Santacruz showroom."
+        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
       }
     ]
   },
@@ -5604,8 +5392,8 @@ export const furnitureProducts: FurnitureProduct[] = [
     "id": "custom-storage-02",
     "slug": "custom-storage-prestige-02",
     "name": "Foyer Shoe & Coat Architectural Credenza",
-    "categorySlug": "living-storage",
-    "subcategorySlug": "custom-storage",
+    "categorySlug": "living-room-storage",
+    "subcategorySlug": "bar-units",
     "shortDescription": "Custom entryway millwork with ventilated shoe racks, key catchall drawers, and full-length dressing mirror.",
     "description": "Custom entryway millwork with ventilated shoe racks, key catchall drawers, and full-length dressing mirror. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
     "price": 75000,
@@ -5633,7 +5421,7 @@ export const furnitureProducts: FurnitureProduct[] = [
         "hex": "#C2B280"
       },
       {
-        "name": "Mocha Bouclé",
+        "name": "Mocha Boucl\u00e9",
         "hex": "#795548"
       }
     ],
@@ -5803,46 +5591,74 @@ export const editorialGuides: Record<string, EditorialArticle> = {
       'Consider L-shapes to anchor open-plan living rooms without requiring partition walls.'
     ]
   },
-  'dining-tables': {
-    categorySlug: 'dining-tables',
-    title: 'Creating Spaces for Shared Memories',
-    subtitle: 'A guide to selecting dining table shapes, seating clearance, and tabletop materials',
+  'chairs-seating': {
+    categorySlug: 'chairs-seating',
+    title: 'Ergonomic Poise & Accent Living',
+    subtitle: 'Choosing dining chairs, coffee accent chairs, rocking seats, and pouffes',
     paragraphs: [
-      'The dining table is more than a place for meals; it is where families gather, conversations unfold, and celebrations take shape.',
+      'Accent seating adds character, color, and versatile functionality to any interior. From formal dining chairs to relaxed reading seats and mobile puffies, proportion and posture are paramount.',
+      'Every chair is crafted with hand-mortised joinery, durable high-rub fabrics, and ergonomic lumbar curves.'
+    ],
+    tips: [
+      'Ensure dining chair seat heights are 12 inches below table heights for optimal posture.',
+      'Use versatile puffies for mobile seating during family gatherings.',
+      'Place rocking chairs near natural light sources to create a dedicated reading sanctuary.'
+    ]
+  },
+  tables: {
+    categorySlug: 'tables',
+    title: 'Creating Spaces for Shared Memories & Fine Living',
+    subtitle: 'A guide to dining tables, centre tables, and coffee tables',
+    paragraphs: [
+      'Tables anchor human interaction. Whether it is a grand family dining table, a sculptural centre table, or a morning coffee table, finish and materiality matter.',
       'Whether you choose solid Burma teak or sealed Italian Statuario marble, each piece is engineered with ergonomic knee clearance and durable hand-applied seals.'
     ],
     tips: [
-      'Plan 36 inches between the table edge and walls to allow chairs to slide out comfortably.',
-      'Round dining tables facilitate effortless conversation and fluid room movement.',
-      'For compact dining nooks, explore central pedestal bases that provide legroom on all sides.'
+      'Plan 36 inches between dining table edges and walls to allow chairs to slide out comfortably.',
+      'Choose dual-tier centre tables for concealed magazine and remote storage.',
+      'Pair centre tables with matching low-profile nested occasional pieces for flexible entertaining.'
     ]
   },
-  'beds-bedroom': {
-    categorySlug: 'beds-bedroom',
-    title: 'Designing Your Personal Sanctuary',
-    subtitle: 'Master suite bed proportions, noise-free joinery, and concealed hydraulic storage',
+  'living-room-storage': {
+    categorySlug: 'living-room-storage',
+    title: 'Effortless Order & Architectural Media Joinery',
+    subtitle: 'From floating media wall units and TV base consoles to crockery and bar cabinets',
     paragraphs: [
-      'A great bed balances architectural presence with tranquil comfort. In Mumbai residences where floor space is valuable, our hydraulic lift-up mechanisms unlock massive dust-free storage underneath without compromising aesthetics.',
-      'Solid timber frames with precision mortise-and-tenon joints eliminate nocturnal creaking and support luxury pocket-spring mattresses with ease.'
-    ],
-    tips: [
-      'Maintain at least 24 inches on both sides of a king or queen bed for side tables and movement.',
-      'Upholstered fluted headboards add acoustic dampening and sumptuous late-night reading comfort.',
-      'Opt for gas-lift hydraulic storage to access underbed luggage with effortless fingertip action.'
-    ]
-  },
-  'living-storage': {
-    categorySlug: 'living-storage',
-    title: 'Effortless Order & Architectural Joinery',
-    subtitle: 'From floating media walls to bespoke floor-to-ceiling wardrobes',
-    paragraphs: [
-      'Intelligent storage transforms living rooms and bedrooms from cluttered spaces into calm architectural retreats.',
-      'Our factory specializes in custom wardrobe joinery, acoustically treated TV panels, and fluted credenzas built to your exact wall elevations.'
+      'Intelligent living room storage transforms rooms from cluttered spaces into calm architectural retreats.',
+      'Our factory specializes in low-profile TV base units, acoustically treated wall units, ambient crockery vitrines, and custom dry bar units built to your exact wall elevations.'
     ],
     tips: [
       'Wall-mounted floating media consoles create visual lightness and simplify floor cleaning.',
-      'Top-hung sliding wardrobe doors save valuable swing space in compact bedrooms.',
-      'Incorporate integrated warm LED lighting inside wardrobes and display vitrines for luxurious evening ambiance.'
+      'Conceal all audio-visual cables inside pre-routed wall raceways.',
+      'Incorporate integrated warm 3000K LED lighting inside crockery and bar cabinets.'
+    ]
+  },
+  'bedroom-sets': {
+    categorySlug: 'bedroom-sets',
+    title: 'Designing Your Personal Sanctuary',
+    subtitle: 'Master beds, floor-to-ceiling wardrobes, bedside tables, and vanity dressers',
+    paragraphs: [
+      'A great bedroom balances architectural stillness with tranquil comfort. In Mumbai residences where floor space is valuable, our hydraulic lift-up mechanisms unlock massive dust-free storage underneath without compromising aesthetics.',
+      'Solid timber frames with precision mortise-and-tenon joints eliminate nocturnal creaking and support luxury pocket-spring mattresses with ease.'
+    ],
+    tips: [
+      'Maintain at least 24 inches on both sides of a bed for side tables and free movement.',
+      'Upholstered fluted headboards add acoustic dampening and sumptuous comfort.',
+      'Floor-to-ceiling sliding wardrobe doors save valuable swing space in compact bedrooms.'
+    ]
+  },
+  kitchens: {
+    categorySlug: 'kitchens',
+    title: 'Ergonomic Kitchen Engineering',
+    subtitle: 'Bespoke modular kitchens and custom culinary spaces designed for Mumbai homes',
+    paragraphs: [
+      'The modern kitchen is a high-performance workspace demanding moisture resistance, heat tolerance, and fluid workflow.',
+      'We build cabinetry with boiling-water-proof (BWP) marine ply, anti-scratch acrylics, and heavy-duty German drawer runners rated for 50kg loads.'
+    ],
+    tips: [
+      'Maintain the classic work triangle between refrigerator, sink, and cooktop.',
+      'Incorporate full-extension pullout tandem boxes instead of deep low shelves.',
+      'Choose seamless quartz or sealed granite countertops for zero oil staining.'
     ]
   }
 };

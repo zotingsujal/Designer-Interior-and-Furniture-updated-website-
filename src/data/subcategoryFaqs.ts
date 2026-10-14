@@ -64,134 +64,165 @@ export const getSubcategoryFaqs = (
   subcategoryName: string,
   categorySlug?: string
 ): FurnitureFAQ[] => {
-  // 1. Dining Tables
-  if (subcategorySlug.includes('dining') || subcategorySlug.includes('table')) {
-    return [
-      {
-        question: `Can I customize the tabletop size, stone slab, or seating capacity for ${subcategoryName}?`,
-        answer: `Absolutely. We custom-build ${subcategoryName} to accommodate anywhere from 4 to 14 diners. You can select solid teak wood tops, imported Italian marble, sintered stone, or fluted timber bases matched to your exact room dimensions.`,
-      },
-      {
-        question: `How do you protect marble and timber surfaces from dining spills and stains?`,
-        answer: `Every marble and stone top receives a penetrating anti-etch nano-sealer, while our timber finishes use heat and liquid-resistant polyurethane (PU) coating that resists wine, turmeric, oil, and water marks during daily family dining.`,
-      },
-      {
-        question: `Can you create matching dining chairs or benches for this collection?`,
-        answer: `Yes. We design and craft coordinated dining chairs, carver armchairs, or cushioned banquette benches matching the exact wood stain, metal accents, and upholstery palette of your ${subcategoryName}.`,
-      },
-      {
-        question: `How is delivery and assembly managed for heavy stone or solid wood dining tables?`,
-        answer: `Our specialized logistics crew brings the tabletop and substructure blanket-wrapped to your residence in Mumbai, assembling the piece on-site and ensuring perfect leveling and floor protectors.`,
-      },
-    ];
-  }
-
-  // 2. Sofas, Sectionals, Couches
+  // 1. Kitchens (Modular Kitchens, Custom Kitchens)
   if (
-    subcategorySlug.includes('sofa') ||
-    subcategorySlug.includes('sectional') ||
-    subcategorySlug.includes('couch') ||
-    subcategorySlug.includes('lounger')
+    subcategorySlug.includes('kitchen') ||
+    categorySlug === 'kitchens'
   ) {
     return [
       {
-        question: `Can the L-sectional chaise orientation and length be customized for ${subcategoryName}?`,
-        answer: `Yes. We configure the sectional as left-hand chaise, right-hand chaise, or symmetrical U-shape according to your living room doorway clearance and window placements.`,
+        question: `What marine-grade materials and shutter finishes are used for ${subcategoryName}?`,
+        answer: `We construct all kitchen carcasses with 100% Boiling Water Proof (BWP/BWR) calibrated marine ply with anti-termite treatment. Shutter options include anti-fingerprint acrylic, high-gloss PU lacquer, scratch-resistant laminates, and fluted glass with slim anodized aluminum profiles.`,
       },
       {
-        question: `What seat cushion densities and backrest fills do you recommend?`,
-        answer: `We offer custom comfort tiers using 32D to 40D high-resilience (HR) foams, topped with pocket spring cores or hypoallergenic microfiber down-wrap for a plush, sink-in feel that retains its shape over years of use.`,
+        question: `Which hardware brands and mechanisms are integrated into your kitchen designs?`,
+        answer: `We engineer our kitchens exclusively with German hardware—including Blum tandem boxes, soft-close hinges, lift-up Aventos flap fittings, and Hettich organizers—engineered to withstand heavy daily cookware loads.`,
       },
       {
-        question: `Which upholstery fabrics work best in Mumbai homes with pets or children?`,
-        answer: `We provide liquid-repellent bouclé, stain-resistant micro-velvets, breathable Belgian linen weaves, and genuine Italian top-grain leathers treated for anti-fungal and moisture resistance.`,
+        question: `Can you customize the kitchen layout for unconventional floor plans and columns?`,
+        answer: `Yes. Because our carpentry is factory-direct in Mumbai, we build bespoke tall pantry units, corner magic carousels, spice pull-outs, and chimney boxings tailored around unusual plumbing stacks or structural pillars.`,
       },
       {
-        question: `Can you customize the sofa frame so it fits through narrow apartment elevators?`,
-        answer: `Yes. For high-rise Mumbai buildings with compact elevators or stairwells, we construct modular split frames with invisible precision joinery that assemble seamlessly inside your living room.`,
+        question: `How long does design, manufacturing, and on-site kitchen installation take?`,
+        answer: `The design and 3D schematic phase takes 3 to 5 days. Precision factory modular fabrication takes approximately 3 to 4 weeks, followed by swift, clean on-site installation completed within 3 to 5 working days.`,
       },
     ];
   }
 
-  // 3. Beds, Headboards, Nightstands
-  if (
-    subcategorySlug.includes('bed') ||
-    subcategorySlug.includes('headboard') ||
-    subcategorySlug.includes('nightstand')
-  ) {
-    return [
-      {
-        question: `Can this bed frame be fabricated for custom mattress thicknesses and sizes?`,
-        answer: `Yes. Whether you have an Indian King (72"x78"), Standard Queen (60"x78"), or an imported bespoke mattress depth (8" to 14"), our carpentry team crafts the frame and headboard reveal to exact tolerances.`,
-      },
-      {
-        question: `What under-bed storage options can be integrated?`,
-        answer: `We offer heavy-duty German hydraulic lift mechanisms for effortless access to the full bed cavity, as well as smooth soft-close drawer pull-outs for spaces where side clearance permits.`,
-      },
-      {
-        question: `Can the headboard include integrated warm LED cove lighting or charging sockets?`,
-        answer: `Yes. We frequently integrate concealed warm LED halo illumination, integrated acoustic wall panels, and flush-mount brass electrical sockets or USB-C charging ports into the headboard back panel.`,
-      },
-      {
-        question: `What solid wood foundation is used for squeak-free longevity?`,
-        answer: `We build structural internal ribs from seasoned solid timber and moisture-proof marine ply, reinforced with interlocking corner brackets to guarantee zero creaking over decades.`,
-      },
-    ];
-  }
-
-  // 4. Wardrobes, Closets, Cabinets
-  if (
-    subcategorySlug.includes('wardrobe') ||
-    subcategorySlug.includes('closet') ||
-    subcategorySlug.includes('cabinet') ||
-    subcategorySlug.includes('storage') ||
-    subcategorySlug.includes('sideboard') ||
-    subcategorySlug.includes('credenza')
-  ) {
-    return [
-      {
-        question: `How are the internal compartments of ${subcategoryName} customized?`,
-        answer: `Every shelf, hanger rod height, jewelry drawer with velvet organizers, watch winder cavity, and shoe pull-out is tailored to your personal wardrobe collection and ceiling height.`,
-      },
-      {
-        question: `What shutter styles and finishes are available?`,
-        answer: `You can choose fluted tinted glass with slim black aluminum profiles, hand-matched natural veneers, matte PU lacquered shutters, or mirror-paneled doors with soft-damped closing mechanisms.`,
-      },
-      {
-        question: `Do you include internal automatic sensor lighting?`,
-        answer: `Yes. We install flush-mounted LED channel lighting with magnetic proximity sensors that illuminate each wardrobe section automatically when doors open.`,
-      },
-      {
-        question: `Are your storage cabinets and wardrobes termite and moisture resistant?`,
-        answer: `Yes. All carcass joinery is fabricated using certified BWR/BWP calibrated marine ply with anti-termite treatment, finished with durable moisture-sealed laminate or veneer backing.`,
-      },
-    ];
-  }
-
-  // 5. Chairs, Benches, Stools
+  // 2. Chairs & Seating (Dining Chairs, Coffee Chairs, Rocking Chairs, Puffies)
   if (
     subcategorySlug.includes('chair') ||
-    subcategorySlug.includes('bench') ||
-    subcategorySlug.includes('stool') ||
-    subcategorySlug.includes('ottoman')
+    subcategorySlug.includes('puffy') ||
+    subcategorySlug.includes('puffies') ||
+    categorySlug === 'chairs-seating'
   ) {
     return [
       {
-        question: `Can the seat height and backrest angle of ${subcategoryName} be adjusted?`,
-        answer: `Yes. We calibrate ergonomic seat height, lumbar curvature, and armrest heights to ensure maximum seating comfort for your body proportions and desk/table heights.`,
+        question: `Can the seat height, cushion firmness, and upholstery of ${subcategoryName} be tailored?`,
+        answer: `Yes. We offer ergonomic calibration for seat height, backrest pitch, and high-resilience foam densities (from plush sink-in 32D to supportive 40D). You can choose from over 300+ performance fabrics, bouclés, linens, and genuine leathers.`,
       },
       {
-        question: `Can I select a custom wood finish to match existing furniture?`,
-        answer: `Yes. Simply bring a wood sample or high-resolution photo to our Santacruz studio, and our polish masters will custom-blend the stain (walnut, dark teak, ebony, natural ash) to match seamlessly.`,
+        question: `Are your rocking chairs and occasional chairs balanced for structural stability?`,
+        answer: `All our chairs and rocking chairs are engineered with mortise-and-tenon solid wood joinery and weighted timber skids that ensure smooth, noise-free movement and lifetime stability.`,
       },
       {
-        question: `Are high-traffic commercial-grade fabrics available?`,
-        answer: `Yes. We offer commercial Martindale-rated fabrics (exceeding 40,000 rubs) with stain-guard coatings suitable for both bustling residential living rooms and executive office spaces.`,
+        question: `Can Puffies and ottomans be crafted with concealed storage?`,
+        answer: `Yes, we frequently build custom Puffies and pouffes with removable or hinged cushioned lids to provide discreet storage for throws, cushions, and magazines.`,
+      },
+      {
+        question: `Can I match the chair timber stain and fabric to an existing dining or living set?`,
+        answer: `Absolutely. Provide a reference sample or photo, and our master polishers will color-match the PU timber stain and tone precisely to your existing interior furniture.`,
       },
     ];
   }
 
-  // 6. Generic/Universal Subcategory Fallback
+  // 3. Tables (Dining Tables, Centre Tables, Coffee Tables)
+  if (
+    subcategorySlug.includes('table') ||
+    categorySlug === 'tables'
+  ) {
+    return [
+      {
+        question: `Can I customize the tabletop material, stone slab, or dimensions for ${subcategoryName}?`,
+        answer: `Yes. We custom-build ${subcategoryName} to your exact room proportions. Choose between seasoned solid Burma teak, American walnut, Italian Statuario marble, sealed sintered stone, or fluted architectural bases.`,
+      },
+      {
+        question: `How are stone and wood tabletop surfaces protected against spills and heat?`,
+        answer: `Every marble and natural stone surface receives an Italian penetrating nano-sealer to prevent oil and turmeric stains. Timber surfaces receive heat-resistant polyurethane (PU) clear lacquers that resist hot crockery and water rings.`,
+      },
+      {
+        question: `Can centre tables and coffee tables include hidden drawers or tiered nesting shelves?`,
+        answer: `Yes. We specialize in multifunctional centre and coffee tables featuring concealed push-to-open drawers, cantilevered marble slabs, and nesting satellite tables.`,
+      },
+      {
+        question: `What is the standard delivery and on-site assembly process for heavy tables?`,
+        answer: `Our dedicated Mumbai logistics crew brings the tabletop and structural substructure blanket-wrapped directly to your floor, assembling and leveling the piece on-site with protective floor glides.`,
+      },
+    ];
+  }
+
+  // 4. Living Room & Storage (TV Base Unit, Wall Unit, Crockery Units, Bar Units)
+  if (
+    subcategorySlug.includes('tv') ||
+    subcategorySlug.includes('wall-unit') ||
+    subcategorySlug.includes('crockery') ||
+    subcategorySlug.includes('bar-unit') ||
+    categorySlug === 'living-room-storage'
+  ) {
+    return [
+      {
+        question: `How are cables, set-top boxes, and gaming consoles managed in ${subcategoryName}?`,
+        answer: `Our TV Base Units and Wall Units incorporate concealed wire chaseways, acoustic slatted vents for AV heat dissipation, and internal power strip compartments that keep all wiring 100% invisible.`,
+      },
+      {
+        question: `Can Wall Units and Crockery Units include integrated warm LED illumination?`,
+        answer: `Yes. We integrate concealed warm 3000K LED strip channels with touchless sensors or dimmable remote switches to highlight glass shelves, liquor bottles, and curated china.`,
+      },
+      {
+        question: `What custom features are available for Bar Units?`,
+        answer: `Our Bar Units feature stemware racks, lockable spirits storage, wine bottle cubbies, anti-tarnish brass hardware, and pull-out marble mixing shelves.`,
+      },
+      {
+        question: `Can the wall unit be mounted securely onto hollow block or gypsum partition walls?`,
+        answer: `Our installation team inspects your wall masonry and uses heavy-duty chemical anchors and internal steel reinforcement brackets to ensure 100% safe, sturdy wall mounting.`,
+      },
+    ];
+  }
+
+  // 5. Bedroom Sets (Beds, Wardrobes, Side Tables, Dressing Tables)
+  if (
+    subcategorySlug.includes('bed') ||
+    subcategorySlug.includes('wardrobe') ||
+    subcategorySlug.includes('side-table') ||
+    subcategorySlug.includes('dressing') ||
+    categorySlug === 'bedroom-sets'
+  ) {
+    return [
+      {
+        question: `Can this bed frame be fabricated for custom mattress sizes and hydraulic lift storage?`,
+        answer: `Yes. Whether you have Indian King (72"x78"), Queen (60"x78"), or custom imported mattress depths, our carpentry team crafts the frame with heavy-duty German gas-lift hydraulic pistons for effortless storage access.`,
+      },
+      {
+        question: `How are wardrobe interiors and shutter styles tailored for ${subcategoryName}?`,
+        answer: `Every hanging bay, jewelry drawer with velvet dividers, shoe vitrine, and loft compartment is designed around your personal wardrobe. Shutters range from fluted bronze glass to matte PU lacquer and natural bookmatched veneers.`,
+      },
+      {
+        question: `Can Dressing Tables and Side Tables feature integrated mirrors and halo lighting?`,
+        answer: `Yes. We craft dressing consoles with integrated LED halo vanity mirrors, concealed jewelry compartments, and side tables with wireless charging recesses and soft-close felt-lined drawers.`,
+      },
+      {
+        question: `Are your bedroom sets treated against termites and monsoon humidity?`,
+        answer: `All carcass joinery is fabricated using certified calibrated marine ply and seasoned solid timber with anti-termite treatment, finished with moisture-sealed backing to eliminate squeaks and warping.`,
+      },
+    ];
+  }
+
+  // 6. Sofas (Sofa Sets, L-Shape Sofas, Sofa Cum Beds)
+  if (
+    subcategorySlug.includes('sofa') ||
+    categorySlug === 'sofas'
+  ) {
+    return [
+      {
+        question: `Can the chaise orientation, seat depth, and length be customized for ${subcategoryName}?`,
+        answer: `Yes. We configure sectionals and sofa sets with left or right-hand chaise orientations and custom seat depths (from compact 34" to deep 42" lounge seating) tailored to your doorway clearances and room floor plans.`,
+      },
+      {
+        question: `How does the folding mechanism work on Sofa Cum Beds?`,
+        answer: `Our Sofa Cum Beds utilize smooth German hydraulic glide pullouts and counter-balanced steel mechanisms that effortlessly transition from a formal living room couch into a plush master bed in seconds.`,
+      },
+      {
+        question: `What foam densities and upholstery options are available for sofa sets?`,
+        answer: `We use multi-density 32D to 40D high-resilience (HR) foams with pocket spring cores or feather-down toppers. Upholstery choices include stain-resistant performance bouclé, Italian top-grain leather, and velvet.`,
+      },
+      {
+        question: `Can large sofa sets be delivered into Mumbai apartments with narrow elevators?`,
+        answer: `Yes. For high-rise buildings with tight lifts, we engineer modular interlocking split frames that assemble smoothly and invisibly on-site in your living room without visible seams.`,
+      },
+    ];
+  }
+
+  // 7. Generic/Universal Subcategory Fallback
   return [
     {
       question: `Can I customize the exact dimensions and layout for ${subcategoryName}?`,

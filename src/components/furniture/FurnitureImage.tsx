@@ -3,6 +3,7 @@ import { ImageOff } from 'lucide-react';
 
 interface FurnitureImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   src?: string;
+  fallbackSrc?: string;
   alt: string;
   category?: string;
   className?: string;
@@ -10,15 +11,19 @@ interface FurnitureImageProps extends React.ImgHTMLAttributes<HTMLImageElement> 
 
 export const FurnitureImage: React.FC<FurnitureImageProps> = ({
   src,
+  fallbackSrc,
   alt,
   category = 'default',
   className = '',
   ...rest
 }) => {
+  const [triedFallback, setTriedFallback] = useState(false);
   const [hasError, setHasError] = useState(false);
 
-  // If no source or if the image failed to load, display clean, clearly replaceable placeholder
-  if (!src || hasError) {
+  const activeSrc = !triedFallback ? src : fallbackSrc;
+
+  // If no source or if both sources failed to load, display clean, clearly replaceable placeholder
+  if (!activeSrc || hasError) {
     return (
       <div
         className={`w-full h-full flex flex-col items-center justify-center bg-[#F4EFEA] border border-[#E6DFD5] text-[#87786B] p-4 text-center select-none ${className}`}
@@ -30,7 +35,7 @@ export const FurnitureImage: React.FC<FurnitureImageProps> = ({
           {alt || 'Furniture Piece'}
         </span>
         <span className="text-[10px] uppercase tracking-wider text-[#9A6F3E] font-semibold mt-1.5 px-2 py-0.5 bg-[#EAE3D9] rounded-xs">
-          Product image coming soon
+          Subcategory Banner Image
         </span>
         <span className="text-[9px] text-[#A1998F] tracking-wide mt-1">
           Bespoke Custom Workshop &bull; Santacruz West
@@ -41,9 +46,15 @@ export const FurnitureImage: React.FC<FurnitureImageProps> = ({
 
   return (
     <img
-      src={src}
+      src={activeSrc}
       alt={alt}
-      onError={() => setHasError(true)}
+      onError={() => {
+        if (!triedFallback && fallbackSrc && fallbackSrc !== src) {
+          setTriedFallback(true);
+        } else {
+          setHasError(true);
+        }
+      }}
       loading="lazy"
       decoding="async"
       referrerPolicy="no-referrer"

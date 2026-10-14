@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Phone, MessageSquare, ShoppingBag, Sparkles } from 'lucide-react';
+import { Menu, X, Phone, MessageSquare, ShoppingBag, Sparkles, ChevronDown, ChevronRight, ArrowRight } from 'lucide-react';
 import { businessInfo } from '../data/business';
 import { Button } from './Button';
 import { Logo } from './Logo';
 import { useCart } from '../context/CartContext';
 import { FurnitureMenuAccordion } from './furniture/FurnitureMenuAccordion';
+import { furnitureCategories } from '../data/furniture';
 
 interface NavbarProps {
   onOpenConsultation: () => void;
@@ -23,6 +24,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [desktopFurnitureMenuOpen, setDesktopFurnitureMenuOpen] = useState(false);
   const { itemCount, openCart } = useCart();
 
   useEffect(() => {
@@ -79,18 +81,117 @@ export const Navbar: React.FC<NavbarProps> = ({
                 About
               </button>
 
-              {/* Visually Prominent Furniture Catalogue Nav */}
-              <button
-                type="button"
-                onClick={() => {
-                  setMobileMenuOpen(false);
-                  onOpenFurnitureHub();
-                }}
-                className="text-xs uppercase tracking-[0.14em] font-semibold text-[#18181B] hover:text-[#9A6F3E] transition-colors inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xs bg-[#F4EFEA] border border-[#D9D1C5] hover:border-[#18181B] cursor-pointer"
+              {/* Visually Prominent Furniture Catalogue Nav with Desktop Mega Dropdown */}
+              <div
+                className="relative"
+                onMouseEnter={() => setDesktopFurnitureMenuOpen(true)}
+                onMouseLeave={() => setDesktopFurnitureMenuOpen(false)}
               >
-                <Sparkles className="w-3.5 h-3.5 text-[#C5A880]" />
-                <span>Explore Furniture</span>
-              </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setMobileMenuOpen(false);
+                    setDesktopFurnitureMenuOpen(false);
+                    onOpenFurnitureHub();
+                  }}
+                  className="text-xs uppercase tracking-[0.14em] font-semibold text-[#18181B] hover:text-[#9A6F3E] transition-colors inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xs bg-[#F4EFEA] border border-[#D9D1C5] hover:border-[#18181B] cursor-pointer"
+                  aria-expanded={desktopFurnitureMenuOpen}
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-[#C5A880]" />
+                  <span>Explore Furniture</span>
+                  <ChevronDown
+                    className={`w-3 h-3 text-[#87786B] transition-transform duration-200 ${
+                      desktopFurnitureMenuOpen ? 'rotate-180' : ''
+                    }`}
+                  />
+                </button>
+
+                {/* Desktop Mega Dropdown */}
+                {desktopFurnitureMenuOpen && (
+                  <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-[760px] max-w-[90vw] z-50 animate-in fade-in slide-in-from-top-2 duration-150">
+                    <div className="bg-[#FAF9F5] border border-[#D9D1C5] rounded-xs shadow-2xl p-6">
+                      <div className="flex items-center justify-between pb-3.5 mb-4 border-b border-[#EAE3D9]">
+                        <div>
+                          <span className="text-[10px] uppercase font-bold tracking-[0.2em] text-[#87786B] block">
+                            Showroom Catalogue
+                          </span>
+                          <h4 className="font-serif text-lg text-[#18181B] font-medium">
+                            Explore Our Furniture &bull; 6 Major Collections
+                          </h4>
+                        </div>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setDesktopFurnitureMenuOpen(false);
+                            onOpenFurnitureHub();
+                          }}
+                          className="text-xs font-semibold uppercase tracking-wider text-[#9A6F3E] hover:text-[#18181B] transition-colors flex items-center gap-1 cursor-pointer"
+                        >
+                          <span>View All Collections</span>
+                          <ArrowRight className="w-3.5 h-3.5" />
+                        </button>
+                      </div>
+
+                      {/* 6 Major Categories in 3 Columns */}
+                      <div className="grid grid-cols-3 gap-6">
+                        {furnitureCategories.map((cat, idx) => (
+                          <div key={cat.id} className="space-y-2 group">
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setDesktopFurnitureMenuOpen(false);
+                                onSelectCategory(cat.slug);
+                              }}
+                              className="w-full text-left font-serif text-sm font-semibold text-[#18181B] group-hover:text-[#9A6F3E] transition-colors flex items-center justify-between cursor-pointer border-b border-[#EAE3D9] pb-1"
+                            >
+                              <span className="flex items-center gap-1.5">
+                                <span className="text-[10px] font-mono text-[#9A6F3E]">
+                                  0{idx + 1}
+                                </span>
+                                <span>{cat.name}</span>
+                              </span>
+                              <ChevronRight className="w-3 h-3 text-[#B0A79C] group-hover:text-[#9A6F3E] transition-transform group-hover:translate-x-0.5" />
+                            </button>
+
+                            {/* Exact Subcategories */}
+                            <ul className="space-y-1 pl-3.5">
+                              {cat.subcategories.map((sub) => (
+                                <li key={sub.id}>
+                                  <button
+                                    type="button"
+                                    onClick={() => {
+                                      setDesktopFurnitureMenuOpen(false);
+                                      onSelectSubcategory(cat.slug, sub.slug);
+                                    }}
+                                    className="text-left text-xs text-[#5C554E] hover:text-[#18181B] transition-colors py-0.5 block w-full truncate cursor-pointer hover:font-medium"
+                                  >
+                                    {sub.name}
+                                  </button>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+
+                      {/* Mega Menu Footer */}
+                      <div className="mt-5 pt-3.5 border-t border-[#EAE3D9] flex items-center justify-between text-xs text-[#87786B]">
+                        <span>Factory Workshop in Santacruz West, Mumbai &bull; Custom Sizing Available</span>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setDesktopFurnitureMenuOpen(false);
+                            onOpenConsultation();
+                          }}
+                          className="font-semibold text-[#18181B] hover:text-[#9A6F3E] uppercase tracking-wider text-[11px] cursor-pointer"
+                        >
+                          Book Custom Consultation &rarr;
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
 
               <button
                 type="button"

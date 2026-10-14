@@ -10,6 +10,8 @@ import {
 import { FurnitureProductCard } from '../components/furniture/FurnitureProductCard';
 import { FurnitureBreadcrumbs } from '../components/furniture/FurnitureBreadcrumbs';
 import { FurnitureFilters, SortOption, FilterState } from '../components/furniture/FurnitureFilters';
+import { FurnitureImage } from '../components/furniture/FurnitureImage';
+import { getSubcategoryBanner } from '../data/subcategoryBanners';
 import { SofaBedVideoHero } from '../components/furniture/SofaBedVideoHero';
 import { OppositeDirectionCarousels } from '../components/furniture/OppositeDirectionCarousels';
 import { MessageSquare, Sparkles, ChevronDown, HelpCircle } from 'lucide-react';
@@ -104,18 +106,69 @@ export const FurnitureSubcategoryView: React.FC<FurnitureSubcategoryViewProps> =
           ]}
         />
 
-        {/* Subcategory Header */}
-        <div className="my-8 sm:my-10">
-          <span className="text-xs uppercase tracking-[0.24em] font-semibold text-[#87786B] block mb-2">
-            {category.name} &bull; Handcrafted Selection
-          </span>
-          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#18181B] font-normal leading-tight mb-3">
-            {subcategory.name}
-          </h1>
-          <p className="text-xs sm:text-sm text-[#5C554E] max-w-2xl leading-relaxed">
-            {subcategory.description} Each design can be tailored in custom dimensions, bespoke wood stains, and imported fabrics directly at our Mumbai factory workshop.
-          </p>
-        </div>
+        {/* Subcategory Banner */}
+        {(() => {
+          const bannerConfig = getSubcategoryBanner(subcategory.slug);
+          const bannerImage = subcategory.image || bannerConfig?.localAssetUrl || bannerConfig?.directDriveUrl;
+          const fallbackImage = bannerConfig?.directDriveUrl;
+
+          return (
+            <div className="relative my-6 sm:my-8 bg-[#18181B] text-[#FAF9F5] rounded-xs border border-[#27272A] overflow-hidden shadow-sm">
+              <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch">
+                {/* Left Content Column */}
+                <div className="lg:col-span-7 p-6 sm:p-8 lg:p-10 flex flex-col justify-between">
+                  <div>
+                    <div className="flex flex-wrap items-center gap-2 mb-3">
+                      <span className="text-[10px] sm:text-xs uppercase tracking-[0.24em] font-semibold text-[#C5A880] px-2.5 py-0.5 bg-white/10 rounded-xs">
+                        {category.name}
+                      </span>
+                      <span className="text-[10px] uppercase tracking-wider text-[#A1A1AA] flex items-center gap-1">
+                        <Sparkles className="w-3 h-3 text-[#C5A880]" />
+                        <span>Mumbai Workshop Collection</span>
+                      </span>
+                    </div>
+                    <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#FAF9F5] font-normal leading-tight mb-3">
+                      {subcategory.name}
+                    </h1>
+                    <p className="text-xs sm:text-sm text-[#D4D4D8] max-w-xl leading-relaxed mb-6 font-light">
+                      {subcategory.description} Each design can be tailored in custom dimensions, bespoke wood stains, and imported fabrics directly at our Mumbai factory workshop.
+                    </p>
+                  </div>
+
+                  {/* Actions */}
+                  <div className="pt-4 border-t border-white/15 flex flex-wrap items-center justify-between gap-3 text-xs">
+                    <a
+                      href={`https://wa.me/919821432122?text=Hi%20Designer%20Furniture%2C%20I%20am%20inquiring%20about%20custom%20${encodeURIComponent(
+                        subcategory.name
+                      )}%20options.`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-4 py-2 bg-[#25D366] hover:bg-[#1EBE5D] text-white text-xs uppercase tracking-wider font-semibold rounded-xs shadow-xs transition-colors"
+                    >
+                      <MessageSquare className="w-3.5 h-3.5" />
+                      <span>WhatsApp Factory Team</span>
+                    </a>
+                    <span className="text-[11px] text-[#A1A1AA] hidden sm:inline">
+                      Bespoke Dimensions &bull; Santacruz West
+                    </span>
+                  </div>
+                </div>
+
+                {/* Right Subcategory Banner Image Column */}
+                <div className="lg:col-span-5 relative min-h-[240px] sm:min-h-[280px] lg:min-h-full bg-[#27272A] overflow-hidden group">
+                  <FurnitureImage
+                    src={bannerImage}
+                    fallbackSrc={fallbackImage}
+                    alt={`${subcategory.name} collection banner`}
+                    category={category.slug}
+                    className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-[#18181B]/80 via-transparent to-transparent pointer-events-none" />
+                </div>
+              </div>
+            </div>
+          );
+        })()}
 
         {/* Dual-Purpose Transforming Video Feature Banner (for Sofa Cum Beds) */}
         {subcategory.slug === 'sofa-cum-beds' && (
@@ -138,24 +191,42 @@ export const FurnitureSubcategoryView: React.FC<FurnitureSubcategoryViewProps> =
 
         {/* Product Grid */}
         {filteredProducts.length === 0 ? (
-          <div className="text-center py-16 bg-[#F4EFEA] border border-[#E6DFD5] rounded-xs p-8 my-8">
-            <h3 className="font-serif text-xl text-[#18181B] mb-2">
-              No matching {subcategory.name.toLowerCase()} found
+          <div className="text-center py-16 bg-[#F4EFEA] border border-[#E6DFD5] rounded-xs p-8 sm:p-12 my-8">
+            <div className="w-12 h-12 mx-auto rounded-full bg-[#EAE3D9] flex items-center justify-center mb-4">
+              <Sparkles className="w-6 h-6 text-[#9A6F3E]" />
+            </div>
+            <h3 className="font-serif text-2xl text-[#18181B] mb-2 font-normal">
+              Bespoke {subcategory.name} Custom Made to Order
             </h3>
-            <p className="text-xs text-[#5C554E] max-w-md mx-auto mb-6">
-              We also design and manufacture completely bespoke {subcategory.name.toLowerCase()} from reference sketches and floor plan dimensions.
+            <p className="text-xs sm:text-sm text-[#5C554E] max-w-lg mx-auto mb-6 leading-relaxed">
+              We engineer and craft bespoke {subcategory.name.toLowerCase()} tailored down to the inch from your architectural drawings, reference photos, and living requirements in our Santacruz West factory.
             </p>
-            <a
-              href={`https://wa.me/919821432122?text=Hi%20Designer%20Furniture%2C%20I%20am%20looking%20for%20a%20custom%20${encodeURIComponent(
-                subcategory.name
-              )}.`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#1F5435] text-white text-xs uppercase tracking-wider font-semibold rounded-xs shadow-xs hover:bg-[#18452B] transition-colors"
-            >
-              <MessageSquare className="w-4 h-4" />
-              <span>Request Custom Design on WhatsApp</span>
-            </a>
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              <a
+                href={`https://wa.me/919821432122?text=Hi%20Designer%20Furniture%2C%20I%20am%20looking%20for%20a%20custom%20${encodeURIComponent(
+                  subcategory.name
+                )}.`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#25D366] hover:bg-[#1EBE5D] text-white text-xs uppercase tracking-wider font-semibold rounded-xs shadow-xs transition-colors"
+              >
+                <MessageSquare className="w-4 h-4" />
+                <span>Request Custom Quote on WhatsApp</span>
+              </a>
+              <button
+                type="button"
+                onClick={() => {
+                  onReturnHome();
+                  setTimeout(() => {
+                    const el = document.getElementById('enquiry');
+                    if (el) el.scrollIntoView({ behavior: 'smooth' });
+                  }, 150);
+                }}
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#18181B] hover:bg-[#38332E] text-[#FAF9F5] text-xs uppercase tracking-wider font-semibold rounded-xs transition-colors cursor-pointer"
+              >
+                <span>ENQUIRY &bull; Submit Requirement</span>
+              </button>
+            </div>
           </div>
         ) : (
           <div id="subcategory-products-grid" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-7 scroll-mt-24">
@@ -169,6 +240,16 @@ export const FurnitureSubcategoryView: React.FC<FurnitureSubcategoryViewProps> =
             ))}
           </div>
         )}
+
+        {/* Opposite-Direction Auto-Scrolling Carousel: Curated Signature Pieces & Everyday Favourites (Exclusively on individual subcategory product listings) */}
+        <div className="mt-14 mb-4">
+          <OppositeDirectionCarousels
+            productsRow1={productsRow1}
+            productsRow2={productsRow2}
+            onSelectProduct={onSelectProduct}
+            onBuyNowProduct={onBuyNowProduct}
+          />
+        </div>
 
         {/* Requirement 40: Educational Editorial Content */}
         {editorial && (
@@ -287,14 +368,6 @@ export const FurnitureSubcategoryView: React.FC<FurnitureSubcategoryViewProps> =
             })}
           </div>
         </div>
-
-        {/* Exactly Two Opposite-Direction Auto-Scrolling Carousels ONLY on individual subcategory pages below listings */}
-        <OppositeDirectionCarousels
-          productsRow1={productsRow1}
-          productsRow2={productsRow2}
-          onSelectProduct={onSelectProduct}
-          onBuyNowProduct={onBuyNowProduct}
-        />
       </div>
     </div>
   );
