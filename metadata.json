@@ -1,8 +1,6 @@
 {
-  "name": "Remix Designer Furniture \u0026 Interior",
-  "description": "Premium custom furniture, bespoke designs and luxury interior solutions in Santacruz, Mumbai.",
-  "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
+  "name": "Designer Furniture & Interior",
+  "description": "Premium luxury custom furniture and interior showroom in Santacruz West, Mumbai",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
