@@ -74,7 +74,7 @@ export const FurnitureCategoryView: React.FC<FurnitureCategoryViewProps> = ({
               <div className="pt-4 border-t border-white/15 flex flex-wrap items-center gap-2">
                 <span className="text-[11px] uppercase tracking-wider text-[#A1A1AA] font-medium mr-1 flex items-center gap-1">
                   <Layers className="w-3.5 h-3.5 text-[#C5A880]" />
-                  <span>{category.subcategories.length} Subcategories:</span>
+                  <span>Explore:</span>
                 </span>
                 {category.subcategories.map((sub) => (
                   <button
@@ -120,14 +120,14 @@ export const FurnitureCategoryView: React.FC<FurnitureCategoryViewProps> = ({
           <div className="flex flex-col sm:flex-row sm:items-end justify-between pb-4 border-b border-[#E6DFD5] mb-8 gap-2">
             <div>
               <span className="text-[11px] uppercase tracking-[0.2em] font-semibold text-[#87786B] block mb-1">
-                Specialized Divisions
+                Specialized Collections
               </span>
               <h2 className="font-serif text-2xl sm:text-3xl text-[#18181B] font-normal">
-                {category.name} Subcategories
+                {category.name}
               </h2>
             </div>
             <p className="text-xs text-[#87786B]">
-              Showing all {category.subcategories.length} subcategories under {category.name}
+              Handcrafted bespoke designs under {category.name}
             </p>
           </div>
 

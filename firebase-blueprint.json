@@ -1,0 +1,30 @@
+{
+  "entities": {
+    "ProductGallery": {
+      "title": "ProductGallery",
+      "description": "Custom 5:4 aspect ratio image overrides for a product gallery slots",
+      "type": "object",
+      "properties": {
+        "productSlug": {
+          "type": "string",
+          "description": "Unique slug of the furniture product"
+        },
+        "slots": {
+          "type": "object",
+          "description": "Map of slot index (0-4) to 5:4 image metadata including storage URL, pixel dimensions, and timestamp"
+        },
+        "updatedAt": {
+          "type": "string",
+          "description": "ISO timestamp of last update"
+        }
+      },
+      "required": ["productSlug", "slots", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/productGalleries/{productSlug}": {
+      "schema": "ProductGallery",
+      "description": "Stores approved 5:4 aspect ratio images for product gallery slots"
+    }
+  }
+}

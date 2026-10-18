@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url';
 import { Resend } from 'resend';
 import Razorpay from 'razorpay';
 import crypto from 'crypto';
+import fs from 'fs';
 
 dotenv.config();
 
@@ -14,7 +15,8 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
 
-app.use(express.json());
+app.use(express.json({ limit: '50mb' }));
+app.use(express.urlencoded({ limit: '50mb', extended: true }));
 
 // Resend initialization
 const resendApiKey = process.env.RESEND_API_KEY;
@@ -404,7 +406,6 @@ app.post('/api/verify-razorpay-payment', async (req, res) => {
     });
   }
 });
-
 // Production static files vs Development Vite middleware
 const isProd = process.env.NODE_ENV === 'production';
 if (!isProd) {
@@ -414,6 +415,20 @@ if (!isProd) {
     appType: 'spa',
   });
   app.use(vite.middlewares);
+  // Ensure any direct path (like /admin-image-tool) returns index.html correctly
+  app.use('*', async (req, res, next) => {
+    const url = req.originalUrl;
+    // Don't intercept API routes
+    if (url.startsWith('/api/')) return next();
+    try {
+      let template = fs.readFileSync(path.resolve(__dirname, 'index.html'), 'utf-8');
+      template = await vite.transformIndexHtml(url, template);
+      res.status(200).set({ 'Content-Type': 'text/html' }).end(template);
+    } catch (e) {
+      vite.ssrFixStacktrace(e as Error);
+      next(e);
+    }
+  });
 } else {
   const distPath = path.resolve(__dirname, 'dist');
   app.use(express.static(distPath));

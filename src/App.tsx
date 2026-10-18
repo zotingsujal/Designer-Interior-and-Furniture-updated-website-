@@ -37,7 +37,6 @@ import {
   getSubcategoryBySlug,
   getProductBySlug,
 } from './data/furniture';
-
 type ViewMode =
   | 'home'
   | 'furniture-hub'
@@ -45,11 +44,25 @@ type ViewMode =
   | 'furniture-subcategory'
   | 'furniture-product';
 
+function getInitialView(): ViewMode {
+  if (typeof window === 'undefined') return 'home';
+  const hash = window.location.hash || '';
+  if (hash.startsWith('#/furniture/product/')) return 'furniture-product';
+  if (hash.startsWith('#/furniture/')) return 'furniture-subcategory';
+  if (hash === '#/furniture') return 'furniture-hub';
+  return 'home';
+}
+
 function AppContent() {
-  const [view, setView] = useState<ViewMode>('home');
+  const [view, setView] = useState<ViewMode>(getInitialView);
   const [selectedCategorySlug, setSelectedCategorySlug] = useState<string>('sofas');
   const [selectedSubcategorySlug, setSelectedSubcategorySlug] = useState<string>('l-shaped-sofas');
-  const [selectedProductSlug, setSelectedProductSlug] = useState<string>('');
+  const [selectedProductSlug, setSelectedProductSlug] = useState<string>(() => {
+    if (typeof window !== 'undefined' && window.location.hash.startsWith('#/furniture/product/')) {
+      return window.location.hash.replace('#/furniture/product/', '');
+    }
+    return '';
+  });
 
   const [isConsultationOpen, setIsConsultationOpen] = useState(false);
   const [selectedProjectType, setSelectedProjectType] = useState<string>('Custom Furniture');
@@ -111,10 +124,12 @@ function AppContent() {
 
     parseHash();
     window.addEventListener('hashchange', parseHash);
-    return () => window.removeEventListener('hashchange', parseHash);
+
+    return () => {
+      window.removeEventListener('hashchange', parseHash);
+    };
   }, []);
 
-  // Navigation Handlers
   const handleOpenFurnitureHub = () => {
     window.location.hash = '#/furniture';
     setView('furniture-hub');

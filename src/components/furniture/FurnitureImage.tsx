@@ -35,7 +35,7 @@ export const FurnitureImage: React.FC<FurnitureImageProps> = ({
           {alt || 'Furniture Piece'}
         </span>
         <span className="text-[10px] uppercase tracking-wider text-[#9A6F3E] font-semibold mt-1.5 px-2 py-0.5 bg-[#EAE3D9] rounded-xs">
-          Subcategory Banner Image
+          Artisan Showroom Piece
         </span>
         <span className="text-[9px] text-[#A1998F] tracking-wide mt-1">
           Bespoke Custom Workshop &bull; Santacruz West

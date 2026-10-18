@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, ArrowDown } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 
 interface SofaBedVideoHeroProps {
   onScrollToProducts?: () => void;
@@ -41,23 +41,9 @@ export const SofaBedVideoHero: React.FC<SofaBedVideoHeroProps> = ({ onScrollToPr
             Comfort That Transforms With You
           </h2>
 
-          <p className="text-xs sm:text-sm text-[#D4CECA] leading-relaxed max-w-2xl mb-6 font-light drop-shadow-sm">
-            Designed for Mumbai spaces that demand more from every square foot. Our bespoke sofa cum beds transition effortlessly between day lounge seating and deep night sleep with concealed German pneumatic gas springs and built-in linen storage.
-          </p>
-
-          <div className="flex items-center gap-4">
-            {onScrollToProducts && (
-              <button
-                type="button"
-                onClick={onScrollToProducts}
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#FAF9F5] hover:bg-white text-[#18181B] text-xs uppercase tracking-wider font-semibold rounded-xs shadow-md transition-all cursor-pointer"
-              >
-                <span>Explore Sofa Cum Beds</span>
-                <ArrowDown className="w-3.5 h-3.5" />
-              </button>
-            )}
-            <span className="text-[11px] uppercase tracking-wider text-[#A1A1AA] hidden sm:inline-block">
-              &bull; 100% Factory Custom Sizing
+          <div className="flex items-center gap-4 mt-2">
+            <span className="text-[11px] uppercase tracking-wider text-[#A1A1AA]">
+              &bull; 100% Factory Custom Sizing &bull; Concealed Mechanisms &bull; Solid Joinery
             </span>
           </div>
         </div>

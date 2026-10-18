@@ -12,7 +12,6 @@ import { FurnitureBreadcrumbs } from '../components/furniture/FurnitureBreadcrum
 import { FurnitureFilters, SortOption, FilterState } from '../components/furniture/FurnitureFilters';
 import { FurnitureImage } from '../components/furniture/FurnitureImage';
 import { getSubcategoryBanner } from '../data/subcategoryBanners';
-import { SofaBedVideoHero } from '../components/furniture/SofaBedVideoHero';
 import { OppositeDirectionCarousels } from '../components/furniture/OppositeDirectionCarousels';
 import { MessageSquare, Sparkles, ChevronDown, HelpCircle } from 'lucide-react';
 import { getSubcategoryFaqs } from '../data/subcategoryFaqs';
@@ -170,15 +169,7 @@ export const FurnitureSubcategoryView: React.FC<FurnitureSubcategoryViewProps> =
           );
         })()}
 
-        {/* Dual-Purpose Transforming Video Feature Banner (for Sofa Cum Beds) */}
-        {subcategory.slug === 'sofa-cum-beds' && (
-          <SofaBedVideoHero
-            onScrollToProducts={() => {
-              const el = document.getElementById('subcategory-products-grid');
-              if (el) el.scrollIntoView({ behavior: 'smooth' });
-            }}
-          />
-        )}
+
 
         {/* Filters & Sorting Toolbar */}
         <FurnitureFilters

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowRight, Layers, Sparkles, AlertCircle } from 'lucide-react';
+import { ArrowRight, Sparkles, AlertCircle } from 'lucide-react';
 import { FurnitureCategory } from '../../data/furniture';
 import {
   getCategoryBannerImage,
@@ -71,26 +71,8 @@ export const FurnitureCategoryCard: React.FC<FurnitureCategoryCardProps> = ({
         {/* High contrast gradient overlay for text readability */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent pointer-events-none" />
 
-        {/* Top Collection Index Tag */}
-        <div className="absolute top-3.5 left-3.5">
-          <span className="px-2.5 py-1 bg-[#18181B]/80 backdrop-blur-xs text-[#FAF9F5] text-[10px] uppercase font-semibold tracking-widest rounded-xs border border-white/10">
-            0{index + 1}
-          </span>
-        </div>
-
-        {/* Subcategories Count Tag */}
-        <div className="absolute top-3.5 right-3.5">
-          <span className="px-2.5 py-1 bg-white/90 backdrop-blur-xs text-[#18181B] text-[10px] uppercase font-semibold tracking-wider rounded-xs shadow-xs flex items-center gap-1">
-            <Layers className="w-3 h-3 text-[#9A6F3E]" />
-            <span>{category.subcategories.length} Subcategories</span>
-          </span>
-        </div>
-
         {/* Category Overlay Title */}
         <div className="absolute bottom-4 left-4 right-4 text-white">
-          <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.22em] font-semibold text-[#D4C3B3] block mb-1">
-            Major Category
-          </span>
           <h3 className="font-serif text-2xl sm:text-3xl font-normal leading-tight text-[#FAF9F5] drop-shadow-xs">
             {category.name}
           </h3>

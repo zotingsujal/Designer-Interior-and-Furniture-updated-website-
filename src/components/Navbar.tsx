@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Phone, MessageSquare, ShoppingBag, Sparkles, ChevronDown, ChevronRight, ArrowRight } from 'lucide-react';
+import { Menu, X, Phone, MessageSquare, Sparkles, ChevronDown, ChevronRight, ArrowRight } from 'lucide-react';
 import { businessInfo } from '../data/business';
 import { Button } from './Button';
 import { Logo } from './Logo';
-import { useCart } from '../context/CartContext';
 import { FurnitureMenuAccordion } from './furniture/FurnitureMenuAccordion';
 import { furnitureCategories } from '../data/furniture';
 
@@ -25,7 +24,6 @@ export const Navbar: React.FC<NavbarProps> = ({
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [desktopFurnitureMenuOpen, setDesktopFurnitureMenuOpen] = useState(false);
-  const { itemCount, openCart } = useCart();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -234,22 +232,8 @@ export const Navbar: React.FC<NavbarProps> = ({
               </button>
             </nav>
 
-            {/* Zone 3: Actions (Cart + Consultation + Phone + Menu) */}
+            {/* Zone 3: Actions (Consultation + Phone + Menu) */}
             <div className="flex items-center gap-2 sm:gap-3">
-              {/* Shopping Cart Trigger Icon */}
-              <button
-                type="button"
-                onClick={openCart}
-                className="relative p-2.5 text-[#18181B] hover:bg-[#EFEAE2] rounded-xs transition-colors cursor-pointer"
-                aria-label={`Shopping cart with ${itemCount} items`}
-              >
-                <ShoppingBag className="w-5 h-5" />
-                {itemCount > 0 && (
-                  <span className="absolute top-1.5 right-1.5 min-w-[18px] h-[18px] px-1 bg-[#18181B] text-[#FAF9F5] text-[10px] font-bold rounded-full flex items-center justify-center animate-in zoom-in-50">
-                    {itemCount}
-                  </span>
-                )}
-              </button>
 
               {/* Consultation Button (Desktop) */}
               <button

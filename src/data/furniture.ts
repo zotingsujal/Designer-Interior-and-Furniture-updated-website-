@@ -502,853 +502,401 @@ export const furnitureProducts: FurnitureProduct[] = [
       }
     ]
   },
-  {
-    "id": "2-seater-sofas-01",
-    "slug": "2-seater-sofas-signature-01",
-    "name": "Bergamo Tailored Loveseat Settee",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Petite two-passenger sofa with fluted back detailing and tapered brass-capped wooden legs.",
-    "description": "Petite two-passenger sofa with fluted back detailing and tapered brass-capped wooden legs. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
-    "price": 62000,
-    "originalPrice": 71300,
-    "discountPercent": 12,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "62\" W x 34\" D x 32\" H",
-    "materials": [
-      "Solid Ash Wood",
-      "Velvet Upholstery",
-      "Brushed Brass Ferrules"
-    ],
-    "finish": "Hand-Rubbed Satin PU Seal",
-    "colors": [
-      {
-        "name": "Warm Teak",
-        "hex": "#8B5A2B"
-      },
-      {
-        "name": "Smoked Walnut",
-        "hex": "#4A3B32"
-      },
-      {
-        "name": "Oatmeal Linen",
-        "hex": "#D2B48C"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Dust with soft dry microfiber cloth. Avoid direct monsoon moisture exposure. Professional upholstery clean annually.",
-    "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
-    "faqs": [
-      {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
-      },
-      {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
-      }
-    ]
+    {
+      "id": "crown-malaysian-comfort-sofa-set",
+      "slug": "crown-malaysian-comfort-sofa-set",
+      "name": "Crown Malaysian Comfort Sofa Set",
+      "categorySlug": "sofas",
+      "subcategorySlug": "sofa-sets",
+      "shortDescription": "Mastercrafted Malaysian-inspired luxury sofa suite featuring deep plush seating, ergonomic lumbar contouring, and artisan upholstery.",
+      "description": "The Crown Malaysian Comfort Sofa Set exemplifies master joinery and refined living room elegance. Handcrafted in our Mumbai workshop with kiln-dried solid hardwood framing, high-resilience foam layers, and luxury imported fabric, this suite offers sublime comfort for family living and distinguished entertaining.",
+      "price": null,
+      "originalPrice": null,
+      "discountPercent": null,
+      "badge": null,
+      "primaryImage": "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-sofa-set-white-background.jpg",
+      "secondaryImage": "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-sofa-set-premium-interior.jpg",
+      "images": [
+          "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-sofa-set-white-background.jpg",
+          "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-sofa-set-premium-interior.jpg",
+          "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-3-seater-front-view.jpg",
+          "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-3-seater-side-view.jpg",
+          "/images/products/sofa-sets/crown-malaysian-comfort-sofa-set/crown-malaysian-comfort-1-seater-front-view.jpg"
+      ],
+      "dimensions": "",
+      "materials": [
+          "Solid Seasoned Hardwood Frame",
+          "High-Resilience Contour Foam",
+          "Stain-Resistant Imported Velvet / Fabric"
+      ],
+      "finish": "Hand-Rubbed Natural Timber Seal",
+      "colors": [],
+      "isCustomizable": false,
+      "inStock": true,
+      "careInstructions": "Dust regularly with soft dry microfiber cloth. Professional upholstery cleaning recommended annually.",
+      "deliveryInfo": "White-glove delivery and assembly across Mumbai metropolitan region directly from our workshop.",
+      "faqs": [
+          {
+              "question": "Can this sofa set be customized in configuration?",
+              "answer": "Yes, you can configure 3-seater, 2-seater, or individual armchairs to match your floor plan."
+          },
+          {
+              "question": "Where is this manufactured?",
+              "answer": "100% fabricated in our Mumbai factory workshop with solid hardwood joinery."
+          }
+      ]
   },
   {
-    "id": "2-seater-sofas-02",
-    "slug": "2-seater-sofas-prestige-02",
-    "name": "Capri Minimalist Studio Loveseat",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Crisp Scandinavian lines with slim track arms engineered to maximize seating in compact spaces.",
-    "description": "Crisp Scandinavian lines with slim track arms engineered to maximize seating in compact spaces. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
-    "price": 58000,
-    "originalPrice": 64960,
-    "discountPercent": 10,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "58\" W x 33\" D x 31\" H",
-    "materials": [
-      "Teak Wood Frame",
-      "Linen Blend Fabric",
-      "HR Foam"
-    ],
-    "finish": "Natural Matte Hardwax / PU",
-    "colors": [
-      {
-        "name": "Charcoal Oak",
-        "hex": "#2A2A2A"
-      },
-      {
-        "name": "Natural Ash",
-        "hex": "#C2B280"
-      },
-      {
-        "name": "Mocha Boucl\u00e9",
-        "hex": "#795548"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Clean with damp cloth and mild wood cleaner. Condition wood surfaces bi-annually.",
-    "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
-    "faqs": [
-      {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
-      },
-      {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
-      }
-    ]
+      "id": "two-tone-sofa-set",
+      "slug": "two-tone-sofa-set",
+      "name": "Two Tone Sofa Set",
+      "categorySlug": "sofas",
+      "subcategorySlug": "sofa-sets",
+      "shortDescription": "Sophisticated dual-palette contemporary sofa set with tailored contrast piping, supportive cushions, and reinforced solid frame.",
+      "description": "Designed for distinguished Mumbai interiors, the Two Tone Sofa Set pairs complementary tonal upholstery textures with tailored architectural contours. Every joint is mortise-and-tenon locked inside our Mumbai workshop for enduring durability.",
+      "price": null,
+      "originalPrice": null,
+      "discountPercent": null,
+      "badge": null,
+      "primaryImage": "/images/products/sofa-sets/two-tone-sofa-set/01_white_bg.jpg",
+      "secondaryImage": "/images/products/sofa-sets/two-tone-sofa-set/02_interior.jpg",
+      "images": [
+          "/images/products/sofa-sets/two-tone-sofa-set/01_white_bg.jpg",
+          "/images/products/sofa-sets/two-tone-sofa-set/02_interior.jpg",
+          "/images/products/sofa-sets/two-tone-sofa-set/03_3seater_front.jpg",
+          "/images/products/sofa-sets/two-tone-sofa-set/04_3seater_side.jpg",
+          "/images/products/sofa-sets/two-tone-sofa-set/05_1seater_front.jpg"
+      ],
+      "dimensions": "",
+      "materials": [
+          "Solid Hardwood Internal Core",
+          "Pocket Spring & HR Foam Layers",
+          "Two-Tone Textured Chenille"
+      ],
+      "finish": "Satin Protective Seal",
+      "colors": [],
+      "isCustomizable": false,
+      "inStock": true,
+      "careInstructions": "Spot clean spills immediately with mild damp cloth. Keep away from direct harsh sunlight.",
+      "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane.",
+      "faqs": [
+          {
+              "question": "Can I choose my two tone colors?",
+              "answer": "Yes! You can choose two complementary tones from our extensive fabric swatch deck."
+          },
+          {
+              "question": "What warranty is offered?",
+              "answer": "We offer a 5-year structural warranty on the timber framing and joinery."
+          }
+      ]
   },
   {
-    "id": "3-seater-sofas-01",
-    "slug": "3-seater-sofas-signature-01",
-    "name": "Milano Executive Three-Seater Couch",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Commanding living room sofa with deep seat cushions and hand-tufted tailored backrest.",
-    "description": "Commanding living room sofa with deep seat cushions and hand-tufted tailored backrest. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
-    "price": 85000,
-    "originalPrice": 97750,
-    "discountPercent": 12,
-    "badge": "Best Seller",
-    "primaryImage": "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "88\" W x 36\" D x 33\" H",
-    "materials": [
-      "Burma Teak",
-      "Italian Leather / Linen",
-      "Layered Foam"
-    ],
-    "finish": "Hand-Rubbed Satin PU Seal",
-    "colors": [
-      {
-        "name": "Warm Teak",
-        "hex": "#8B5A2B"
-      },
-      {
-        "name": "Smoked Walnut",
-        "hex": "#4A3B32"
-      },
-      {
-        "name": "Oatmeal Linen",
-        "hex": "#D2B48C"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Dust with soft dry microfiber cloth. Avoid direct monsoon moisture exposure. Professional upholstery clean annually.",
-    "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
-    "faqs": [
-      {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
-      },
-      {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
-      }
-    ]
+      "id": "new-zen-sofa-set",
+      "slug": "new-zen-sofa-set",
+      "name": "New Zen Sofa Set",
+      "categorySlug": "sofas",
+      "subcategorySlug": "sofa-sets",
+      "shortDescription": "Serene minimalist silhouette engineered with low-profile balance, deep ergonomic seating, and understated tranquility.",
+      "description": "The New Zen Sofa Set brings a calming aesthetic balance to modern living rooms. Handcrafted with high-density multilayer foam, breathable natural textiles, and seasoned internal timber framing.",
+      "price": null,
+      "originalPrice": null,
+      "discountPercent": null,
+      "badge": null,
+      "primaryImage": "/images/products/sofa-sets/new-zen-sofa-set/01_white_bg.jpg",
+      "secondaryImage": "/images/products/sofa-sets/new-zen-sofa-set/02_interior.jpg",
+      "images": [
+          "/images/products/sofa-sets/new-zen-sofa-set/01_white_bg.jpg",
+          "/images/products/sofa-sets/new-zen-sofa-set/02_interior.jpg",
+          "/images/products/sofa-sets/new-zen-sofa-set/03_3seater_front.jpg",
+          "/images/products/sofa-sets/new-zen-sofa-set/04_3seater_side.jpg",
+          "/images/products/sofa-sets/new-zen-sofa-set/05_1seater_front.jpg"
+      ],
+      "dimensions": "",
+      "materials": [
+          "Kiln-Dried Teak Base",
+          "Orthopedic Resilience Cushioning",
+          "Belgian Linen & Cotton Blend"
+      ],
+      "finish": "Natural Low-Sheen Wood Seal",
+      "colors": [],
+      "isCustomizable": false,
+      "inStock": true,
+      "careInstructions": "Vacuum gently using soft brush attachment. Professional dry clean recommended.",
+      "deliveryInfo": "White-glove delivery by our Mumbai workshop carpenters.",
+      "faqs": [
+          {
+              "question": "Is the seating firm or plush?",
+              "answer": "It features balanced medium-firm core support with a plush surface wrap."
+          },
+          {
+              "question": "Can this be made in custom dimensions?",
+              "answer": "Yes, bespoke room scaling is available upon enquiry."
+          }
+      ]
   },
   {
-    "id": "3-seater-sofas-02",
-    "slug": "3-seater-sofas-prestige-02",
-    "name": "Ravello Formal Heritage Sofa",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Graceful shelter arm silhouette with reversible seat cushions and hand-applied piping.",
-    "description": "Graceful shelter arm silhouette with reversible seat cushions and hand-applied piping. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
-    "price": 79000,
-    "originalPrice": 88480,
-    "discountPercent": 10,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "84\" W x 36\" D x 34\" H",
-    "materials": [
-      "Solid Marandi Timber",
-      "Belgian Woven Fabric",
-      "Feather Down Topper"
-    ],
-    "finish": "Natural Matte Hardwax / PU",
-    "colors": [
-      {
-        "name": "Charcoal Oak",
-        "hex": "#2A2A2A"
-      },
-      {
-        "name": "Natural Ash",
-        "hex": "#C2B280"
-      },
-      {
-        "name": "Mocha Boucl\u00e9",
-        "hex": "#795548"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Clean with damp cloth and mild wood cleaner. Condition wood surfaces bi-annually.",
-    "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
-    "faqs": [
-      {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
-      },
-      {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
-      }
-    ]
+      "id": "magrack-sofa-set",
+      "slug": "magrack-sofa-set",
+      "name": "MAGRACK SOFA SET",
+      "categorySlug": "sofas",
+      "subcategorySlug": "sofa-sets",
+      "shortDescription": "Functional luxury sofa suite with integrated side storage rack, plush bolster armrests, and handcrafted timber accents.",
+      "description": "The MAGRACK Sofa Set combines clever magazine/book side storage with lavish, high-resilience seating comfort. Engineered in our Santacruz West facility with premium joinery and bespoke fabric finishing.",
+      "price": null,
+      "originalPrice": null,
+      "discountPercent": null,
+      "badge": null,
+      "primaryImage": "/images/products/sofa-sets/magrack-sofa-set/01_white_bg.jpg",
+      "secondaryImage": "/images/products/sofa-sets/magrack-sofa-set/02_interior.jpg",
+      "images": [
+          "/images/products/sofa-sets/magrack-sofa-set/01_white_bg.jpg",
+          "/images/products/sofa-sets/magrack-sofa-set/02_interior.jpg",
+          "/images/products/sofa-sets/magrack-sofa-set/03_3seater_front.jpg",
+          "/images/products/sofa-sets/magrack-sofa-set/04_3seater_side.jpg",
+          "/images/products/sofa-sets/magrack-sofa-set/05_1seater_front.jpg"
+      ],
+      "dimensions": "",
+      "materials": [
+          "Solid Seasoned Wood Framework",
+          "Integrated Side Timber Magazine Rack",
+          "High-Density Seating Cores"
+      ],
+      "finish": "Hand-Polished Hardwax Finish",
+      "colors": [],
+      "isCustomizable": false,
+      "inStock": true,
+      "careInstructions": "Wipe wood elements with dry cloth. Spot clean upholstery with foam cleaner.",
+      "deliveryInfo": "Direct factory delivery and on-site positioning by workshop staff.",
+      "faqs": [
+          {
+              "question": "Can the magazine rack be on either side?",
+              "answer": "Yes, rack positioning can be customized for your room layout."
+          },
+          {
+              "question": "What materials are used for the rack?",
+              "answer": "Solid seasoned timber matching your chosen wood stain."
+          }
+      ]
   },
   {
-    "id": "sectional-sofas-01",
-    "slug": "sectional-sofas-signature-01",
-    "name": "Tuscan Grand U-Shaped Modular Sectional",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Spectacular multi-segment seating arrangement created for generous luxury living halls.",
-    "description": "Spectacular multi-segment seating arrangement created for generous luxury living halls. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
-    "price": 165000,
-    "originalPrice": 189750,
-    "discountPercent": 12,
-    "badge": "New",
-    "primaryImage": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "138\" W x 92\" D x 32\" H",
-    "materials": [
-      "Solid Hardwood Internal Frame",
-      "Textured Boucl\u00e9",
-      "High-Density Foam"
-    ],
-    "finish": "Hand-Rubbed Satin PU Seal",
-    "colors": [
-      {
-        "name": "Warm Teak",
-        "hex": "#8B5A2B"
-      },
-      {
-        "name": "Smoked Walnut",
-        "hex": "#4A3B32"
-      },
-      {
-        "name": "Oatmeal Linen",
-        "hex": "#D2B48C"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Dust with soft dry microfiber cloth. Avoid direct monsoon moisture exposure. Professional upholstery clean annually.",
-    "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
-    "faqs": [
-      {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
-      },
-      {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
-      }
-    ]
+      "id": "pnd-sofa-set",
+      "slug": "pnd-sofa-set",
+      "name": "PND SOFA SET",
+      "categorySlug": "sofas",
+      "subcategorySlug": "sofa-sets",
+      "shortDescription": "Distinctive designer profile featuring bold sculptural lines, deep cushioned seats, and durable workshop craftsmanship.",
+      "description": "Handcrafted to order at our Mumbai workshop, the PND Sofa Set delivers a commanding living room statement with high-density core cushioning and precision seam tailoring.",
+      "price": null,
+      "originalPrice": null,
+      "discountPercent": null,
+      "badge": null,
+      "primaryImage": "/images/products/sofa-sets/pnd-sofa-set/01_white_bg.jpg",
+      "secondaryImage": "/images/products/sofa-sets/pnd-sofa-set/02_interior.jpg",
+      "images": [
+          "/images/products/sofa-sets/pnd-sofa-set/01_white_bg.jpg",
+          "/images/products/sofa-sets/pnd-sofa-set/02_interior.jpg",
+          "/images/products/sofa-sets/pnd-sofa-set/03_3seater_front.jpg",
+          "/images/products/sofa-sets/pnd-sofa-set/04_3seater_side.jpg",
+          "/images/products/sofa-sets/pnd-sofa-set/05_1seater_front.jpg"
+      ],
+      "dimensions": "",
+      "materials": [
+          "Seasoned Hardwood Construction",
+          "Multi-Layer Comfort Foam",
+          "Designer Woven Texture"
+      ],
+      "finish": "Matte PU Seal",
+      "colors": [],
+      "isCustomizable": false,
+      "inStock": true,
+      "careInstructions": "Keep away from excessive dampness. Use dry cleaning methods for fabric.",
+      "deliveryInfo": "White-glove delivery across Greater Mumbai.",
+      "faqs": [
+          {
+              "question": "Is fabric protection treatment applied?",
+              "answer": "Yes, fabrics are treated for everyday stain resistance."
+          },
+          {
+              "question": "Are custom seat cushions available?",
+              "answer": "Yes, choose from soft feather-blend or firm high-density foam."
+          }
+      ]
   },
   {
-    "id": "sectional-sofas-02",
-    "slug": "sectional-sofas-prestige-02",
-    "name": "Bellagio Curve Architectural Sectional",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Gently curved crescent sofa ensemble with built-in wooden side accent table ledge.",
-    "description": "Gently curved crescent sofa ensemble with built-in wooden side accent table ledge. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
-    "price": 155000,
-    "originalPrice": 173600,
-    "discountPercent": 10,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "126\" W x 72\" D x 32\" H",
-    "materials": [
-      "Curved Plywood Core",
-      "Burma Teak Shelf",
-      "Imported Velvet"
-    ],
-    "finish": "Natural Matte Hardwax / PU",
-    "colors": [
-      {
-        "name": "Charcoal Oak",
-        "hex": "#2A2A2A"
-      },
-      {
-        "name": "Natural Ash",
-        "hex": "#C2B280"
-      },
-      {
-        "name": "Mocha Boucl\u00e9",
-        "hex": "#795548"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Clean with damp cloth and mild wood cleaner. Condition wood surfaces bi-annually.",
-    "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
-    "faqs": [
-      {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
-      },
-      {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
-      }
-    ]
+      "id": "modern-criss-cross-sofa-set",
+      "slug": "modern-criss-cross-sofa-set",
+      "name": "Modern criss cross sofa set",
+      "categorySlug": "sofas",
+      "subcategorySlug": "sofa-sets",
+      "shortDescription": "Artisan sofa suite with striking geometric criss-cross side paneling and lavishly tufted seating cushions.",
+      "description": "The Modern Criss Cross Sofa Set showcases intricate woodworking alongside ultra-plush living room comfort. Made in Mumbai using kiln-dried solid hardwood and stain-resistant upholstery.",
+      "price": null,
+      "originalPrice": null,
+      "discountPercent": null,
+      "badge": null,
+      "primaryImage": "/images/products/sofa-sets/modern-criss-cross-sofa-set/01_white_bg.jpg",
+      "secondaryImage": "/images/products/sofa-sets/modern-criss-cross-sofa-set/02_interior.jpg",
+      "images": [
+          "/images/products/sofa-sets/modern-criss-cross-sofa-set/01_white_bg.jpg",
+          "/images/products/sofa-sets/modern-criss-cross-sofa-set/02_interior.jpg",
+          "/images/products/sofa-sets/modern-criss-cross-sofa-set/03_3seater_front.jpg",
+          "/images/products/sofa-sets/modern-criss-cross-sofa-set/04_3seater_side.jpg",
+          "/images/products/sofa-sets/modern-criss-cross-sofa-set/05_1seater_front.jpg"
+      ],
+      "dimensions": "",
+      "materials": [
+          "Solid Timber Criss-Cross Architecture",
+          "High-Density Comfort Cores",
+          "Textured Luxury Fabric"
+      ],
+      "finish": "Hand-Waxed Timber Finish",
+      "colors": [],
+      "isCustomizable": false,
+      "inStock": true,
+      "careInstructions": "Wipe decorative woodwork with soft cloth. Vacuum fabric seams regularly.",
+      "deliveryInfo": "Assembled and inspected in our workshop prior to Mumbai delivery.",
+      "faqs": [
+          {
+              "question": "Can the criss cross lattice be stained in walnut?",
+              "answer": "Yes, teak, walnut, oak, and ebony stains are available."
+          },
+          {
+              "question": "Is this suitable for heavy daily use?",
+              "answer": "Yes, built with commercial-grade joint reinforcement."
+          }
+      ]
   },
   {
-    "id": "recliner-sofas-01",
-    "slug": "recliner-sofas-signature-01",
-    "name": "Torino Motorized Power Recliner Suite",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Whisper-quiet dual motor system with independent back and footrest tilt controls and hidden USB ports.",
-    "description": "Whisper-quiet dual motor system with independent back and footrest tilt controls and hidden USB ports. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
-    "price": 115000,
-    "originalPrice": 132250,
-    "discountPercent": 12,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1501183638710-841dd1904471?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "84\" W x 39\" D x 40\" H",
-    "materials": [
-      "German Okin Motors",
-      "Top-Grain Leather",
-      "Steel Recline Chassis"
-    ],
-    "finish": "Hand-Rubbed Satin PU Seal",
-    "colors": [
-      {
-        "name": "Warm Teak",
-        "hex": "#8B5A2B"
-      },
-      {
-        "name": "Smoked Walnut",
-        "hex": "#4A3B32"
-      },
-      {
-        "name": "Oatmeal Linen",
-        "hex": "#D2B48C"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Dust with soft dry microfiber cloth. Avoid direct monsoon moisture exposure. Professional upholstery clean annually.",
-    "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
-    "faqs": [
-      {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
-      },
-      {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
-      }
-    ]
+      "id": "217-sofa-set",
+      "slug": "217-sofa-set",
+      "name": "217 sofa set",
+      "categorySlug": "sofas",
+      "subcategorySlug": "sofa-sets",
+      "shortDescription": "Classic architectural proportions with balanced backrest support, curved track arms, and premium factory joinery.",
+      "description": "Built for enduring comfort and timeless appeal, the 217 Sofa Set is crafted with a heavy-gauge internal spring system, high-resilience foam, and tailored upholstery from our Santacruz workshop.",
+      "price": null,
+      "originalPrice": null,
+      "discountPercent": null,
+      "badge": null,
+      "primaryImage": "/images/products/sofa-sets/217-sofa-set/01_white_bg.jpg",
+      "secondaryImage": "/images/products/sofa-sets/217-sofa-set/02_interior.jpg",
+      "images": [
+          "/images/products/sofa-sets/217-sofa-set/01_white_bg.jpg",
+          "/images/products/sofa-sets/217-sofa-set/02_interior.jpg",
+          "/images/products/sofa-sets/217-sofa-set/03_3seater_front.jpg",
+          "/images/products/sofa-sets/217-sofa-set/04_3seater_side.jpg",
+          "/images/products/sofa-sets/217-sofa-set/05_1seater_front.jpg"
+      ],
+      "dimensions": "",
+      "materials": [
+          "Internal Kiln-Dried Hardwood Frame",
+          "Heavy-Duty Sinuous Springs",
+          "Tailored Breathable Fabric"
+      ],
+      "finish": "Protective Natural Timber Seal",
+      "colors": [],
+      "isCustomizable": false,
+      "inStock": true,
+      "careInstructions": "Rotate and fluff seat cushions periodically. Professional clean only.",
+      "deliveryInfo": "Delivered in 7-10 days with white-glove setup.",
+      "faqs": [
+          {
+              "question": "Can this set include extra single chairs?",
+              "answer": "Yes, additional 1-seaters or an ottoman can be commissioned."
+          },
+          {
+              "question": "Does this have removable cushion covers?",
+              "answer": "Yes, zipper covers are provided on request for easy dry cleaning."
+          }
+      ]
   },
   {
-    "id": "recliner-sofas-02",
-    "slug": "recliner-sofas-prestige-02",
-    "name": "Salerno Manual Push-Back Reclining Sofa",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Discreet ergonomic mechanism that reclines smoothly with body weight without unsightly visible levers.",
-    "description": "Discreet ergonomic mechanism that reclines smoothly with body weight without unsightly visible levers. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
-    "price": 82000,
-    "originalPrice": 91840,
-    "discountPercent": 10,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "80\" W x 38\" D x 39\" H",
-    "materials": [
-      "Hardwood Frame",
-      "Performance Fabric",
-      "High-Resilience Lumbar Core"
-    ],
-    "finish": "Natural Matte Hardwax / PU",
-    "colors": [
-      {
-        "name": "Charcoal Oak",
-        "hex": "#2A2A2A"
-      },
-      {
-        "name": "Natural Ash",
-        "hex": "#C2B280"
-      },
-      {
-        "name": "Mocha Boucl\u00e9",
-        "hex": "#795548"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Clean with damp cloth and mild wood cleaner. Condition wood surfaces bi-annually.",
-    "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
-    "faqs": [
-      {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
-      },
-      {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
-      }
-    ]
+      "id": "369-sofa-set",
+      "slug": "369-sofa-set",
+      "name": "369 Sofa Set",
+      "categorySlug": "sofas",
+      "subcategorySlug": "sofa-sets",
+      "shortDescription": "Refined transitional sofa suite featuring generous depth, hand-stitched seams, and solid timber foundation.",
+      "description": "The 369 Sofa Set offers a harmonious blend of traditional craftsmanship and modern living comfort. Individually upholstered and quality-inspected inside our Mumbai workshop.",
+      "price": null,
+      "originalPrice": null,
+      "discountPercent": null,
+      "badge": null,
+      "primaryImage": "/images/products/sofa-sets/369-sofa-set/01_white_bg.jpg",
+      "secondaryImage": "/images/products/sofa-sets/369-sofa-set/02_interior.jpg",
+      "images": [
+          "/images/products/sofa-sets/369-sofa-set/01_white_bg.jpg",
+          "/images/products/sofa-sets/369-sofa-set/02_interior.jpg",
+          "/images/products/sofa-sets/369-sofa-set/03_3seater_front.jpg",
+          "/images/products/sofa-sets/369-sofa-set/04_3seater_side.jpg",
+          "/images/products/sofa-sets/369-sofa-set/05_1seater_front.jpg"
+      ],
+      "dimensions": "",
+      "materials": [
+          "Kiln-Dried Timber Architecture",
+          "Dual-Layer Resilience Foam",
+          "Lustrous Upholstery Fabric"
+      ],
+      "finish": "Hand-Rubbed Matte Finish",
+      "colors": [],
+      "isCustomizable": false,
+      "inStock": true,
+      "careInstructions": "Protect from sharp objects. Dust with dry cloth.",
+      "deliveryInfo": "Full white-glove home delivery across Mumbai.",
+      "faqs": [
+          {
+              "question": "Can this be made in genuine leather?",
+              "answer": "Yes, premium Italian and Indian top-grain leathers are available."
+          },
+          {
+              "question": "What are the payment options?",
+              "answer": "We take workshop commission advances with balance upon installation."
+          }
+      ]
   },
   {
-    "id": "modular-sofas-01",
-    "slug": "modular-sofas-signature-01",
-    "name": "Palermo Cloud Infinite Modular System",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Freestanding connectable seating pods that can shift from a large sofa into separate lounge chairs.",
-    "description": "Freestanding connectable seating pods that can shift from a large sofa into separate lounge chairs. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
-    "price": 135000,
-    "originalPrice": 155250,
-    "discountPercent": 12,
-    "badge": "Best Seller",
-    "primaryImage": "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "Modular Blocks (each 38\" x 38\")",
-    "materials": [
-      "Pocket Spring Blocks",
-      "Feather Down Blend",
-      "Washable Slub Linen"
-    ],
-    "finish": "Hand-Rubbed Satin PU Seal",
-    "colors": [
-      {
-        "name": "Warm Teak",
-        "hex": "#8B5A2B"
-      },
-      {
-        "name": "Smoked Walnut",
-        "hex": "#4A3B32"
-      },
-      {
-        "name": "Oatmeal Linen",
-        "hex": "#D2B48C"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Dust with soft dry microfiber cloth. Avoid direct monsoon moisture exposure. Professional upholstery clean annually.",
-    "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
-    "faqs": [
-      {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
-      },
-      {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
-      }
-    ]
-  },
-  {
-    "id": "modular-sofas-02",
-    "slug": "modular-sofas-prestige-02",
-    "name": "Como Low-Profile Pit Lounge Sofa",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Ultra-low Japanese-Scandinavian inspired modular floor couch with movable backrest wedges.",
-    "description": "Ultra-low Japanese-Scandinavian inspired modular floor couch with movable backrest wedges. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
-    "price": 98000,
-    "originalPrice": 109760,
-    "discountPercent": 10,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1505409859467-3a796fd5798e?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1505409859467-3a796fd5798e?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1505409859467-3a796fd5798e?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "108\" W x 76\" D x 28\" H",
-    "materials": [
-      "Reinforced Foam Core",
-      "Non-Slip Bottom Base",
-      "Textured Boucl\u00e9"
-    ],
-    "finish": "Natural Matte Hardwax / PU",
-    "colors": [
-      {
-        "name": "Charcoal Oak",
-        "hex": "#2A2A2A"
-      },
-      {
-        "name": "Natural Ash",
-        "hex": "#C2B280"
-      },
-      {
-        "name": "Mocha Boucl\u00e9",
-        "hex": "#795548"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Clean with damp cloth and mild wood cleaner. Condition wood surfaces bi-annually.",
-    "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
-    "faqs": [
-      {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
-      },
-      {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
-      }
-    ]
-  },
-  {
-    "id": "fabric-sofas-01",
-    "slug": "fabric-sofas-signature-01",
-    "name": "Siena Belgian Linen Formal Couch",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Tailored casual elegance wrapped in 100% pre-washed Belgian flax linen with loose slipcover styling.",
-    "description": "Tailored casual elegance wrapped in 100% pre-washed Belgian flax linen with loose slipcover styling. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
-    "price": 78000,
-    "originalPrice": 89700,
-    "discountPercent": 12,
-    "badge": "New",
-    "primaryImage": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "84\" W x 36\" D x 33\" H",
-    "materials": [
-      "Pre-Washed Linen",
-      "Solid Ash Plinth",
-      "HR Multi-Density Foam"
-    ],
-    "finish": "Hand-Rubbed Satin PU Seal",
-    "colors": [
-      {
-        "name": "Warm Teak",
-        "hex": "#8B5A2B"
-      },
-      {
-        "name": "Smoked Walnut",
-        "hex": "#4A3B32"
-      },
-      {
-        "name": "Oatmeal Linen",
-        "hex": "#D2B48C"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Dust with soft dry microfiber cloth. Avoid direct monsoon moisture exposure. Professional upholstery clean annually.",
-    "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
-    "faqs": [
-      {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
-      },
-      {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
-      }
-    ]
-  },
-  {
-    "id": "fabric-sofas-02",
-    "slug": "fabric-sofas-prestige-02",
-    "name": "Livorno Boucl\u00e9 Curved Statement Sofa",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Sculptural organic silhouette dressed in heavy-texture ivory boucl\u00e9 for an editorial living room presence.",
-    "description": "Sculptural organic silhouette dressed in heavy-texture ivory boucl\u00e9 for an editorial living room presence. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
-    "price": 89000,
-    "originalPrice": 99680,
-    "discountPercent": 10,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "90\" W x 38\" D x 31\" H",
-    "materials": [
-      "Sculptural Plywood",
-      "Plush Ivory Boucl\u00e9",
-      "Ergonomic Support Core"
-    ],
-    "finish": "Natural Matte Hardwax / PU",
-    "colors": [
-      {
-        "name": "Charcoal Oak",
-        "hex": "#2A2A2A"
-      },
-      {
-        "name": "Natural Ash",
-        "hex": "#C2B280"
-      },
-      {
-        "name": "Mocha Boucl\u00e9",
-        "hex": "#795548"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Clean with damp cloth and mild wood cleaner. Condition wood surfaces bi-annually.",
-    "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
-    "faqs": [
-      {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
-      },
-      {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
-      }
-    ]
-  },
-  {
-    "id": "leather-sofas-01",
-    "slug": "leather-sofas-signature-01",
-    "name": "Venezia Chesterfield Hand-Tufted Sofa",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Classic British Chesterfield with deep diamond hand-tufting, rolled arms, and antiqued brass studs.",
-    "description": "Classic British Chesterfield with deep diamond hand-tufting, rolled arms, and antiqued brass studs. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
-    "price": 145000,
-    "originalPrice": 166750,
-    "discountPercent": 12,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1594040226829-7f251ab46d80?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1594040226829-7f251ab46d80?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1594040226829-7f251ab46d80?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "92\" W x 38\" D x 31\" H",
-    "materials": [
-      "Full-Grain Italian Leather",
-      "Hand-Tied Coil Springs",
-      "Teak Bun Feet"
-    ],
-    "finish": "Hand-Rubbed Satin PU Seal",
-    "colors": [
-      {
-        "name": "Warm Teak",
-        "hex": "#8B5A2B"
-      },
-      {
-        "name": "Smoked Walnut",
-        "hex": "#4A3B32"
-      },
-      {
-        "name": "Oatmeal Linen",
-        "hex": "#D2B48C"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Dust with soft dry microfiber cloth. Avoid direct monsoon moisture exposure. Professional upholstery clean annually.",
-    "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
-    "faqs": [
-      {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
-      },
-      {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
-      }
-    ]
-  },
-  {
-    "id": "leather-sofas-02",
-    "slug": "leather-sofas-prestige-02",
-    "name": "Lucca Contemporary Tan Leather Couch",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Clean modern sofa in saddle tan aniline leather with exposed topstitch French seams and slim metal legs.",
-    "description": "Clean modern sofa in saddle tan aniline leather with exposed topstitch French seams and slim metal legs. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
-    "price": 130000,
-    "originalPrice": 145600,
-    "discountPercent": 10,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "86\" W x 36\" D x 32\" H",
-    "materials": [
-      "Semi-Aniline Nappa Leather",
-      "Kiln-Dried Timber",
-      "Gunmetal Steel Legs"
-    ],
-    "finish": "Natural Matte Hardwax / PU",
-    "colors": [
-      {
-        "name": "Charcoal Oak",
-        "hex": "#2A2A2A"
-      },
-      {
-        "name": "Natural Ash",
-        "hex": "#C2B280"
-      },
-      {
-        "name": "Mocha Boucl\u00e9",
-        "hex": "#795548"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Clean with damp cloth and mild wood cleaner. Condition wood surfaces bi-annually.",
-    "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
-    "faqs": [
-      {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
-      },
-      {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
-      }
-    ]
-  },
-  {
-    "id": "custom-sofas-01",
-    "slug": "custom-sofas-signature-01",
-    "name": "Bespoke Architectural Atelier Sofa",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Completely customized down to the millimeter to fit alcoves, bay windows, or specific room geometries.",
-    "description": "Completely customized down to the millimeter to fit alcoves, bay windows, or specific room geometries. Handcrafted in our Mumbai workshop with rigorous joinery standards and tailored to your exact floor plan.",
-    "price": 110000,
-    "originalPrice": 126500,
-    "discountPercent": 12,
-    "badge": "Best Seller",
-    "primaryImage": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "Custom Built to Room Dimensions",
-    "materials": [
-      "Client Choice Wood Frame",
-      "Bespoke Fabric / Leather",
-      "Custom Cushion Density"
-    ],
-    "finish": "Hand-Rubbed Satin PU Seal",
-    "colors": [
-      {
-        "name": "Warm Teak",
-        "hex": "#8B5A2B"
-      },
-      {
-        "name": "Smoked Walnut",
-        "hex": "#4A3B32"
-      },
-      {
-        "name": "Oatmeal Linen",
-        "hex": "#D2B48C"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Dust with soft dry microfiber cloth. Avoid direct monsoon moisture exposure. Professional upholstery clean annually.",
-    "deliveryInfo": "Delivered in 7-10 business days across Mumbai, Navi Mumbai, and Thane. White-glove installation included.",
-    "faqs": [
-      {
-        "question": "Can this design be tailored in custom dimensions?",
-        "answer": "Yes! Every design can be customized in length, depth, and height to match your room proportions."
-      },
-      {
-        "question": "Can I choose my own upholstery fabric or wood finish?",
-        "answer": "Absolutely. We carry hundreds of Belgian linens, velvets, boucl\u00e9s, and leather samples at our Santacruz showroom."
-      }
-    ]
-  },
-  {
-    "id": "custom-sofas-02",
-    "slug": "custom-sofas-prestige-02",
-    "name": "Signature Penthouse Lounge Suite",
-    "categorySlug": "sofas",
-    "subcategorySlug": "sofa-sets",
-    "shortDescription": "Grand bespoke living room centerpiece commissioned with integrated marble side tables and power console.",
-    "description": "Grand bespoke living room centerpiece commissioned with integrated marble side tables and power console. Built with seasoned kiln-dried hardwood framing, robust German hardware, and fine architectural proportions.",
-    "price": 175000,
-    "originalPrice": 196000,
-    "discountPercent": 10,
-    "badge": "Customizable",
-    "primaryImage": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80",
-    "secondaryImage": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80",
-    "images": [
-      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80"
-    ],
-    "dimensions": "Custom Built to Order",
-    "materials": [
-      "Italian Statuario Marble",
-      "Burma Teak",
-      "Custom Imported Velvet"
-    ],
-    "finish": "Natural Matte Hardwax / PU",
-    "colors": [
-      {
-        "name": "Charcoal Oak",
-        "hex": "#2A2A2A"
-      },
-      {
-        "name": "Natural Ash",
-        "hex": "#C2B280"
-      },
-      {
-        "name": "Mocha Boucl\u00e9",
-        "hex": "#795548"
-      }
-    ],
-    "isCustomizable": true,
-    "inStock": true,
-    "careInstructions": "Clean with damp cloth and mild wood cleaner. Condition wood surfaces bi-annually.",
-    "deliveryInfo": "Delivered in 10-14 business days across Mumbai metropolitan region by our white-glove carpentry crew.",
-    "faqs": [
-      {
-        "question": "Where is this manufactured?",
-        "answer": "All our furniture is fabricated directly in our factory workshop in Mumbai, never imported or mass-assembled."
-      },
-      {
-        "question": "What warranty is offered?",
-        "answer": "We provide a 5-year structural warranty on all timber joinery, internal frames, and mechanisms."
-      }
-    ]
+      "id": "3066-pearl-sofa-set",
+      "slug": "3066-pearl-sofa-set",
+      "name": "3066 PEARL Sofa Set",
+      "categorySlug": "sofas",
+      "subcategorySlug": "sofa-sets",
+      "shortDescription": "Opulent flagship sofa suite with pearlescent fabric luster, hand-tufted ergonomics, and heirloom timber joinery.",
+      "description": "The 3066 PEARL Sofa Set is the pinnacle of living room grandeur. Handcrafted with high-density core foam, double-doweled kiln-dried timber framing, and luxurious pearlescent upholstery.",
+      "price": null,
+      "originalPrice": null,
+      "discountPercent": null,
+      "badge": null,
+      "primaryImage": "/images/products/sofa-sets/3066-pearl-sofa-set/01_white_bg.jpg",
+      "secondaryImage": "/images/products/sofa-sets/3066-pearl-sofa-set/02_interior.jpg",
+      "images": [
+          "/images/products/sofa-sets/3066-pearl-sofa-set/01_white_bg.jpg",
+          "/images/products/sofa-sets/3066-pearl-sofa-set/02_interior.jpg",
+          "/images/products/sofa-sets/3066-pearl-sofa-set/03_3seater_front.jpg",
+          "/images/products/sofa-sets/3066-pearl-sofa-set/04_3seater_side.jpg",
+          "/images/products/sofa-sets/3066-pearl-sofa-set/05_1seater_front.jpg"
+      ],
+      "dimensions": "",
+      "materials": [
+          "Heirloom Teak & Hardwood Structure",
+          "Luxury Pearlescent Fabric",
+          "Multi-Zone Comfort Spring Core"
+      ],
+      "finish": "Artisan Hand-Polished Seal",
+      "colors": [],
+      "isCustomizable": false,
+      "inStock": true,
+      "careInstructions": "Avoid chemical cleaners. Professional gentle dry clean.",
+      "deliveryInfo": "White-glove direct factory delivery with careful placement.",
+      "faqs": [
+          {
+              "question": "What is pearlescent fabric?",
+              "answer": "It is a luxury woven textile that catches ambient lighting with subtle, elegant sheen."
+          },
+          {
+              "question": "Can custom cushion firmness be specified?",
+              "answer": "Yes, firm, medium, or ultra-soft contouring can be chosen."
+          }
+      ]
   },
   {
     "id": "4-seater-dining-tables-01",
@@ -5448,8 +4996,8 @@ export const getCuratedCarousels = (): {
 } => {
   const c1Ids = [
     'l-shaped-sofas-01',
-    '3-seater-sofas-01',
-    'fabric-sofas-01',
+    'crown-malaysian-comfort-sofa-set',
+    'two-tone-sofa-set',
     '6-seater-dining-tables-01',
     'round-dining-tables-01',
     'marble-dining-tables-01',
@@ -5461,9 +5009,9 @@ export const getCuratedCarousels = (): {
     'sideboards-consoles-01'
   ];
   const c2Ids = [
-    'sectional-sofas-02',
+    'magrack-sofa-set',
     'sofa-cum-beds-02',
-    'modular-sofas-02',
+    'modern-criss-cross-sofa-set',
     '8-seater-dining-tables-02',
     'extendable-dining-tables-02',
     'wooden-dining-tables-02',

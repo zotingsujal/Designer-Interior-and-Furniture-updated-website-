@@ -1,15 +1,10 @@
 import React, { useState } from 'react';
 import {
-  ShoppingBag,
-  Zap,
   MessageSquare,
   ShieldCheck,
-  Ruler,
   Truck,
   RotateCcw,
-  Check,
   ChevronDown,
-  Sparkles,
   HelpCircle,
 } from 'lucide-react';
 import {
@@ -22,14 +17,13 @@ import {
 import { FurnitureProductGallery } from '../components/furniture/FurnitureProductGallery';
 import { FurnitureBreadcrumbs } from '../components/furniture/FurnitureBreadcrumbs';
 import { RelatedProductsCarousel } from '../components/furniture/RelatedProductsCarousel';
-import { useCart } from '../context/CartContext';
 
 interface FurnitureProductDetailViewProps {
   product: FurnitureProduct;
   category: FurnitureCategory;
   subcategory: FurnitureSubcategory;
   onSelectProduct: (product: FurnitureProduct) => void;
-  onBuyNowProduct: (product: FurnitureProduct) => void;
+  onBuyNowProduct?: (product: FurnitureProduct) => void;
   onReturnSubcategory: () => void;
   onReturnCategory: () => void;
   onReturnHub: () => void;
@@ -42,24 +36,17 @@ export const FurnitureProductDetailView: React.FC<FurnitureProductDetailViewProp
   category,
   subcategory,
   onSelectProduct,
-  onBuyNowProduct,
+  onBuyNowProduct = () => {},
   onReturnSubcategory,
   onReturnCategory,
   onReturnHub,
   onReturnHome,
   onOpenConsultation,
 }) => {
-  const { addToCart } = useCart();
-  const [selectedColor, setSelectedColor] = useState<string>(
-    product.colors[0]?.name || ''
-  );
-  const [quantity, setQuantity] = useState(1);
-  const [justAdded, setJustAdded] = useState(false);
 
   // Accordion state
   const [openAccordions, setOpenAccordions] = useState<{ [key: string]: boolean }>({
     desc: true,
-    dimensions: true,
     materials: false,
     delivery: false,
     care: false,
@@ -70,40 +57,15 @@ export const FurnitureProductDetailView: React.FC<FurnitureProductDetailViewProp
     setOpenAccordions((prev) => ({ ...prev, [key]: !prev[key] }));
   };
 
-  const handleAddToCart = () => {
-    addToCart(product, quantity, selectedColor);
-    setJustAdded(true);
-    setTimeout(() => setJustAdded(false), 2000);
-  };
-
-  const handleBuyNow = () => {
-    onBuyNowProduct(product);
-  };
-
   const handleWhatsAppEnquiry = () => {
-    const text = `Hi Designer Furniture & Interior, I am interested in the "${product.name}" (${subcategory.name}). Please share customization details, fabric swatches, and pricing for my Mumbai home.`;
+    const text = `Hi Designer Furniture & Interior, I would like to enquire about the "${product.name}" (${subcategory.name}). Please share customization details, dimensions, and specifications.`;
     window.open(`https://wa.me/919821432122?text=${encodeURIComponent(text)}`, '_blank');
-  };
-
-  const handleEnquiryModal = () => {
-    if (onOpenConsultation) {
-      onOpenConsultation(product.name);
-    } else {
-      handleWhatsAppEnquiry();
-    }
-  };
-
-  const formatPrice = (val: number) => {
-    return new Intl.NumberFormat('en-IN', {
-      style: 'currency',
-      currency: 'INR',
-      maximumFractionDigits: 0,
-    }).format(val);
   };
 
   // Requirement 18: Contextually relevant "Complete the Look" complementary furniture
   const completeTheLook = getCompleteTheLookProducts(product, 6);
   const editorial = editorialGuides[subcategory.slug] || editorialGuides[category.slug];
+  const isSofaSet = product.subcategorySlug === 'sofa-sets';
 
   return (
     <div className="bg-[#FAF9F5] min-h-screen pt-24 pb-20">
@@ -127,22 +89,8 @@ export const FurnitureProductDetailView: React.FC<FurnitureProductDetailViewProp
               images={product.images && product.images.length > 0 ? product.images : [product.primaryImage]}
               productName={product.name}
               category={product.categorySlug}
+              productSlug={product.slug}
             />
-
-            {/* In-House Manufacturing Craftsmanship Callout */}
-            <div className="mt-8 p-5 bg-[#F4EFEA] border border-[#E6DFD5] rounded-xs flex items-start gap-4 text-xs">
-              <div className="w-9 h-9 rounded-full bg-[#18181B] text-[#FAF9F5] flex items-center justify-center shrink-0">
-                <ShieldCheck className="w-4 h-4 text-[#C5A880]" />
-              </div>
-              <div>
-                <h4 className="font-serif text-sm font-semibold text-[#18181B] mb-1">
-                  100% In-House Factory Joinery &bull; Santacruz West
-                </h4>
-                <p className="text-[#5C554E] leading-relaxed">
-                  Every timber joint, high-density foam contour, and hand-tufted seam is inspected inside our Mumbai workshop. Custom room dimensions and stain finishes available upon enquiry.
-                </p>
-              </div>
-            </div>
           </div>
 
           {/* Right Column: Product Details & Purchase Actions (5 cols on lg) */}
@@ -153,7 +101,7 @@ export const FurnitureProductDetailView: React.FC<FurnitureProductDetailViewProp
                 <span className="uppercase tracking-[0.18em] font-medium">
                   {subcategory.name} &bull; Mumbai Atelier
                 </span>
-                {product.badge && (
+                {!isSofaSet && product.badge && (
                   <span className="px-2 py-0.5 bg-[#18181B] text-[#FAF9F5] text-[10px] font-bold uppercase tracking-wider rounded-xs">
                     {product.badge}
                   </span>
@@ -166,169 +114,21 @@ export const FurnitureProductDetailView: React.FC<FurnitureProductDetailViewProp
               </h1>
 
               {/* Short summary description */}
-              <p className="text-xs sm:text-sm text-[#5C554E] leading-relaxed mb-4">
+              <p className="text-xs sm:text-sm text-[#5C554E] leading-relaxed mb-5">
                 {product.shortDescription}
               </p>
 
-              {/* Price Display */}
-              <div className="p-4 bg-[#F4EFEA] border border-[#E6DFD5] rounded-xs mb-5">
-                {product.price !== null ? (
-                  <div className="flex items-baseline gap-3">
-                    <span className="font-serif text-2xl sm:text-3xl font-medium text-[#18181B]">
-                      {formatPrice(product.price)}
-                    </span>
-                    {product.originalPrice && (
-                      <span className="text-sm text-[#9B8D82] line-through">
-                        {formatPrice(product.originalPrice)}
-                      </span>
-                    )}
-                    {product.discountPercent && (
-                      <span className="text-xs font-bold text-[#B91C1C] uppercase tracking-wider">
-                        ({product.discountPercent}% Savings)
-                      </span>
-                    )}
-                  </div>
-                ) : (
-                  <div>
-                    <span className="font-serif text-2xl font-normal text-[#9A6F3E]">
-                      Price on Request
-                    </span>
-                    <span className="text-xs text-[#87786B] block mt-0.5">
-                      Tailored to your specific room dimensions, fabric grade, and timber specifications.
-                    </span>
-                  </div>
-                )}
-                <span className="text-[11px] text-[#87786B] block mt-1">
-                  Inclusive of all taxes &bull; Custom sizes manufactured on order
-                </span>
-              </div>
-            </div>
-
-            {/* Finish / Color Selector */}
-            {product.colors && product.colors.length > 0 && (
-              <div>
-                <label className="block text-xs uppercase tracking-wider font-semibold text-[#18181B] mb-2">
-                  Finish / Upholstery Texture: <span className="text-[#87786B] font-normal">{selectedColor}</span>
-                </label>
-                <div className="flex items-center gap-2.5 flex-wrap">
-                  {product.colors.map((c) => (
-                    <button
-                      key={c.name}
-                      type="button"
-                      onClick={() => setSelectedColor(c.name)}
-                      className={`group relative flex items-center gap-2 px-3 py-1.5 rounded-xs border text-xs transition-all cursor-pointer ${
-                        selectedColor === c.name
-                          ? 'border-[#18181B] bg-white shadow-xs font-semibold text-[#18181B]'
-                          : 'border-[#D9D1C5] hover:border-[#18181B] text-[#5C554E] bg-transparent'
-                      }`}
-                    >
-                      <span
-                        className="w-3.5 h-3.5 rounded-full border border-black/10 shrink-0"
-                        style={{ backgroundColor: c.hex }}
-                      />
-                      <span>{c.name}</span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Quantity Selector (if priced) */}
-            {product.price !== null && (
-              <div className="flex items-center gap-4">
-                <span className="text-xs uppercase tracking-wider font-semibold text-[#18181B]">
-                  Quantity:
-                </span>
-                <div className="flex items-center border border-[#D9D1C5] rounded-xs bg-white">
-                  <button
-                    type="button"
-                    onClick={() => setQuantity((q) => Math.max(1, q - 1))}
-                    className="px-3 py-1.5 text-sm hover:bg-[#F4EFEA] text-[#18181B] cursor-pointer"
-                  >
-                    -
-                  </button>
-                  <span className="px-3 py-1.5 text-xs font-semibold text-[#18181B]">
-                    {quantity}
-                  </span>
-                  <button
-                    type="button"
-                    onClick={() => setQuantity((q) => q + 1)}
-                    className="px-3 py-1.5 text-sm hover:bg-[#F4EFEA] text-[#18181B] cursor-pointer"
-                  >
-                    +
-                  </button>
-                </div>
-              </div>
-            )}
-
-            {/* Actions: Add to Cart, Buy Now, Enquire */}
-            <div className="flex flex-col gap-3 pt-2">
-              {product.price !== null ? (
-                <>
-                  <div className="grid grid-cols-2 gap-3">
-                    <button
-                      type="button"
-                      onClick={handleAddToCart}
-                      disabled={justAdded}
-                      className={`w-full py-3.5 px-4 text-xs font-semibold uppercase tracking-wider rounded-xs flex items-center justify-center gap-2 transition-all cursor-pointer ${
-                        justAdded
-                          ? 'bg-[#1F5435] text-white border border-[#1F5435]'
-                          : 'bg-[#F4EFEA] hover:bg-[#18181B] text-[#18181B] hover:text-[#FAF9F5] border border-[#D9D1C5] hover:border-[#18181B]'
-                      }`}
-                    >
-                      {justAdded ? (
-                        <>
-                          <Check className="w-4 h-4" />
-                          <span>Added to Cart</span>
-                        </>
-                      ) : (
-                        <>
-                          <ShoppingBag className="w-4 h-4" />
-                          <span>Add to Cart</span>
-                        </>
-                      )}
-                    </button>
-
-                    <button
-                      type="button"
-                      onClick={handleBuyNow}
-                      className="w-full py-3.5 px-4 text-xs font-semibold uppercase tracking-wider bg-[#18181B] hover:bg-[#38332E] text-[#FAF9F5] rounded-xs flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-xs"
-                    >
-                      <Zap className="w-4 h-4 fill-current" />
-                      <span>Buy Now</span>
-                    </button>
-                  </div>
-
-                  {/* Send Enquiry / Custom Dimensions Button */}
-                  <button
-                    type="button"
-                    onClick={handleEnquiryModal}
-                    className="w-full py-3 px-4 text-xs font-semibold uppercase tracking-wider bg-transparent hover:bg-white text-[#18181B] border border-[#D9D1C5] rounded-xs flex items-center justify-center gap-2 transition-colors cursor-pointer"
-                  >
-                    <Ruler className="w-4 h-4 text-[#9A6F3E]" />
-                    <span>Request Custom Dimensions / Enquiry</span>
-                  </button>
-                </>
-              ) : (
+              {/* Single ENQUIRE ABOUT THIS PRODUCT WhatsApp button directly below product name and description */}
+              <div className="pt-1 pb-1">
                 <button
                   type="button"
-                  onClick={handleEnquiryModal}
-                  className="w-full py-4 px-4 text-xs font-semibold uppercase tracking-wider bg-[#18181B] hover:bg-[#38332E] text-white rounded-xs flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-md"
+                  onClick={handleWhatsAppEnquiry}
+                  className="w-full py-4 px-6 text-sm sm:text-base font-bold uppercase tracking-wider bg-[#25D366] hover:bg-[#20BD5A] text-white rounded-xs flex items-center justify-center gap-3 transition-all duration-200 cursor-pointer shadow-md hover:shadow-lg active:scale-[0.99]"
                 >
-                  <MessageSquare className="w-4 h-4 text-[#C5A880]" />
-                  <span>ENQUIRY &bull; Custom Dimensions</span>
+                  <MessageSquare className="w-5 h-5 fill-current" />
+                  <span>ENQUIRE ABOUT THIS PRODUCT</span>
                 </button>
-              )}
-
-              {/* WhatsApp Enquiry Button */}
-              <button
-                type="button"
-                onClick={handleWhatsAppEnquiry}
-                className="w-full py-3.5 px-4 text-xs font-semibold uppercase tracking-wider bg-[#25D366] hover:bg-[#20BD5A] text-white rounded-xs flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-xs"
-              >
-                <MessageSquare className="w-4 h-4 fill-current" />
-                <span>WhatsApp Workshop Team</span>
-              </button>
+              </div>
             </div>
 
             {/* Quick Guarantees */}
@@ -342,6 +142,21 @@ export const FurnitureProductDetailView: React.FC<FurnitureProductDetailViewProp
                 <span>Direct Workshop Support</span>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* In-House Manufacturing Craftsmanship Callout - Displayed above Product Specifications & Craftsmanship */}
+        <div className="mb-6 p-5 bg-[#F4EFEA] border border-[#E6DFD5] rounded-xs flex items-start gap-4 text-xs max-w-4xl">
+          <div className="w-9 h-9 rounded-full bg-[#18181B] text-[#FAF9F5] flex items-center justify-center shrink-0">
+            <ShieldCheck className="w-4 h-4 text-[#C5A880]" />
+          </div>
+          <div>
+            <h4 className="font-serif text-sm font-semibold text-[#18181B] mb-1">
+              100% In-House Factory Joinery &bull; Santacruz West
+            </h4>
+            <p className="text-[#5C554E] leading-relaxed">
+              Every timber joint, high-density foam contour, and hand-tufted seam is inspected inside our Mumbai workshop. Custom room dimensions and stain finishes available upon enquiry.
+            </p>
           </div>
         </div>
 
@@ -376,38 +191,7 @@ export const FurnitureProductDetailView: React.FC<FurnitureProductDetailViewProp
               )}
             </div>
 
-            {/* 2. Dimensions */}
-            <div className="py-4">
-              <button
-                type="button"
-                onClick={() => toggleAccordion('dimensions')}
-                className="w-full flex items-center justify-between text-left font-serif text-lg text-[#18181B] cursor-pointer"
-              >
-                <span>Dimensions &amp; Sizing</span>
-                <ChevronDown
-                  className={`w-4 h-4 text-[#87786B] transition-transform ${
-                    openAccordions.dimensions ? 'rotate-180' : ''
-                  }`}
-                />
-              </button>
-              {openAccordions.dimensions && (
-                <div className="pt-3 text-xs sm:text-sm text-[#5C554E] space-y-1.5 animate-in fade-in">
-                  <div className="flex justify-between py-1 border-b border-[#F0EAE1]">
-                    <span className="text-[#87786B]">Standard Dimensions:</span>
-                    <span className="font-medium text-[#18181B]">{product.dimensions}</span>
-                  </div>
-                  {product.seatingCapacity && (
-                    <div className="flex justify-between py-1 border-b border-[#F0EAE1]">
-                      <span className="text-[#87786B]">Capacity:</span>
-                      <span className="font-medium text-[#18181B]">{product.seatingCapacity}</span>
-                    </div>
-                  )}
-                  <p className="text-[11px] text-[#87786B] pt-1">
-                    Custom lengths, depths, and heights can be engineered to fit your specific room architecture.
-                  </p>
-                </div>
-              )}
-            </div>
+
 
             {/* 3. Materials & Finish */}
             <div className="py-4">
